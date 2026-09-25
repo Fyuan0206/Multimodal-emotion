@@ -1,0 +1,103 @@
+{
+  "diagnostic_count": 291,
+  "diagnostic_groups": 96,
+  "final_metrics": {
+    "accuracy": 0.6116838487972509,
+    "macro_f1": 0.5852892497108547,
+    "mae": 0.6164883020817209,
+    "pearson_r": 0.6650149085084459
+  },
+  "C0_metrics": {
+    "accuracy": 0.5807560137457045,
+    "macro_f1": 0.5523042737266416,
+    "mae": 0.6310862933647182,
+    "pearson_r": 0.6575529611893218
+  },
+  "C2_minus_C0_seed2026_group_bootstrap": {
+    "accuracy": {
+      "difference": 0.030927835051546393,
+      "95pct": [
+        -0.017554903445664464,
+        0.0822898643110827
+      ]
+    },
+    "macro_f1": {
+      "difference": 0.03298497598421313,
+      "95pct": [
+        -0.023105010491171626,
+        0.08976822135184595
+      ]
+    },
+    "mae": {
+      "difference": -0.014597991282997325,
+      "95pct": [
+        -0.050564027751943956,
+        0.021083029846173777
+      ]
+    },
+    "pearson_r": {
+      "difference": 0.007461947319124085,
+      "95pct": [
+        -0.03249421832991784,
+        0.04338251722648984
+      ]
+    }
+  },
+  "five_seed_primary_modality_agreement_all": 0.37800687285223367,
+  "five_seed_prediction_consistent_samples": 147,
+  "five_seed_primary_modality_agreement_prediction_consistent": 0.5510204081632653,
+  "confusion_matrix": [
+    [
+      56,
+      17,
+      13
+    ],
+    [
+      13,
+      29,
+      29
+    ],
+    [
+      15,
+      26,
+      93
+    ]
+  ],
+  "attachment4_distribution": {
+    "Neutral": 5,
+    "Negative": 7,
+    "Positive": 8
+  },
+  "deletion_validation": {
+    "samples": 291,
+    "source_groups": 96,
+    "mean_selected_minus_random_drop": 0.14932862068738476,
+    "median_selected_minus_random_drop": 0.08248329758644105,
+    "positive_sample_fraction": 0.9347079037800687,
+    "group_bootstrap_iterations": 2000,
+    "group_bootstrap_95pct": [
+      0.1248263083126257,
+      0.17556935577904276
+    ]
+  },
+  "evidence_budgets": {
+    "0.1": {
+      "rows": 291,
+      "selected_mean": 0.17036507354210742,
+      "random_mean": 0.05757832754702593,
+      "mean_covered_positions": 2.7010309278350517
+    },
+    "0.2": {
+      "rows": 291,
+      "selected_mean": 0.2633814850943707,
+      "random_mean": 0.11587065658760114,
+      "mean_covered_positions": 4.903780068728523
+    },
+    "0.3": {
+      "rows": 291,
+      "selected_mean": 0.3317637058259772,
+      "random_mean": 0.1636387145710402,
+      "mean_covered_positions": 6.81786941580756
+    }
+  }
+}

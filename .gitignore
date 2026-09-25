@@ -1,4 +1,4 @@
-# Local / generated artifacts. Keep code, configs, and paper notes in git.
+# Local / generated artifacts. Keep code, configs, paper notes, and Q3/figures in git.
 .DS_Store
 __pycache__/
 *.pyc
@@ -16,8 +16,6 @@ Q2/TASK_SUMMARY.md
 Q3/outputs/
 Q3/logs/*.out
 Q3/logs/*.out_perf
-Q3/figures/**
-!Q3/figures/README.md
 Q3/IMPACT_ANALYSIS.md
 Q3/TASK_SUMMARY.md
 

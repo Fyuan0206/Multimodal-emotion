@@ -1,0 +1,234 @@
+{
+  "run": "1530329",
+  "note": "原图复制并重命名，未重绘",
+  "files": [
+    {
+      "文件": "01_验证性能/诊断集_五种子四架构指标.png",
+      "来源": "outputs/run_1530329/report/validation_five_seed_metrics.png",
+      "sha256": "91728b50cc8471555e4501cf5537fc70bf237c11bfcb8fecfee5d5b568c2492c",
+      "bytes": 140661
+    },
+    {
+      "文件": "01_验证性能/诊断集_五种子四架构指标.pdf",
+      "来源": "outputs/run_1530329/report/validation_five_seed_metrics.pdf",
+      "sha256": "b37a0a3630da48781e174ebdcfac0f50ae8d304d24dfc0cf1db575ec42a92ca6",
+      "bytes": 15498
+    },
+    {
+      "文件": "01_验证性能/诊断集_五种子四架构指标.eps",
+      "来源": "outputs/run_1530329/report/validation_five_seed_metrics.eps",
+      "sha256": "7e88208efd6b748e2de7470d55b6aedb7e4b7dcf9c1b0eac8f956025ee4a78c3",
+      "bytes": 46198
+    },
+    {
+      "文件": "01_验证性能/诊断集_最终C2混淆矩阵.png",
+      "来源": "outputs/run_1530329/report/validation_confusion.png",
+      "sha256": "195fe4578c6de7cfe70284e4dc2d2c62e4d165a96b0b01b071e18b3897b5b76a",
+      "bytes": 47579
+    },
+    {
+      "文件": "01_验证性能/诊断集_最终C2混淆矩阵.pdf",
+      "来源": "outputs/run_1530329/report/validation_confusion.pdf",
+      "sha256": "591234c31d2141329e21e864d6e075a65cbe6cc1935cc4622cfbb761b0dfec6b",
+      "bytes": 10861
+    },
+    {
+      "文件": "01_验证性能/诊断集_最终C2混淆矩阵.eps",
+      "来源": "outputs/run_1530329/report/validation_confusion.eps",
+      "sha256": "052e3cc5b2811e4b52e74dc6c8149cf5e3ba89d0ec73d4c130deaa8134c29f1a",
+      "bytes": 18572
+    },
+    {
+      "文件": "01_验证性能/诊断集_强度真实值与预测散点.png",
+      "来源": "outputs/run_1530329/report/validation_intensity_scatter.png",
+      "sha256": "84f2bd3de5ac84bd71a3906cdbf4b72b0dad560fcdbb4a2eecdf799e4bb54fe2",
+      "bytes": 101376
+    },
+    {
+      "文件": "01_验证性能/诊断集_强度真实值与预测散点.pdf",
+      "来源": "outputs/run_1530329/report/validation_intensity_scatter.pdf",
+      "sha256": "98de223543767d0f78c84907998978224207390fd0bc784d42bd5b639680244f",
+      "bytes": 14705
+    },
+    {
+      "文件": "01_验证性能/诊断集_强度真实值与预测散点.eps",
+      "来源": "outputs/run_1530329/report/validation_intensity_scatter.eps",
+      "sha256": "002f784bdcf1b46b421d8c34526b608b1cce0c3a6cd3e65932c1f630737689ad",
+      "bytes": 24940
+    },
+    {
+      "文件": "02_解释验证/诊断集_三模态贡献占比.png",
+      "来源": "outputs/run_1530329/explanation/diagnostic/modality_contribution.png",
+      "sha256": "30284b68f85167a3d79e31a86dc3c62141b83f20f4220f84c764f5edde5b61f8",
+      "bytes": 66947
+    },
+    {
+      "文件": "02_解释验证/诊断集_三模态贡献占比.pdf",
+      "来源": "outputs/run_1530329/explanation/diagnostic/modality_contribution.pdf",
+      "sha256": "84b0d71247f46953e53c95bd55d1554357285d37d1f676985e03d6832432a986",
+      "bytes": 12189
+    },
+    {
+      "文件": "02_解释验证/诊断集_三模态贡献占比.eps",
+      "来源": "outputs/run_1530329/explanation/diagnostic/modality_contribution.eps",
+      "sha256": "2603e61e7da42b06bc76c44bd72f008841e99d72c3e9ce1136bfe5d9e18f1997",
+      "bytes": 18898
+    },
+    {
+      "文件": "02_解释验证/诊断集_等预算删除检验.png",
+      "来源": "outputs/run_1530329/explanation/diagnostic/deletion_validation.png",
+      "sha256": "37232e125821689403682c11f904205a68988cb0bc6e548a7591ae93e0a2b70a",
+      "bytes": 60719
+    },
+    {
+      "文件": "02_解释验证/诊断集_等预算删除检验.pdf",
+      "来源": "outputs/run_1530329/explanation/diagnostic/deletion_validation.pdf",
+      "sha256": "efed260c55bb432c78ab1458195a8aa3a5cfac719a13dac69c3684963e405e08",
+      "bytes": 12868
+    },
+    {
+      "文件": "02_解释验证/诊断集_等预算删除检验.eps",
+      "来源": "outputs/run_1530329/explanation/diagnostic/deletion_validation.eps",
+      "sha256": "46e0bf1c4a70406b529c20ee1df3de548f13b4b294e88079421d94e5ddf9056f",
+      "bytes": 19788
+    },
+    {
+      "文件": "02_解释验证/诊断集_证据预算曲线.png",
+      "来源": "outputs/run_1530329/report/evidence_budget_curve.png",
+      "sha256": "1af42277d560caf2e7605f47dadc0e7beec568b57f7ae177529acb3cbf5de83e",
+      "bytes": 118441
+    },
+    {
+      "文件": "02_解释验证/诊断集_证据预算曲线.pdf",
+      "来源": "outputs/run_1530329/report/evidence_budget_curve.pdf",
+      "sha256": "dbe7f6c3aa7fbfc0b1122c0cbc4276a6ea4b6741d5d7d0f1201f68601e0226b6",
+      "bytes": 15831
+    },
+    {
+      "文件": "02_解释验证/诊断集_证据预算曲线.eps",
+      "来源": "outputs/run_1530329/report/evidence_budget_curve.eps",
+      "sha256": "dbfba4c56d935c25f01bfaf13c29ac87cb709a74c40251b7e8d3ca87ba342cb1",
+      "bytes": 30386
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_文本主要_样本01局部影响.png",
+      "来源": "outputs/run_1530329/report/local_importance_01.png",
+      "sha256": "ca49ef24564204e3723d20d4435c6c294f1d01ef320e4b34a05429b799d90674",
+      "bytes": 114643
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_文本主要_样本01局部影响.pdf",
+      "来源": "outputs/run_1530329/report/local_importance_01.pdf",
+      "sha256": "6d391abfe82ff479ca0b9b76b08dfbfbca4caa95848ee93ef540aad0746e8d8a",
+      "bytes": 15155
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_文本主要_样本01局部影响.eps",
+      "来源": "outputs/run_1530329/report/local_importance_01.eps",
+      "sha256": "45ca2c60cd761ba1972f04af5e37cc325d22b79fdb00ab62966d440a90a440b1",
+      "bytes": 40751
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_语音主要_样本05局部影响.png",
+      "来源": "outputs/run_1530329/report/local_importance_05.png",
+      "sha256": "1239408cfc18e5ba96b026830f8b85ac11dbef9eeb54747c1970f654c4f8b182",
+      "bytes": 114656
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_语音主要_样本05局部影响.pdf",
+      "来源": "outputs/run_1530329/report/local_importance_05.pdf",
+      "sha256": "7d6dda1ed402b50987f63808ed94873541d79db36c4e2d8c7a840616d0831529",
+      "bytes": 16005
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_语音主要_样本05局部影响.eps",
+      "来源": "outputs/run_1530329/report/local_importance_05.eps",
+      "sha256": "7c3097473d2e57b6b20513c7c7da41dd4ce851a3c67530372b425655d832a619",
+      "bytes": 41898
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_视觉主要_样本14局部影响.png",
+      "来源": "outputs/run_1530329/report/local_importance_14.png",
+      "sha256": "1f9d362530ef1770ab067e6affd6dc0fcde6877e447f99e330f6b4a10573feab",
+      "bytes": 112580
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_视觉主要_样本14局部影响.pdf",
+      "来源": "outputs/run_1530329/report/local_importance_14.pdf",
+      "sha256": "d15ba5a62c7081fbe6236b128389138ec27380ca3d6a6189e58eae249808680e",
+      "bytes": 16450
+    },
+    {
+      "文件": "03_附件4预测与解释/附件4_视觉主要_样本14局部影响.eps",
+      "来源": "outputs/run_1530329/report/local_importance_14.eps",
+      "sha256": "ec2993da693b98cc763e9b0dacba0c9ec4c9e0f6d1fdb3cec650f14bb68484f1",
+      "bytes": 50281
+    },
+    {
+      "文件": "03_附件4预测与解释/attachment4_predictions.csv",
+      "来源": "outputs/run_1530329/attachment4_predictions.csv",
+      "sha256": "23f9a401676920ca0e59145334931eb509e3315ad8ae0183836d558d80fd4afe",
+      "bytes": 2298
+    },
+    {
+      "文件": "03_附件4预测与解释/attachment4_predictions_recheck.csv",
+      "来源": "outputs/run_1530329/attachment4_predictions_recheck.csv",
+      "sha256": "23f9a401676920ca0e59145334931eb509e3315ad8ae0183836d558d80fd4afe",
+      "bytes": 2298
+    },
+    {
+      "文件": "03_附件4预测与解释/attachment4_predictions_explanations.csv",
+      "来源": "outputs/run_1530329/explanation/attachment4/attachment4_predictions_explanations.csv",
+      "sha256": "9b975755ade42424acb04cec313ab0b7df53e057e10dd7dd1c591163bb77eb7b",
+      "bytes": 7184
+    },
+    {
+      "文件": "03_附件4预测与解释/attachment4_evidence.csv",
+      "来源": "outputs/run_1530329/explanation/attachment4/attachment4_evidence.csv",
+      "sha256": "130b2df087cfc3922f05fb5f46f6a9a2a984269545d4f23b4e85f04357abcb55",
+      "bytes": 19320
+    },
+    {
+      "文件": "03_附件4预测与解释/cards/01.md",
+      "来源": "outputs/run_1530329/explanation/attachment4/cards/01.md",
+      "sha256": "6454cd467cf51c3fae8e82717111ee2289ced2d2e7c37f32052b17fdd70da497",
+      "bytes": 1301
+    },
+    {
+      "文件": "03_附件4预测与解释/cards/05.md",
+      "来源": "outputs/run_1530329/explanation/attachment4/cards/05.md",
+      "sha256": "8f8e1b2a0de6dd3176760c2862090402418d186b2966537a907c532e34d524b9",
+      "bytes": 935
+    },
+    {
+      "文件": "03_附件4预测与解释/cards/14.md",
+      "来源": "outputs/run_1530329/explanation/attachment4/cards/14.md",
+      "sha256": "a0953738292a00fca1d4c276b8defe27fe2941cc9bda153665e52827a8c4b47c",
+      "bytes": 1381
+    },
+    {
+      "文件": "04_正文与实验数据/report_metrics.json",
+      "来源": "outputs/run_1530329/report/report_metrics.json",
+      "sha256": "d3ce4c3d79bfe4788ce3a88d3a18f9314aa19c1466796a5f6161f323c2365b43",
+      "bytes": 2511
+    },
+    {
+      "文件": "04_正文与实验数据/results.json",
+      "来源": "outputs/run_1530329/results.json",
+      "sha256": "a663e2531216f3f4faf3a53554434301757ccd3298df1559364a77583fe586c7",
+      "bytes": 13660
+    },
+    {
+      "文件": "04_正文与实验数据/selection.json",
+      "来源": "outputs/run_1530329/selection.json",
+      "sha256": "091a332b6bf6477bcafe11647f8cb31b2cd8913d683719516eb2da051dea5636",
+      "bytes": 943
+    },
+    {
+      "文件": "04_正文与实验数据/attachment4_predictions.csv",
+      "来源": "outputs/run_1530329/attachment4_predictions.csv",
+      "sha256": "23f9a401676920ca0e59145334931eb509e3315ad8ae0183836d558d80fd4afe",
+      "bytes": 2298
+    }
+  ]
+}

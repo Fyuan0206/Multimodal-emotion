@@ -1,0 +1,117 @@
+﻿evidence_id,id,modality,feature_start,feature_end_exclusive,signed_score,mapping_status,text_excerpt,start_sec,end_sec,video_frame_pts,human_verified,token_start,token_end_exclusive,char_start,char_end_exclusive,ctc_min_word_score,frame_path,punctuation_only_words_skipped
+01:text:3:7,01,text,3,7,0.11829507350921631,text_exact_ctc_time_candidate,wear components when replacing,1.2225,2.5825,1.933333,False,3,7,16,46,0.6071893572807312,,0
+01:text:1:2,01,text,1,2,0.026408016681671143,text_exact_ctc_time_candidate,Replacing,0.5025,0.9425,0.733333,False,1,2,0,9,0.977187991142273,,0
+01:audio:19:23,01,audio,19,23,0.0373079776763916,text_exact_ctc_time_candidate,its mileage requirements,7.0425,8.2625,7.666667,False,19,23,113,137,0.459136962890625,,0
+01:audio:17:18,01,audio,17,18,0.004701629281044006,text_exact_ctc_time_candidate,performs,6.1625,6.7025,6.4,False,17,18,101,109,0.9223132133483887,,0
+01:vision:10:14,01,vision,10,14,0.03569376468658447,text_exact_ctc_time_candidate,is essential to ensuring,3.6025,5.0225,4.333333,False,10,14,63,87,0.8565182685852051,frames/01_vision_10_14.png,0
+01:vision:5:6,01,vision,5,6,0.008851379156112671,text_exact_ctc_time_candidate,when,1.9825,2.1025,2.066667,False,5,6,32,36,0.9643266797065735,frames/01_vision_5_6.png,0
+02:text:16:20,02,text,16,20,0.2073235809803009,text_exact_ctc_time_candidate,’s misery.,2.2425,2.7625,2.533333,False,16,20,61,71,0.43458205461502075,,0
+02:audio:10:14,02,audio,10,14,0.029072850942611694,text_exact_ctc_time_candidate,happiness - not by,1.4425,2.0425,1.733333,False,10,14,32,50,0.9414522051811218,,1
+02:vision:9:13,02,vision,9,13,0.021771252155303955,text_exact_ctc_time_candidate,s happiness - not,1.2425,1.9225,1.6,False,9,13,30,47,0.9414522051811218,frames/02_vision_9_13.png,1
+03:text:18:22,03,text,18,22,0.1614254117012024,text_exact_ctc_time_candidate,don't take,4.5225,4.9825,4.733333,False,18,22,68,78,0.981237530708313,,0
+03:text:24:27,03,text,24,27,0.1277814507484436,text_exact_ctc_time_candidate,"into account,",5.9025,6.5225,6.2,False,24,27,93,106,0.9466512799263,,0
+03:audio:25:29,03,audio,25,29,0.0089646577835083,text_exact_ctc_time_candidate,"account, they take",6.2225,7.2225,6.733333,False,25,29,98,116,0.9011899828910828,,0
+03:audio:11:13,03,audio,11,13,0.005677402019500732,text_exact_ctc_time_candidate,I think,2.3425,2.5425,2.466667,False,11,13,39,46,0.9379803538322449,,0
+03:audio:21:22,03,audio,21,22,0.0037395358085632324,text_exact_ctc_time_candidate,take,4.8025,4.9825,4.866667,False,21,22,74,78,0.9965950846672058,,0
+03:vision:28:32,03,vision,28,32,0.02502739429473877,text_exact_ctc_time_candidate,take rental yield into,7.0425,8.6225,7.8,False,28,32,112,134,0.6544232368469238,frames/03_vision_28_32.png,0
+03:vision:10:13,03,vision,10,13,0.018137753009796143,text_exact_ctc_time_candidate,which I think,2.1625,2.5425,2.333333,False,10,13,33,46,0.9379803538322449,frames/03_vision_10_13.png,0
+04:text:24:27,04,text,24,27,0.06693951785564423,text_exact_ctc_time_candidate,Absolutely not.,5.4425,6.2425,5.866667,False,24,27,92,107,0.9879645705223083,,0
+04:text:18:20,04,text,18,20,0.054293468594551086,text_exact_ctc_time_candidate,GO BLUE,3.7825,4.2625,4.0,False,18,20,73,80,0.7811517119407654,,0
+04:text:23:24,04,text,23,24,0.022736623883247375,text_exact_ctc_time_candidate,],4.4825,4.9625,4.733333,False,23,24,90,91,0.8454486727714539,,0
+04:audio:1:5,04,audio,1,5,0.07989154756069183,text_exact_ctc_time_candidate,If I blow it,0.5025,1.0625,0.8,False,1,5,0,12,0.5416624546051025,,0
+04:audio:25:27,04,audio,25,27,0.0421881377696991,text_exact_ctc_time_candidate,not.,6.0225,6.2425,6.133333,False,25,27,103,107,0.9901082515716553,,0
+04:vision:11:15,04,vision,11,15,0.057334303855895996,text_exact_ctc_time_candidate,I kiss my chances,2.3825,3.2425,2.8,False,11,15,42,59,0.9901923537254333,frames/04_vision_11_15.png,0
+04:vision:7:9,04,vision,7,9,0.027755603194236755,text_exact_ctc_time_candidate,team exercise,1.2825,1.9625,1.6,False,7,9,20,33,0.9457052946090698,frames/04_vision_7_9.png,0
+05:text:1:4,05,text,1,4,0.06825804710388184,text_exact_ctc_time_candidate,"Hi, my",1.2625,2.0625,1.666667,False,1,4,0,6,0.806073009967804,,0
+05:audio:8:11,05,audio,8,11,0.10978776216506958,text_exact_ctc_time_candidate,video marketer,3.2225,4.0225,3.6,False,8,11,22,36,0.4034385681152344,,0
+05:vision:1:4,05,vision,1,4,0.08604609966278076,text_exact_ctc_time_candidate,"Hi, my",1.2625,2.0625,1.666667,False,1,4,0,6,0.806073009967804,frames/05_vision_1_4.png,0
+06:text:5:9,06,text,5,9,0.09995132684707642,text_exact_ctc_time_candidate,a fan of dancing,0.7825,1.4825,1.133333,False,5,9,10,26,0.002971865702420473,,0
+06:text:21:24,06,text,21,24,0.07226830720901489,text_exact_ctc_time_candidate,impressive dance moves,3.9625,5.1225,4.533333,False,21,24,79,101,0.8955116271972656,,0
+06:audio:5:9,06,audio,5,9,0.05058324337005615,text_exact_ctc_time_candidate,a fan of dancing,0.7825,1.4825,1.133333,False,5,9,10,26,0.002971865702420473,,0
+06:audio:2:5,06,audio,2,5,0.036855101585388184,text_exact_ctc_time_candidate,you're,0.6225,0.7625,0.666667,False,2,5,3,9,0.5824712514877319,,0
+06:vision:21:25,06,vision,21,25,-0.040352582931518555,text_exact_ctc_time_candidate,impressive dance moves then,3.9625,5.6825,4.8,False,21,25,79,106,0.11646970361471176,frames/06_vision_21_25.png,0
+06:vision:7:10,06,vision,7,10,-0.02802938222885132,text_exact_ctc_time_candidate,of dancing in,1.0225,1.5825,1.333333,False,7,10,16,29,0.8873099684715271,frames/06_vision_7_10.png,0
+07:text:26:30,07,text,26,30,0.061266303062438965,text_exact_ctc_time_candidate,"growing the hobby,",8.8225,9.5625,9.2,False,26,30,128,146,0.8514657616615295,,0
+07:text:19:23,07,text,19,23,0.05157727003097534,text_exact_ctc_time_candidate,attendees “enthusiastically discussed,5.0025,7.5625,6.266667,False,19,23,76,113,0.44157475233078003,,0
+07:text:46:48,07,text,46,48,0.02726602554321289,text_exact_ctc_time_candidate,ways the,14.5025,15.0625,14.8,False,46,48,226,234,0.9973440170288086,,0
+07:audio:18:22,07,audio,18,22,0.027518928050994873,text_exact_ctc_time_candidate,", attendees “enthusiastically",3.8025,7.0225,5.4,False,18,22,74,103,0.25794875621795654,,0
+07:audio:24:28,07,audio,24,28,0.02480679750442505,text_exact_ctc_time_candidate,topics of growing the,7.7025,9.2425,8.466667,False,24,28,118,139,0.8795551061630249,,0
+07:audio:1:3,07,audio,1,3,0.015384674072265625,text_exact_ctc_time_candidate,As Lin,0.5825,0.9625,0.8,False,1,3,0,6,0.14474350214004517,,0
+07:vision:42:46,07,vision,42,46,0.004694461822509766,text_exact_ctc_time_candidate,"partnerships, along with",12.9025,14.4425,13.666667,False,42,46,201,225,0.9021691083908081,frames/07_vision_42_46.png,0
+07:vision:46:49,07,vision,46,49,0.0013374090194702148,text_exact_ctc_time_candidate,ways the leading,14.5025,15.3625,14.933333,False,46,49,226,242,0.9958690404891968,frames/07_vision_46_49.png,0
+07:vision:37:40,07,vision,37,40,0.0010315179824829102,text_exact_ctc_time_candidate,dealers and phil,11.7625,12.8225,12.266667,False,37,40,178,194,0.579879879951477,frames/07_vision_37_40.png,0
+08:text:8:11,08,text,8,11,-0.10712003707885742,text_exact_ctc_time_candidate,Universal Design Grand,2.0425,3.6825,2.866667,False,8,11,31,53,0.9673490524291992,,0
+08:audio:6:9,08,audio,6,9,0.06304574012756348,text_exact_ctc_time_candidate,", the Universal",1.4625,2.5025,2.0,False,6,9,25,40,0.8904117941856384,,0
+08:vision:6:9,08,vision,6,9,0.0617983341217041,text_exact_ctc_time_candidate,", the Universal",1.4625,2.5025,2.0,False,6,9,25,40,0.8904117941856384,frames/08_vision_6_9.png,0
+09:text:6:10,09,text,6,10,0.5437144041061401,text_exact_ctc_time_candidate,did not like this,1.2225,1.7425,1.466667,False,6,10,8,25,0.7967220544815063,,0
+09:audio:6:10,09,audio,6,10,0.039527177810668945,text_exact_ctc_time_candidate,did not like this,1.2225,1.7425,1.466667,False,6,10,8,25,0.7967220544815063,,0
+09:vision:8:12,09,vision,8,12,-0.060688018798828125,text_exact_ctc_time_candidate,like this movie at,1.4825,2.3225,1.933333,False,8,12,16,34,0.7967220544815063,frames/09_vision_8_12.png,0
+10:text:27:31,10,text,27,31,0.9860810041427612,text_exact_ctc_time_candidate,one was pretty terrible,7.3025,9.2025,8.266667,False,27,31,106,129,0.08812618255615234,,0
+10:text:11:13,10,text,11,13,0.21026146411895752,text_exact_ctc_time_candidate,to see,2.7425,3.0225,2.866667,False,11,13,36,42,0.8860846757888794,,0
+10:audio:13:17,10,audio,13,17,0.039740681648254395,text_exact_ctc_time_candidate,fluffy chick flicks,3.2025,4.1825,3.666667,False,13,17,43,62,0.6122936606407166,,0
+10:audio:17:19,10,audio,17,19,0.012965798377990723,text_exact_ctc_time_candidate,sometimes so,4.2625,5.1225,4.666667,False,17,19,63,75,0.20729093253612518,,0
+10:vision:22:23,10,vision,22,23,0.0014622211456298828,text_exact_ctc_time_candidate,not,5.3425,5.4825,5.4,False,22,23,80,83,0.9785394668579102,frames/10_vision_22_23.png,0
+10:vision:8:10,10,vision,8,10,0.0013582706451416016,text_exact_ctc_time_candidate,really do,2.0425,2.4225,2.2,False,8,10,21,30,0.9601268768310547,frames/10_vision_8_10.png,0
+10:vision:1:2,10,vision,1,2,6.914138793945312e-05,text_exact_ctc_time_candidate,(,0.4025,0.5425,0.466667,False,1,2,0,1,0.023452240973711014,frames/10_vision_1_2.png,0
+11:text:2:5,11,text,2,5,0.8826031982898712,text_exact_ctc_time_candidate,would be ashamed,0.6225,1.3425,1.0,False,2,5,2,18,0.13664019107818604,,0
+11:audio:8:11,11,audio,8,11,0.03295314311981201,text_exact_ctc_time_candidate,this film if,3.7225,4.4625,4.066667,False,8,11,32,44,0.8667615056037903,,0
+11:vision:1:4,11,vision,1,4,0.04107666015625,text_exact_ctc_time_candidate,I would be,0.5625,0.8625,0.733333,False,1,4,0,10,0.13664019107818604,frames/11_vision_1_4.png,0
+12:text:39:43,12,text,39,43,0.33661139011383057,text_exact_ctc_time_candidate,is very low.,11.6225,12.2625,11.933333,False,39,43,174,186,0.3255727291107178,,0
+12:text:33:37,12,text,33,37,0.22369199991226196,text_exact_ctc_time_candidate,"sag, and",9.9425,10.7425,10.333333,False,33,37,151,159,0.7078931927680969,,0
+12:text:23:24,12,text,23,24,0.05308234691619873,text_exact_ctc_time_candidate,fault,7.8025,8.0025,7.933333,False,23,24,104,109,0.91957026720047,,0
+12:audio:38:42,12,audio,38,42,0.009927034378051758,text_exact_ctc_time_candidate,scores is very low,11.3225,12.2625,11.8,False,38,42,167,185,0.24411962926387787,,0
+12:audio:7:8,12,audio,7,8,0.004130721092224121,text_exact_ctc_time_candidate,had,2.5025,2.7025,2.6,False,7,8,35,38,0.9987527132034302,,0
+12:audio:32:36,12,audio,32,36,0.0036635398864746094,text_exact_ctc_time_candidate,"credit sag,",9.4825,10.3025,9.866667,False,32,36,144,155,0.7078931927680969,,0
+12:vision:12:15,12,vision,12,15,0.009735107421875,text_exact_ctc_time_candidate,usually by no,4.6425,5.4625,5.066667,False,12,15,56,69,0.9925798177719116,frames/12_vision_12_15.png,0
+12:vision:1:5,12,vision,1,5,0.006935596466064453,text_exact_ctc_time_candidate,"Or worse, an",0.5825,1.2025,0.866667,False,1,5,0,12,0.9890425205230713,frames/12_vision_1_5.png,0
+12:vision:40:42,12,vision,40,42,0.0023031234741210938,text_exact_ctc_time_candidate,very low,11.7425,12.2625,12.0,False,40,42,177,185,0.8702653646469116,frames/12_vision_40_42.png,0
+13:text:5:9,13,text,5,9,0.0462183803319931,text_exact_ctc_time_candidate,could take a set,0.9625,1.5625,1.266667,False,5,9,15,31,0.3684312701225281,,0
+13:text:14:16,13,text,14,16,0.03145192563533783,text_exact_ctc_time_candidate,"data,",4.0625,4.3625,4.2,False,14,16,54,59,0.6797572374343872,,0
+13:audio:17:19,13,audio,17,19,0.004784256219863892,text_exact_ctc_time_candidate,can find,4.7425,5.0025,4.866667,False,17,19,62,70,0.2168349027633667,,0
+13:audio:13:14,13,audio,13,14,0.002517417073249817,text_exact_ctc_time_candidate,that,3.9025,4.0225,3.933333,False,13,14,49,53,0.8614692687988281,,0
+13:audio:27:28,13,audio,27,28,0.001894041895866394,text_exact_ctc_time_candidate,factors,7.2825,7.6625,7.466667,False,27,28,115,122,0.023670030757784843,,0
+14:text:28:29,14,text,28,29,0.01718538999557495,text_exact_ctc_time_candidate,courses,6.9625,7.8625,7.4,False,28,29,120,127,3.233226016163826e-05,,0
+14:text:14:15,14,text,14,15,0.009322583675384521,text_exact_ctc_time_candidate,Limited,2.5425,2.8425,2.666667,False,14,15,43,50,0.9611241221427917,,0
+14:text:33:34,14,text,33,34,0.00815039873123169,text_exact_ctc_time_candidate,York,8.8025,8.9625,8.866667,False,33,34,141,145,0.9510502219200134,,0
+14:audio:3:7,14,audio,3,7,0.046201884746551514,text_exact_ctc_time_candidate,the co-founder,0.6825,1.3225,1.0,False,3,7,6,20,0.24989472329616547,,0
+14:audio:10:13,14,audio,10,13,0.030491769313812256,text_exact_ctc_time_candidate,and Vettes,2.0425,2.4625,2.266667,False,10,13,31,41,0.40090006589889526,,0
+14:vision:20:24,14,vision,20,24,0.060435712337493896,text_exact_ctc_time_candidate,of Uniform Final Examination,4.8425,6.5225,5.666667,False,20,24,85,113,0.9388826489448547,frames/14_vision_20_24.png,0
+14:vision:27:30,14,vision,27,30,0.03988826274871826,text_exact_ctc_time_candidate,) courses at,6.6425,8.3225,7.466667,False,27,30,118,130,3.233226016163826e-05,frames/14_vision_27_30.png,0
+15:text:17:21,15,text,17,21,0.16355347633361816,text_exact_ctc_time_candidate,its power to transform,5.3225,6.9825,6.133333,False,17,21,89,111,3.75920717488043e-06,,0
+15:text:13:14,15,text,13,14,0.03555130958557129,text_exact_ctc_time_candidate,because,3.6225,4.0025,3.8,False,13,14,64,71,4.548925062408671e-05,,0
+15:audio:3:7,15,audio,3,7,0.10864686965942383,text_exact_ctc_time_candidate,"despite their poverty,",0.7825,1.7625,1.266667,False,3,7,9,31,1.1744688208636944e-06,,0
+15:audio:7:8,15,audio,7,8,0.02705681324005127,text_exact_ctc_time_candidate,the,1.7825,1.8625,1.8,False,7,8,32,35,0.022597476840019226,,0
+15:vision:19:22,15,vision,19,22,0.03771412372589111,text_exact_ctc_time_candidate,to transform lives,6.4225,7.2825,6.866667,False,19,22,99,117,3.75920717488043e-06,frames/15_vision_19_22.png,0
+16:text:8:11,16,text,8,11,0.3944457769393921,text_exact_ctc_time_candidate,is a terrible,1.6025,2.1625,1.866667,False,8,11,22,35,0.6028274893760681,,0
+16:audio:1:4,16,audio,1,4,0.037023067474365234,text_exact_ctc_time_candidate,It's,0.4825,0.6225,0.533333,False,1,4,0,4,0.5243569612503052,,0
+16:vision:1:4,16,vision,1,4,-0.09673869609832764,text_exact_ctc_time_candidate,It's,0.4825,0.6225,0.533333,False,1,4,0,4,0.5243569612503052,frames/16_vision_1_4.png,0
+17:text:11:15,17,text,11,15,0.18157333135604858,text_exact_ctc_time_candidate,", easy and will",4.8025,6.9425,5.866667,False,11,15,67,82,0.9048135876655579,,0
+17:text:9:10,17,text,9,10,0.04040902853012085,text_exact_ctc_time_candidate,is,4.3625,4.4425,4.4,False,9,10,58,60,0.8694697022438049,,0
+17:audio:1:5,17,audio,1,5,0.037635624408721924,text_exact_ctc_time_candidate,Applying these four design,0.6225,2.1225,1.4,False,1,5,0,26,0.35405007004737854,,0
+17:audio:23:24,17,audio,23,24,0.007365822792053223,text_exact_ctc_time_candidate,guru,8.7425,9.0225,8.866667,False,23,24,126,130,0.2902600169181824,,0
+17:vision:7:8,17,vision,7,8,0.0009859204292297363,text_exact_ctc_time_candidate,your,2.9625,3.0825,3.0,False,7,8,39,43,0.9912920594215393,frames/17_vision_7_8.png,0
+18:text:26:30,18,text,26,30,0.26639431715011597,text_exact_ctc_time_candidate,Fishery has been denied,8.2425,9.4225,8.8,False,26,30,106,129,0.6845125555992126,,0
+18:text:38:42,18,text,38,42,0.20901525020599365,text_exact_ctc_time_candidate,fishery has failed to,12.1825,13.1825,12.666667,False,38,42,175,196,0.49963679909706116,,0
+18:text:35:37,18,text,35,37,0.0794135332107544,text_exact_ctc_time_candidate,fact that,11.6625,12.0425,11.866667,False,35,37,161,170,0.9791727662086487,,0
+18:audio:45:49,18,audio,45,49,0.014126956462860107,text_exact_ctc_time_candidate,on mackerel,14.6825,15.2025,14.933333,False,45,49,216,227,0.6282913684844971,,0
+18:audio:36:40,18,audio,36,40,0.00797051191329956,text_exact_ctc_time_candidate,that the fishery has,11.9225,12.6825,12.333333,False,36,40,166,186,0.49963679909706116,,0
+18:audio:6:7,18,audio,6,7,0.0035660266876220703,text_exact_ctc_time_candidate,the,1.5825,1.6625,1.6,False,6,7,18,21,0.9348464012145996,,0
+18:vision:42:46,18,vision,42,46,0.015966415405273438,text_exact_ctc_time_candidate,reach an agreement on,13.2625,14.7225,14.0,False,42,46,197,218,0.9382140636444092,frames/18_vision_42_46.png,0
+18:vision:23:27,18,vision,23,27,0.013722419738769531,text_exact_ctc_time_candidate,Mackerel Fishery,7.8225,8.5825,8.2,False,23,27,97,113,0.5664910674095154,frames/18_vision_23_27.png,0
+18:vision:47:49,18,vision,47,49,0.007615089416503906,text_exact_ctc_time_candidate,erel,14.8025,15.2025,15.0,False,47,49,223,227,0.6282913684844971,frames/18_vision_47_49.png,0
+19:text:1:4,19,text,1,4,0.077728271484375,text_exact_ctc_time_candidate,People are surprisingly,0.5225,1.7025,1.133333,False,1,4,0,23,0.9208131432533264,,0
+19:text:38:40,19,text,38,40,0.06664237380027771,text_exact_ctc_time_candidate,people understand,12.1025,13.0625,12.6,False,38,40,189,206,0.057774048298597336,,0
+19:text:33:36,19,text,33,36,0.05177983641624451,text_exact_ctc_time_candidate,for the most,11.3425,11.7625,11.533333,False,33,36,170,182,0.9001346230506897,,0
+19:audio:1:5,19,audio,1,5,0.042229801416397095,text_exact_ctc_time_candidate,People are surprisingly for,0.5225,2.2225,1.4,False,1,5,0,27,0.9208131432533264,,0
+19:audio:20:24,19,audio,20,24,0.029096513986587524,text_exact_ctc_time_candidate,there love to point,6.9825,8.4025,7.666667,False,20,24,105,124,0.7940576672554016,,0
+19:vision:20:24,19,vision,20,24,0.04679831862449646,text_exact_ctc_time_candidate,there love to point,6.9825,8.4025,7.666667,False,20,24,105,124,0.7940576672554016,frames/19_vision_20_24.png,0
+19:vision:24:28,19,vision,24,28,0.04077273607254028,text_exact_ctc_time_candidate,fingers and jump all,8.5025,9.6425,9.066667,False,24,28,125,145,0.9710032939910889,frames/19_vision_24_28.png,0
+20:text:21:25,20,text,21,25,0.054262518882751465,text_exact_ctc_time_candidate,ll have more live,4.7025,5.8825,5.266667,False,21,25,83,100,0.9040394425392151,,0
+20:text:15:19,20,text,15,19,0.048938751220703125,text_exact_ctc_time_candidate,"for more, and",3.3225,4.6425,4.0,False,15,19,66,79,0.5611439943313599,,0
+20:text:3:4,20,text,3,4,0.018976986408233643,text_exact_ctc_time_candidate,course,0.8225,1.0425,0.933333,False,3,4,7,13,0.9446042776107788,,0
+20:audio:34:38,20,audio,34,38,0.04035806655883789,text_exact_ctc_time_candidate,up) at the,8.2425,9.0025,8.6,False,34,38,140,150,0.0005190405645407736,,0
+20:audio:30:34,20,audio,30,34,0.03583228588104248,text_exact_ctc_time_candidate,video (wrap-,7.8025,8.6425,8.2,False,30,34,128,140,0.0005190405645407736,,0
+20:audio:5:6,20,audio,5,6,0.009187817573547363,text_exact_ctc_time_candidate,click,1.1825,1.3825,1.266667,False,5,6,15,20,0.8861610293388367,,0
+20:vision:10:14,20,vision,10,14,0.05120384693145752,text_exact_ctc_time_candidate,the description of this,2.1625,2.8825,2.533333,False,10,14,36,59,0.8306154608726501,frames/20_vision_10_14.png,0
+20:vision:18:22,20,vision,18,22,0.05103158950805664,text_exact_ctc_time_candidate,and we'll,4.5625,4.8825,4.733333,False,18,22,76,85,0.9040394425392151,frames/20_vision_18_22.png,0
+20:vision:17:18,20,vision,17,18,0.012104392051696777,text_exact_ctc_time_candidate,",",3.5425,3.7825,3.666667,False,17,18,74,75,0.9665799736976624,frames/20_vision_17_18.png,0
