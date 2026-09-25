@@ -1,0 +1,16 @@
+sample_id,modality,source_duration_s,effective_duration_s,feature_dim,native_length,aligned_length,aligned_valid_length,padding_count,native_granularity,aligned_granularity,padding_rule,status
+-3g5yACwYnA__13,text,5.399125,2.5199999999999996,768,20,84,20,64,source transcript tokens,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__13,audio,5.399125,5.399125,27,108,84,18,64,20 Hz,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__13,vision,5.5,5.5,15,83,84,18,64,15 Hz nearest original PTS,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__3,text,14.327875,6.500000000000008,768,42,84,42,42,source transcript tokens,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__3,audio,14.327875,14.327875,27,287,84,40,42,20 Hz,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__3,vision,14.366666666666667,14.366666666666667,15,216,84,40,42,15 Hz nearest original PTS,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__2,text,9.2313125,2.919999999999998,768,19,84,19,65,source transcript tokens,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__2,audio,9.2313125,9.2313125,27,185,84,17,65,20 Hz,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__2,vision,9.366666666666667,9.366666666666667,15,140,84,17,65,15 Hz nearest original PTS,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__9,text,8.696125,4.980000000000001,768,30,84,30,54,source transcript tokens,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__9,audio,8.696125,8.696125,27,174,84,28,54,20 Hz,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3g5yACwYnA__9,vision,8.8,8.8,15,132,84,28,54,15 Hz nearest original PTS,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3nNcZdcdvU__5,text,7.7885625,4.54,768,24,84,24,60,source transcript tokens,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3nNcZdcdvU__5,audio,7.7885625,7.7885625,27,156,84,22,60,20 Hz,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed
+-3nNcZdcdvU__5,vision,7.866666666666666,7.766666666666667,15,118,84,22,60,15 Hz nearest original PTS,WordPiece with CTC word interval,zero; padding_mask=true,extracted_unreviewed

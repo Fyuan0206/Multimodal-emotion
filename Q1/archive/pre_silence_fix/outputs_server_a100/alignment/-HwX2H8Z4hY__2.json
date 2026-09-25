@@ -1,0 +1,232 @@
+{
+  "sample_id": "-HwX2H8Z4hY__2",
+  "text": "” [President Ronald Reagan:] \"Look at the record",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "”",
+      "char_start": 0,
+      "char_end": 1,
+      "normalized": "",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "unsupported_characters_or_no_letters",
+      "token_indices": [
+        1
+      ]
+    },
+    {
+      "text": "[President",
+      "char_start": 2,
+      "char_end": 12,
+      "normalized": "PRESIDENT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.0025,
+      "end": 0.2425,
+      "score": 0.00010510315769352019,
+      "token_indices": [
+        2,
+        3
+      ],
+      "audio_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vision_indices": [
+        1,
+        2,
+        3
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Ronald",
+      "char_start": 13,
+      "char_end": 19,
+      "normalized": "RONALD",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.3025,
+      "end": 0.5225,
+      "score": 1.2197476280562114e-05,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "vision_indices": [
+        5,
+        6,
+        7
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Reagan:]",
+      "char_start": 20,
+      "char_end": 28,
+      "normalized": "REAGAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5425,
+      "end": 0.7825,
+      "score": 0.0005374921602196991,
+      "token_indices": [
+        5,
+        6,
+        7
+      ],
+      "audio_indices": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "vision_indices": [
+        9,
+        10,
+        11
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "\"Look",
+      "char_start": 29,
+      "char_end": 34,
+      "normalized": "LOOK",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.7025,
+      "end": 2.8225,
+      "score": 0.9999080896377563,
+      "token_indices": [
+        8,
+        9
+      ],
+      "audio_indices": [
+        55,
+        56
+      ],
+      "vision_indices": [
+        41,
+        42
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "at",
+      "char_start": 35,
+      "char_end": 37,
+      "normalized": "AT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.8825,
+      "end": 2.9225,
+      "score": 0.9968910217285156,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        58
+      ],
+      "vision_indices": [
+        44
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.030833333333333268
+    },
+    {
+      "text": "the",
+      "char_start": 38,
+      "char_end": 41,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.9625,
+      "end": 3.0225,
+      "score": 0.9967268705368042,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        60
+      ],
+      "vision_indices": [
+        45
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "record",
+      "char_start": 42,
+      "char_end": 48,
+      "normalized": "RECORD",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.0825,
+      "end": 3.3425,
+      "score": 0.994132399559021,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "vision_indices": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 3.982031,
+    "video_start_s": 0.0,
+    "video_end_s": 3.9666666666666663,
+    "video_frame_count": 119,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 3.9158125,
+    "audio_samples": 62653,
+    "audio_gap_samples": 0
+  }
+}

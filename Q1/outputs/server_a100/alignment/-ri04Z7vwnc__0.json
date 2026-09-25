@@ -1,0 +1,243 @@
+{
+  "sample_id": "-ri04Z7vwnc__0",
+  "text": "going to get married or are already married",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "going",
+      "char_start": 0,
+      "char_end": 5,
+      "normalized": "GOING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.0225,
+      "end": 0.1825,
+      "score": 0.003974697086960077,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        1,
+        2,
+        3
+      ],
+      "vision_indices": [
+        1,
+        2
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 6,
+      "char_end": 8,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.2225,
+      "end": 0.3225,
+      "score": 0.05951014161109924,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        5,
+        6
+      ],
+      "vision_indices": [
+        4
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "get",
+      "char_start": 9,
+      "char_end": 12,
+      "normalized": "GET",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.4225,
+      "end": 0.5225,
+      "score": 0.006445045117288828,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        9,
+        10
+      ],
+      "vision_indices": [
+        7
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "married",
+      "char_start": 13,
+      "char_end": 20,
+      "normalized": "MARRIED",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.6825,
+      "end": 2.0025,
+      "score": 0.02439909800887108,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "vision_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "or",
+      "char_start": 21,
+      "char_end": 23,
+      "normalized": "OR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.0225,
+      "end": 2.0625,
+      "score": 0.007215647958219051,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        41
+      ],
+      "vision_indices": [
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0405000000000002
+    },
+    {
+      "text": "are",
+      "char_start": 24,
+      "char_end": 27,
+      "normalized": "ARE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.2025,
+      "end": 2.2625,
+      "score": 0.0022379644215106964,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        45
+      ],
+      "vision_indices": [
+        33,
+        34
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "already",
+      "char_start": 28,
+      "char_end": 35,
+      "normalized": "ALREADY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.2825,
+      "end": 2.4225,
+      "score": 0.006015259772539139,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        46,
+        47,
+        48
+      ],
+      "vision_indices": [
+        35,
+        36
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "married",
+      "char_start": 36,
+      "char_end": 43,
+      "normalized": "MARRIED",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.4425,
+      "end": 2.7425,
+      "score": 0.00821654312312603,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "vision_indices": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 2.807,
+    "video_start_s": 0.0,
+    "video_end_s": 2.7944555555555555,
+    "video_frame_count": 67,
+    "video_average_fps": 23.97604418875992,
+    "audio_start_s": 0.0,
+    "audio_end_s": 2.76325,
+    "audio_samples": 44212,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 44212,
+    "audio_peak": 1.0767295360565186,
+    "audio_rms": 0.25079916547878606
+  }
+}

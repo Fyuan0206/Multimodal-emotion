@@ -1,0 +1,21 @@
+{
+  "stage": "extraction_complete",
+  "completed": 100,
+  "total": 100,
+  "job_id": "1529252",
+  "classes": [
+    "angry",
+    "disgust",
+    "fearful",
+    "happy",
+    "neutral",
+    "sad",
+    "surprised"
+  ],
+  "model_sha256": "4f61307602fc089ce20488a31d4e4614e3c9753a7d6c41578c854858b183e1a9",
+  "inference_backend": "OpenCV DNN CPU",
+  "opencv": "4.11.0",
+  "updated_at": "2026-09-25T10:35:12.377424+08:00",
+  "last_sample": "-yRb-Jum7EQ__6",
+  "resumed": false
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "samples": 100,
+  "silent_samples": 2,
+  "silent_words": 24,
+  "aligned_words": 1895,
+  "non_silent_all_arrays_unchanged": true,
+  "all_native_vision_and_text_unchanged": true
+}

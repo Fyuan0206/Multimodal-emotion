@@ -1,0 +1,14 @@
+{
+  "sample_id": "-s9qJ7ATP7w__4",
+  "fingerprint": {
+    "source_sha256": "76e0672ffce5857a789b41fb10606402f7da58c33579b1032a8282f86fb35bc9",
+    "original_features_sha256": "de2c07915415dbaa17123988f384ebc2c6b6a3024f0e5e198e5fc311fc2609d8",
+    "model_sha256": "4f61307602fc089ce20488a31d4e4614e3c9753a7d6c41578c854858b183e1a9",
+    "extractor_sha256": "e9e2c01b0155cf91e65d2c15dc510b3ce239a1bb09dfd48e60664fb8b24056d8",
+    "vendor_sha256": "81e7664748753329930117ad83fbf245ac31bacc5fa3eb5bd25efd6528fa4104"
+  },
+  "frames": 66,
+  "valid_frames": 46,
+  "output_sha256": "44d89acd9c05398588fd1c9b86dd2c6d8d05aa1516c99dffefbf8798d7865e8e",
+  "score_semantics": "raw seven-class pretrained-model scores; not human emotion labels"
+}

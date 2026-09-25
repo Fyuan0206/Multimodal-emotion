@@ -1,0 +1,24 @@
+{
+  "status": "pending",
+  "total_records": 198,
+  "confirmed_records": 0,
+  "matched_words": 0,
+  "sampled_clips": 10,
+  "scope": "reviewed subset only; selection design must be documented; not full-corpus accuracy",
+  "status_counts": {
+    "pending": 198
+  },
+  "reference_sha256": "cb463c1180ce6ad3e2d72bc69a6c2169a7bacb639a1e2c93059885bf8d08977f",
+  "alignment_sha256": {
+    "-mJ2ud6oKI8__6": "cb998c8e4abbe5cc911b09863fc60d474d561dfe060a7f883505d11e86831093",
+    "-HwX2H8Z4hY__2": "70c77ce4fbd96c9e065c2d1ab14d75bb94d8711c5846c58d184728fb52653490",
+    "-s9qJ7ATP7w__1": "c46480fc5f3d03508d5df84715130410d2f922449b620c4470124496380f8910",
+    "-iRBcNs9oI8__3": "6591a38bb017e265b772bedb3476985f35ff3d396061df02b46a2447bb77e158",
+    "-hnBHBN8p5A__6": "8efa2de879bfb5993ff030a0783545c0208115e87795f7ccc2ed28e8bfe8c7d1",
+    "-s9qJ7ATP7w__7": "b57b4465f3a3dc476c1b6e0c8a1c0d69b127ee4501c366c76b7e32c4aa45aaaa",
+    "-wny0OAz3g8__7": "63cfd78b852fffb2a956f10ddc2fd5daa39eecf971dedd59641d4415d2218873",
+    "-I_e4mIh0yE__3": "a652d27271d1743ca3490d291ed5c82d9b2342a067c8fdf2d160f9b5c40fd129",
+    "-yRb-Jum7EQ__5": "70891036a050a75ae5a4000fdc52584a4414df56f5e5e85af04538d322a3b167",
+    "-yRb-Jum7EQ__1": "9071e8c04c89bbf2b1c9aa1b75f7aaa1c182f857b1fcd80fa1d04669c6167f5f"
+  }
+}

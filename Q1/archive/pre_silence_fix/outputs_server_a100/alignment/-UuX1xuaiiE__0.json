@@ -1,0 +1,299 @@
+{
+  "sample_id": "-UuX1xuaiiE__0",
+  "text": "^it's amazing to see their enthusiasm and their passion",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "^it's",
+      "char_start": 0,
+      "char_end": 5,
+      "normalized": "IT'S",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.0425,
+      "end": 0.1825,
+      "score": 1.5383335266960785e-05,
+      "token_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio_indices": [
+        1,
+        2,
+        3
+      ],
+      "vision_indices": [
+        1,
+        2
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "amazing",
+      "char_start": 6,
+      "char_end": 13,
+      "normalized": "AMAZING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.3025,
+      "end": 0.7225,
+      "score": 0.9973964095115662,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "vision_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 14,
+      "char_end": 16,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.8825,
+      "end": 0.9625,
+      "score": 0.9978210926055908,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        18,
+        19
+      ],
+      "vision_indices": [
+        14
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "see",
+      "char_start": 17,
+      "char_end": 20,
+      "normalized": "SEE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.0625,
+      "end": 1.2425,
+      "score": 0.9993207454681396,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        22,
+        23,
+        24
+      ],
+      "vision_indices": [
+        16,
+        17,
+        18
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "their",
+      "char_start": 21,
+      "char_end": 26,
+      "normalized": "THEIR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.3225,
+      "end": 1.4825,
+      "score": 0.9940138459205627,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        27,
+        28,
+        29
+      ],
+      "vision_indices": [
+        20,
+        21,
+        22
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "enthusiasm",
+      "char_start": 27,
+      "char_end": 37,
+      "normalized": "ENTHUSIASM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.5425,
+      "end": 2.2425,
+      "score": 0.9606167674064636,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "vision_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 38,
+      "char_end": 41,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.3025,
+      "end": 2.3825,
+      "score": 0.5442811250686646,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        47
+      ],
+      "vision_indices": [
+        35
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "their",
+      "char_start": 42,
+      "char_end": 47,
+      "normalized": "THEIR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.4025,
+      "end": 2.5425,
+      "score": 0.9866819977760315,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        49,
+        50
+      ],
+      "vision_indices": [
+        37,
+        38
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "passion",
+      "char_start": 48,
+      "char_end": 55,
+      "normalized": "PASSION",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.5825,
+      "end": 2.9825,
+      "score": 0.944080114364624,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "vision_indices": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 3.633333,
+    "video_start_s": 0.0,
+    "video_end_s": 3.6999999999999997,
+    "video_frame_count": 109,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 3.575875,
+    "audio_samples": 57214,
+    "audio_gap_samples": 0
+  }
+}

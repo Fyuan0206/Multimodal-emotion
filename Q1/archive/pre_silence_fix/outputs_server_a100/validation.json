@@ -1,0 +1,29 @@
+{
+  "samples_checked": 100,
+  "modality_rows": 300,
+  "shape_finiteness_padding_and_time_checks": "passed",
+  "pooled_features_recomputed": "passed",
+  "total_words": 1932,
+  "aligned_words": 1919,
+  "automatic_word_coverage": 0.9932712215320911,
+  "unaligned_words": 13,
+  "low_ctc_score_words": 384,
+  "human_boundary_accuracy": "see human_review_metrics.json; automatic checks do not measure boundary accuracy",
+  "human_review_sample_ids": [
+    "-mJ2ud6oKI8__6",
+    "-HwX2H8Z4hY__2",
+    "-s9qJ7ATP7w__1",
+    "-HwX2H8Z4hY__5",
+    "-egA8-b7-3M__6",
+    "-wny0OAz3g8__5",
+    "-3nNcZdcdvU__5",
+    "-I_e4mIh0yE__3",
+    "-yRb-Jum7EQ__5",
+    "-yRb-Jum7EQ__1"
+  ],
+  "face_detection_rate_mean": 0.9119945083214108,
+  "zero_face_clips": 4,
+  "audio_gap_samples": 0,
+  "total_extraction_seconds": 202.18165066139773,
+  "max_audio_video_end_offset_s": 0.17435416666666725
+}

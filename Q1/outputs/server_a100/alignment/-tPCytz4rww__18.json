@@ -1,0 +1,487 @@
+{
+  "sample_id": "-tPCytz4rww__18",
+  "text": "Do so and as well you'll also want to remove any clutter from that you've accumulated.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "Do",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "DO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5425,
+      "end": 0.6425,
+      "score": 0.9990374445915222,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        11,
+        12
+      ],
+      "vision_indices": [
+        9
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "so",
+      "char_start": 3,
+      "char_end": 5,
+      "normalized": "SO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.7625,
+      "end": 0.9225,
+      "score": 0.9202513098716736,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        16,
+        17,
+        18
+      ],
+      "vision_indices": [
+        12,
+        13
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 6,
+      "char_end": 9,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.5225,
+      "end": 1.6225,
+      "score": 0.9894234538078308,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        31,
+        32
+      ],
+      "vision_indices": [
+        23,
+        24
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "as",
+      "char_start": 10,
+      "char_end": 12,
+      "normalized": "AS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.7025,
+      "end": 1.7625,
+      "score": 0.9927787780761719,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        35
+      ],
+      "vision_indices": [
+        26
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "well",
+      "char_start": 13,
+      "char_end": 17,
+      "normalized": "WELL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.8225,
+      "end": 2.0625,
+      "score": 0.8915683627128601,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "vision_indices": [
+        28,
+        29,
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "you'll",
+      "char_start": 18,
+      "char_end": 24,
+      "normalized": "YOU'LL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.5625,
+      "end": 2.7825,
+      "score": 0.9676008224487305,
+      "token_indices": [
+        6,
+        7,
+        8
+      ],
+      "audio_indices": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "vision_indices": [
+        39,
+        40,
+        41
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "also",
+      "char_start": 25,
+      "char_end": 29,
+      "normalized": "ALSO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.8225,
+      "end": 3.0225,
+      "score": 0.9999598264694214,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "vision_indices": [
+        43,
+        44,
+        45
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "want",
+      "char_start": 30,
+      "char_end": 34,
+      "normalized": "WANT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.1225,
+      "end": 3.3225,
+      "score": 0.9029018878936768,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "vision_indices": [
+        47,
+        48,
+        49
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.4025,
+      "end": 3.5425,
+      "score": 0.9997598528862,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        69,
+        70
+      ],
+      "vision_indices": [
+        52,
+        53
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "remove",
+      "char_start": 38,
+      "char_end": 44,
+      "normalized": "REMOVE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.6825,
+      "end": 3.9425,
+      "score": 0.8905013799667358,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "vision_indices": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "any",
+      "char_start": 45,
+      "char_end": 48,
+      "normalized": "ANY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.0025,
+      "end": 4.1225,
+      "score": 0.9670820832252502,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        81,
+        82
+      ],
+      "vision_indices": [
+        61
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "clutter",
+      "char_start": 49,
+      "char_end": 56,
+      "normalized": "CLUTTER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.2225,
+      "end": 4.5225,
+      "score": 0.9323777556419373,
+      "token_indices": [
+        14,
+        15
+      ],
+      "audio_indices": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "vision_indices": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "from",
+      "char_start": 57,
+      "char_end": 61,
+      "normalized": "FROM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.5625,
+      "end": 4.6825,
+      "score": 0.9742605686187744,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        92,
+        93
+      ],
+      "vision_indices": [
+        69,
+        70
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "that",
+      "char_start": 62,
+      "char_end": 66,
+      "normalized": "THAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.0025,
+      "end": 5.1025,
+      "score": 0.9738004803657532,
+      "token_indices": [
+        17
+      ],
+      "audio_indices": [
+        101,
+        102
+      ],
+      "vision_indices": [
+        76
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "you've",
+      "char_start": 67,
+      "char_end": 73,
+      "normalized": "YOU'VE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.1625,
+      "end": 5.3425,
+      "score": 0.9973635077476501,
+      "token_indices": [
+        18,
+        19,
+        20
+      ],
+      "audio_indices": [
+        104,
+        105,
+        106
+      ],
+      "vision_indices": [
+        78,
+        79,
+        80
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "accumulated.",
+      "char_start": 74,
+      "char_end": 86,
+      "normalized": "ACCUMULATED",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.3825,
+      "end": 6.0225,
+      "score": 0.16021111607551575,
+      "token_indices": [
+        21,
+        22
+      ],
+      "audio_indices": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "vision_indices": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 6.644987,
+    "video_start_s": 0.0,
+    "video_end_s": 6.633333333333333,
+    "video_frame_count": 199,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 6.5688125,
+    "audio_samples": 105101,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 105101,
+    "audio_peak": 0.7236517667770386,
+    "audio_rms": 0.0825725183036138
+  }
+}

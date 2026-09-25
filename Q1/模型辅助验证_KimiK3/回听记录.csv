@@ -1,0 +1,199 @@
+﻿sample_id,word_index,word,reference_start_s,reference_end_s,review_status,confidence,reviewer,review_date,playback_rate,reviewer_note
+-mJ2ud6oKI8__6,0,They,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,实际语音为'that we all want to approach really any...'（base/small双模型一致，语图约8-10个音节），与给定词'They are all very safe'不符
+-mJ2ud6oKI8__6,1,are,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,实际语音为'that we all want to approach really any...'（base/small双模型一致，语图约8-10个音节），与给定词'They are all very safe'不符
+-mJ2ud6oKI8__6,2,all,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,实际语音为'that we all want to approach really any...'（base/small双模型一致，语图约8-10个音节），与给定词'They are all very safe'不符
+-mJ2ud6oKI8__6,3,very,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,实际语音为'that we all want to approach really any...'（base/small双模型一致，语图约8-10个音节），与给定词'They are all very safe'不符
+-mJ2ud6oKI8__6,4,safe,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,实际语音为'that we all want to approach really any...'（base/small双模型一致，语图约8-10个音节），与给定词'They are all very safe'不符
+-HwX2H8Z4hY__2,0,”,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,纯标点引号，无对应语音
+-HwX2H8Z4hY__2,1,[President,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,说话人标注'[President Ronald Reagan:]'非口播内容；0-0.94秒实际语音为'mediocrity.'
+-HwX2H8Z4hY__2,2,Ronald,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,说话人标注'[President Ronald Reagan:]'非口播内容；0-0.94秒实际语音为'mediocrity.'
+-HwX2H8Z4hY__2,3,Reagan:],,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,说话人标注'[President Ronald Reagan:]'非口播内容；0-0.94秒实际语音为'mediocrity.'
+-HwX2H8Z4hY__2,4,"""Look",2.685,2.800,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-HwX2H8Z4hY__2,5,at,2.800,2.905,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-HwX2H8Z4hY__2,6,the,2.940,3.020,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-HwX2H8Z4hY__2,7,record,3.020,3.190,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,0,But,0.555,0.690,confirmed,medium,WorkBuddy-AI,2026-09-25,1,ASR漏识别，但0.56-0.68秒存在独立浊音音节（语图确认），与系统对齐pred位置一致
+-s9qJ7ATP7w__1,1,the,0.825,1.005,confirmed,low,WorkBuddy-AI,2026-09-25,1,句首词，ASR听作The
+-s9qJ7ATP7w__1,2,hardest,1.355,1.660,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,3,thing,1.780,1.860,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,4,in,1.860,2.000,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,5,life,2.000,2.120,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,6,to,2.235,2.280,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,7,"learn,",2.280,2.500,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,8,is,2.500,2.570,confirmed,medium,WorkBuddy-AI,2026-09-25,1,极短（约0.07秒）后接长停顿
+-s9qJ7ATP7w__1,9,to,3.290,3.320,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__1,10,lose,3.320,3.535,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-iRBcNs9oI8__3,0,"Well,",,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,1,it,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,2,is,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,3,the,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,4,secret,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,5,of,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,6,power,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-iRBcNs9oI8__3,7,pose,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'is going to help you on your tests, such as TOEFL, IELTS, or university'（base/small双模型一致），与给定词'Well, it is the secret of power pose'不符"
+-hnBHBN8p5A__6,0,"Discussion,",,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,1,how,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,2,to,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,3,discuss,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,4,ideas,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,5,and,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,6,opinions,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,7,more,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,8,effectively,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,9,than,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,10,a,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,11,native,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-hnBHBN8p5A__6,12,speaker,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,"实际语音为'to follow just one vision/mission. Have you ever wondered how a single person'（base/small双模型一致），与给定词'Discussion, how to discuss ideas...'不符"
+-s9qJ7ATP7w__7,0,I,0.000,0.140,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,1,used,0.580,0.760,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,2,to,0.805,0.860,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,3,work,0.860,0.980,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,4,for,1.050,1.140,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,5,Warren,1.140,1.360,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,6,"Avis,",1.360,1.635,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,7,the,1.925,1.985,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,8,guy,2.020,2.120,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,9,who,2.120,2.230,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,10,started,2.325,2.380,confirmed,low,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,11,Avis,2.380,2.715,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,12,Rent,2.795,2.853,confirmed,low,WorkBuddy-AI,2026-09-25,1,Rent a Car连读（ASR听作Renekar），三词按音节均分，词间边界主观
+-s9qJ7ATP7w__7,13,a,2.853,3.007,confirmed,low,WorkBuddy-AI,2026-09-25,1,Rent a Car连读（ASR听作Renekar），三词按音节均分，词间边界主观
+-s9qJ7ATP7w__7,14,"Car,",3.007,3.190,confirmed,low,WorkBuddy-AI,2026-09-25,1,Rent a Car连读（ASR听作Renekar），三词按音节均分，词间边界主观
+-s9qJ7ATP7w__7,15,and,3.250,3.280,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,16,he,3.280,3.380,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,17,said,3.470,3.560,confirmed,low,WorkBuddy-AI,2026-09-25,1,实际发音接近'sets'（said to me连读），按给定词said记录
+-s9qJ7ATP7w__7,18,to,,,not_heard,,WorkBuddy-AI,2026-09-25,1,said to me连读为约两个音节（双模型均听作'sets me'），未听到独立的to音节
+-s9qJ7ATP7w__7,19,me,3.660,3.740,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,20,one,3.740,3.960,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,21,"day,",3.960,4.305,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,22,"""Robert,",4.790,5.080,confirmed,medium,WorkBuddy-AI,2026-09-25,1,ASR置信度低(0.13)但语图4.8-5.1秒语音段清晰
+-s9qJ7ATP7w__7,23,"""what's",5.180,5.280,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,24,the,5.365,5.450,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,25,purpose,5.530,5.630,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,26,of,5.825,5.895,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-s9qJ7ATP7w__7,27,business,5.955,6.065,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,0,Omi,0.505,0.700,confirmed,medium,WorkBuddy-AI,2026-09-25,1,人名，ASR置信低但语图双音节清晰
+-wny0OAz3g8__7,1,and,0.700,0.800,confirmed,low,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,2,Winant,0.800,1.025,confirmed,medium,WorkBuddy-AI,2026-09-25,1,人名，ASR置信低但语图音节清晰
+-wny0OAz3g8__7,3,argue,1.075,1.260,confirmed,medium,WorkBuddy-AI,2026-09-25,1,词尾疑带/d/音（ASR听作argued），按给定词argue记录
+-wny0OAz3g8__7,4,that,1.260,1.460,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,5,the,1.460,1.515,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,6,concept,1.620,1.745,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,7,of,1.900,1.980,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,8,race,1.980,2.175,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,9,came,2.370,2.420,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,10,about,2.420,2.620,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,11,as,2.620,2.680,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,12,a,2.760,2.780,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,13,tool,2.990,3.080,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,14,to,3.080,3.160,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,15,justify,3.325,3.450,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,16,and,3.660,3.840,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,17,maintain,3.900,4.125,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,18,the,4.260,4.495,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,19,economic,4.765,4.960,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,20,and,4.960,5.160,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,21,political,5.285,5.460,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,22,power,5.635,5.920,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,23,held,6.080,6.180,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,24,by,6.180,6.340,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,25,those,6.340,6.500,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,26,of,6.500,6.620,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,27,European,6.695,6.820,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-wny0OAz3g8__7,28,descent,7.110,7.420,confirmed,low,WorkBuddy-AI,2026-09-25,1,descent起点按语图弱读音节de-调整（ASR估计6.96-7.34偏早）
+-I_e4mIh0yE__3,0,It's,0.525,0.780,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,1,perceived,0.890,1.280,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,2,that,1.280,1.470,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,3,you,1.620,1.750,confirmed,low,WorkBuddy-AI,2026-09-25,1,与have合读为you've
+-I_e4mIh0yE__3,4,have,1.750,1.860,uncertain,low,WorkBuddy-AI,2026-09-25,1,have弱读为you've词尾/v/，边界主观，暂定
+-I_e4mIh0yE__3,5,actually,1.860,2.620,confirmed,low,WorkBuddy-AI,2026-09-25,1,actually慢读多音节，终点按语图调整
+-I_e4mIh0yE__3,6,learned,2.690,3.550,uncertain,low,WorkBuddy-AI,2026-09-25,1,与something连读，词间边界在3.1-3.9秒间不明确（ASR建议3.94），暂定
+-I_e4mIh0yE__3,7,"something,",3.550,4.455,uncertain,low,WorkBuddy-AI,2026-09-25,1,与learned连读，词间边界不明确，暂定
+-I_e4mIh0yE__3,8,over,5.040,5.335,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,9,the,5.540,5.695,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,10,course,5.765,5.840,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,11,of,5.840,6.040,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,12,your,6.040,6.135,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,13,"carreer,",6.255,6.400,confirmed,high,WorkBuddy-AI,2026-09-25,1,给定拼写carreer为转写笔误，实际为career
+-I_e4mIh0yE__3,14,and,6.400,6.540,confirmed,low,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,15,that,6.540,6.640,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,16,you,6.640,6.780,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,17,won't,6.780,7.040,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,18,make,7.040,7.210,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,19,the,7.400,7.475,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,20,mistake,7.550,7.900,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-I_e4mIh0yE__3,21,twice.,8.050,8.460,confirmed,medium,WorkBuddy-AI,2026-09-25,1,起点含/t/爆破(8.05)，/s/尾音延伸至8.46
+-yRb-Jum7EQ__5,0,Yesterday,0.000,0.200,confirmed,medium,WorkBuddy-AI,2026-09-25,1,词极短(0.2s)，句首
+-yRb-Jum7EQ__5,1,Eliav,0.240,0.880,confirmed,medium,WorkBuddy-AI,2026-09-25,1,ASR拼作Eliyav，与给定Eliav同一人名
+-yRb-Jum7EQ__5,2,Gelman,0.880,1.340,confirmed,medium,WorkBuddy-AI,2026-09-25,1,ASR听作Goodman，音近Gelman
+-yRb-Jum7EQ__5,3,lost,3.520,3.780,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,4,his,3.780,4.100,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,5,life,4.100,4.380,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,6,in,4.380,4.800,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,7,another,4.800,5.280,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,8,terrorist,,,not_heard,,WorkBuddy-AI,2026-09-25,1,medium/large均听为'another attack'，another与attack之间无terrorist
+-yRb-Jum7EQ__5,9,"attack,",5.280,5.980,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,10,not,7.720,7.960,confirmed,medium,WorkBuddy-AI,2026-09-25,1,实际语流为'this time not'
+-yRb-Jum7EQ__5,11,by,7.960,8.180,uncertain,low,WorkBuddy-AI,2026-09-25,1,该位置听为of(置信0.41)，存疑暂定
+-yRb-Jum7EQ__5,12,the,8.180,8.300,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,13,students,8.300,8.680,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,14,of,8.680,8.880,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,15,"terrorism,",8.880,9.160,uncertain,low,WorkBuddy-AI,2026-09-25,1,听为terror(置信0.36)，存疑暂定
+-yRb-Jum7EQ__5,16,but,9.160,9.380,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,17,by,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,该位置听为of(p0.88)
+-yRb-Jum7EQ__5,18,those,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,该位置听为the(p0.85)
+-yRb-Jum7EQ__5,19,who,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,该位置听为perpetrators(p0.58)
+-yRb-Jum7EQ__5,20,teach,,,not_heard,,WorkBuddy-AI,2026-09-25,1,该位置无teach（实际语流为'perpetrators of terror'）
+-yRb-Jum7EQ__5,21,"terrorism,",,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,该位置听为terror(p0.62)
+-yRb-Jum7EQ__5,22,a,,,not_heard,,WorkBuddy-AI,2026-09-25,1,听为'of the Palestinian teachers'，无独立a
+-yRb-Jum7EQ__5,23,Palestinian,10.900,11.120,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__5,24,teacher.,11.120,11.700,confirmed,low,WorkBuddy-AI,2026-09-25,1,听感为复数teachers，ASR置信低(0.20)
+-yRb-Jum7EQ__1,0,it,0.600,0.800,uncertain,low,WorkBuddy-AI,2026-09-25,1,开头段口音重，ASR不可信，按语图语音段暂定，需人工复听
+-yRb-Jum7EQ__1,1,comes,0.800,1.100,uncertain,low,WorkBuddy-AI,2026-09-25,1,暂定
+-yRb-Jum7EQ__1,2,with,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,medium听为from(p0.97)，与with不符
+-yRb-Jum7EQ__1,3,the,2.450,2.650,uncertain,low,WorkBuddy-AI,2026-09-25,1,medium听为an(置信0.15)，存疑暂定
+-yRb-Jum7EQ__1,4,assistance,2.650,3.050,uncertain,low,WorkBuddy-AI,2026-09-25,1,medium听为attempt(置信0.38)，音近存疑，暂定
+-yRb-Jum7EQ__1,5,and,3.200,3.400,uncertain,low,WorkBuddy-AI,2026-09-25,1,暂定
+-yRb-Jum7EQ__1,6,agitation,3.400,3.650,uncertain,low,WorkBuddy-AI,2026-09-25,1,暂定
+-yRb-Jum7EQ__1,7,of,4.450,4.750,uncertain,low,WorkBuddy-AI,2026-09-25,1,暂定
+-yRb-Jum7EQ__1,8,states,6.500,7.100,confirmed,low,WorkBuddy-AI,2026-09-25,1,medium亦识别为states，边界按语图语音段
+-yRb-Jum7EQ__1,9,and,7.750,7.950,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,10,"regimes,",,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,medium听为police(p0.61)，音近regimes
+-yRb-Jum7EQ__1,11,Yesterday,8.700,9.150,uncertain,low,WorkBuddy-AI,2026-09-25,1,位置存疑：large建议8.44-9.12，medium建议9.36-9.70，按语图暂定
+-yRb-Jum7EQ__1,12,Iran,9.500,9.980,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,13,announced,9.980,11.380,confirmed,medium,WorkBuddy-AI,2026-09-25,1,慢读，时长1.4秒
+-yRb-Jum7EQ__1,14,that,11.380,11.740,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,15,it,11.740,11.860,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,16,will,11.860,11.940,uncertain,low,WorkBuddy-AI,2026-09-25,1,听为was going to(was置信0.28)，存疑暂定
+-yRb-Jum7EQ__1,17,finance,12.300,12.640,uncertain,low,WorkBuddy-AI,2026-09-25,1,该位置ASR听为train/support均低置信，与finance不一致，存疑暂定
+-yRb-Jum7EQ__1,18,the,12.640,13.620,uncertain,low,WorkBuddy-AI,2026-09-25,1,the时长1秒明显退化(含停顿)，暂定
+-yRb-Jum7EQ__1,19,families,13.620,14.540,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,20,of,14.540,15.120,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,21,the,15.120,15.440,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,22,terrorists,16.600,16.680,uncertain,low,WorkBuddy-AI,2026-09-25,1,词序为'murderous terrorists'，terrorists的ASR时间退化(0.08s)，暂定
+-yRb-Jum7EQ__1,23,and,,,not_heard,,WorkBuddy-AI,2026-09-25,1,听为'murderous terrorists'，无and
+-yRb-Jum7EQ__1,24,murderers,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,听为murderous(形容词)，非murderers
+-yRb-Jum7EQ__1,25,this,17.000,17.680,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,26,shows,17.680,17.840,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,27,that,17.840,18.120,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,28,"Iran,",18.120,18.320,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,29,even,,,not_heard,,WorkBuddy-AI,2026-09-25,1,"听为'Iran, after'，无even"
+-yRb-Jum7EQ__1,30,after,18.440,18.680,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,31,the,18.680,18.920,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,32,nuclear,18.920,19.280,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,33,"agreement,",19.280,19.740,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,34,is,,,not_heard,,WorkBuddy-AI,2026-09-25,1,听为continues，无独立is
+-yRb-Jum7EQ__1,35,continuing,19.740,20.300,confirmed,medium,WorkBuddy-AI,2026-09-25,1,ASR听作continues
+-yRb-Jum7EQ__1,36,to,20.300,20.760,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,37,aid,20.760,21.620,uncertain,low,WorkBuddy-AI,2026-09-25,1,听为assist(置信0.32)，存疑暂定
+-yRb-Jum7EQ__1,38,"terrorism,",21.620,22.120,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,39,including,,,not_heard,,WorkBuddy-AI,2026-09-25,1,"听为'there as well, both'，无including"
+-yRb-Jum7EQ__1,40,Palestinian,23.360,23.780,confirmed,medium,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,41,"terrorism,",23.780,24.560,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,42,Hezbollah,24.680,25.940,confirmed,high,WorkBuddy-AI,2026-09-25,1,无
+-yRb-Jum7EQ__1,43,terrorism,25.940,26.040,uncertain,low,WorkBuddy-AI,2026-09-25,1,ASR时间退化(0.1s)，暂定
+-yRb-Jum7EQ__1,44,and,26.040,26.780,confirmed,low,WorkBuddy-AI,2026-09-25,1,时长偏长，可能含后续停顿
+-yRb-Jum7EQ__1,45,its,,,not_heard,,WorkBuddy-AI,2026-09-25,1,听为'and of course to assist Hamas'，无its
+-yRb-Jum7EQ__1,46,assistance,,,transcript_mismatch,,WorkBuddy-AI,2026-09-25,1,听为assist(p0.95)，非assistance
+-yRb-Jum7EQ__1,47,to,,,not_heard,,WorkBuddy-AI,2026-09-25,1,词序为'to assist Hamas'，给定位置无to
+-yRb-Jum7EQ__1,48,Hamas.,28.020,28.720,confirmed,high,WorkBuddy-AI,2026-09-25,1,无

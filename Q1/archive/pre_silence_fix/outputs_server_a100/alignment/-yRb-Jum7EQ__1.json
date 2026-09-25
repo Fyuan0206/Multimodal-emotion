@@ -1,0 +1,1713 @@
+{
+  "sample_id": "-yRb-Jum7EQ__1",
+  "text": "it comes with the assistance and agitation of states and regimes, Yesterday Iran announced that it will finance the families of the terrorists and murderers this shows that Iran, even after the nuclear agreement, is continuing to aid terrorism, including Palestinian terrorism, Hezbollah terrorism and its assistance to Hamas.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "it",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "IT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.0225,
+      "end": 1.1025,
+      "score": 0.026149800047278404,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        21,
+        22
+      ],
+      "vision_indices": [
+        16
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "comes",
+      "char_start": 3,
+      "char_end": 8,
+      "normalized": "COMES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.2425,
+      "end": 2.9425,
+      "score": 0.0042244731448590755,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "vision_indices": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "with",
+      "char_start": 9,
+      "char_end": 13,
+      "normalized": "WITH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.2425,
+      "end": 3.6625,
+      "score": 0.00971427746117115,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "vision_indices": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 14,
+      "char_end": 17,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.5225,
+      "end": 4.7625,
+      "score": 0.7460962533950806,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "vision_indices": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "assistance",
+      "char_start": 18,
+      "char_end": 28,
+      "normalized": "ASSISTANCE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.1625,
+      "end": 6.6225,
+      "score": 0.0581749863922596,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "vision_indices": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 29,
+      "char_end": 32,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.9625,
+      "end": 7.0825,
+      "score": 0.0012981949839740992,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        140,
+        141
+      ],
+      "vision_indices": [
+        105,
+        106
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "agitation",
+      "char_start": 33,
+      "char_end": 42,
+      "normalized": "AGITATION",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.6825,
+      "end": 8.0425,
+      "score": 0.010722490027546883,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "vision_indices": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "of",
+      "char_start": 43,
+      "char_end": 45,
+      "normalized": "OF",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.0825,
+      "end": 8.1425,
+      "score": 0.011138482950627804,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        162
+      ],
+      "vision_indices": [
+        122
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "states",
+      "char_start": 46,
+      "char_end": 52,
+      "normalized": "STATES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.1625,
+      "end": 8.3825,
+      "score": 0.006040521897375584,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        164,
+        165,
+        166,
+        167
+      ],
+      "vision_indices": [
+        123,
+        124,
+        125
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.4025,
+      "end": 8.5425,
+      "score": 0.00041792518459260464,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        169,
+        170
+      ],
+      "vision_indices": [
+        127,
+        128
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "regimes,",
+      "char_start": 57,
+      "char_end": 65,
+      "normalized": "REGIMES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.6225,
+      "end": 8.8425,
+      "score": 0.03644106537103653,
+      "token_indices": [
+        11,
+        12
+      ],
+      "audio_indices": [
+        173,
+        174,
+        175,
+        176
+      ],
+      "vision_indices": [
+        130,
+        131,
+        132
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Yesterday",
+      "char_start": 66,
+      "char_end": 75,
+      "normalized": "YESTERDAY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.3025,
+      "end": 9.7425,
+      "score": 0.009139087982475758,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "vision_indices": [
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Iran",
+      "char_start": 76,
+      "char_end": 80,
+      "normalized": "IRAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.7825,
+      "end": 10.0025,
+      "score": 0.08900950849056244,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "vision_indices": [
+        147,
+        148,
+        149,
+        150
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "announced",
+      "char_start": 81,
+      "char_end": 90,
+      "normalized": "ANNOUNCED",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.0625,
+      "end": 11.3825,
+      "score": 0.004028084222227335,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "vision_indices": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "that",
+      "char_start": 91,
+      "char_end": 95,
+      "normalized": "THAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 11.4225,
+      "end": 11.7225,
+      "score": 0.024640357121825218,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "vision_indices": [
+        172,
+        173,
+        174,
+        175
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "it",
+      "char_start": 96,
+      "char_end": 98,
+      "normalized": "IT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 11.8425,
+      "end": 11.9025,
+      "score": 0.0705287829041481,
+      "token_indices": [
+        17
+      ],
+      "audio_indices": [
+        237,
+        238
+      ],
+      "vision_indices": [
+        178
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "will",
+      "char_start": 99,
+      "char_end": 103,
+      "normalized": "WILL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 11.9425,
+      "end": 12.0825,
+      "score": 0.0676409974694252,
+      "token_indices": [
+        18
+      ],
+      "audio_indices": [
+        239,
+        240,
+        241
+      ],
+      "vision_indices": [
+        180,
+        181
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "finance",
+      "char_start": 104,
+      "char_end": 111,
+      "normalized": "FINANCE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 12.1825,
+      "end": 12.8625,
+      "score": 0.014955083839595318,
+      "token_indices": [
+        19
+      ],
+      "audio_indices": [
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257
+      ],
+      "vision_indices": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 112,
+      "char_end": 115,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 13.8425,
+      "end": 14.0225,
+      "score": 0.18607601523399353,
+      "token_indices": [
+        20
+      ],
+      "audio_indices": [
+        277,
+        278,
+        279,
+        280
+      ],
+      "vision_indices": [
+        208,
+        209,
+        210
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "families",
+      "char_start": 116,
+      "char_end": 124,
+      "normalized": "FAMILIES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 14.2425,
+      "end": 14.5625,
+      "score": 0.01130150817334652,
+      "token_indices": [
+        21
+      ],
+      "audio_indices": [
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291
+      ],
+      "vision_indices": [
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "normalized": "OF",
+      "unsupported": "",
+      "aligned": true,
+      "start": 14.8225,
+      "end": 14.8825,
+      "score": 0.0064611355774104595,
+      "token_indices": [
+        22
+      ],
+      "audio_indices": [
+        297
+      ],
+      "vision_indices": [
+        223
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 128,
+      "char_end": 131,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 14.9825,
+      "end": 15.1625,
+      "score": 0.11601579934358597,
+      "token_indices": [
+        23
+      ],
+      "audio_indices": [
+        300,
+        301,
+        302,
+        303
+      ],
+      "vision_indices": [
+        225,
+        226,
+        227
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorists",
+      "char_start": 132,
+      "char_end": 142,
+      "normalized": "TERRORISTS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 15.2825,
+      "end": 16.0425,
+      "score": 0.025567468255758286,
+      "token_indices": [
+        24
+      ],
+      "audio_indices": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "vision_indices": [
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 143,
+      "char_end": 146,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 16.1425,
+      "end": 16.2025,
+      "score": 0.21835187077522278,
+      "token_indices": [
+        25
+      ],
+      "audio_indices": [
+        323,
+        324
+      ],
+      "vision_indices": [
+        243
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "murderers",
+      "char_start": 147,
+      "char_end": 156,
+      "normalized": "MURDERERS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 16.2225,
+      "end": 16.5225,
+      "score": 0.02450663223862648,
+      "token_indices": [
+        26
+      ],
+      "audio_indices": [
+        325,
+        326,
+        327,
+        328,
+        329,
+        330
+      ],
+      "vision_indices": [
+        244,
+        245,
+        246,
+        247
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "this",
+      "char_start": 157,
+      "char_end": 161,
+      "normalized": "THIS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 16.5625,
+      "end": 16.7825,
+      "score": 0.16105566918849945,
+      "token_indices": [
+        27
+      ],
+      "audio_indices": [
+        332,
+        333,
+        334,
+        335
+      ],
+      "vision_indices": [
+        249,
+        250,
+        251
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "shows",
+      "char_start": 162,
+      "char_end": 167,
+      "normalized": "SHOWS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 17.5825,
+      "end": 17.6825,
+      "score": 0.0011829130817204714,
+      "token_indices": [
+        28
+      ],
+      "audio_indices": [
+        352,
+        353
+      ],
+      "vision_indices": [
+        264,
+        265
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "that",
+      "char_start": 168,
+      "char_end": 172,
+      "normalized": "THAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 17.7025,
+      "end": 17.8025,
+      "score": 0.039923157542943954,
+      "token_indices": [
+        29
+      ],
+      "audio_indices": [
+        355,
+        356
+      ],
+      "vision_indices": [
+        266,
+        267
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Iran,",
+      "char_start": 173,
+      "char_end": 178,
+      "normalized": "IRAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 17.8625,
+      "end": 18.0225,
+      "score": 0.01340345200151205,
+      "token_indices": [
+        30,
+        31
+      ],
+      "audio_indices": [
+        358,
+        359,
+        360
+      ],
+      "vision_indices": [
+        268,
+        269,
+        270
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "even",
+      "char_start": 179,
+      "char_end": 183,
+      "normalized": "EVEN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 18.1825,
+      "end": 18.5225,
+      "score": 0.06821107864379883,
+      "token_indices": [
+        32
+      ],
+      "audio_indices": [
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370
+      ],
+      "vision_indices": [
+        273,
+        274,
+        275,
+        276,
+        277
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "after",
+      "char_start": 184,
+      "char_end": 189,
+      "normalized": "AFTER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 18.7825,
+      "end": 19.0425,
+      "score": 0.019755810499191284,
+      "token_indices": [
+        33
+      ],
+      "audio_indices": [
+        376,
+        377,
+        378,
+        379,
+        380
+      ],
+      "vision_indices": [
+        282,
+        283,
+        284,
+        285
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 190,
+      "char_end": 193,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 19.0825,
+      "end": 19.1425,
+      "score": 0.0006336658261716366,
+      "token_indices": [
+        34
+      ],
+      "audio_indices": [
+        382
+      ],
+      "vision_indices": [
+        287
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "nuclear",
+      "char_start": 194,
+      "char_end": 201,
+      "normalized": "NUCLEAR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 19.1825,
+      "end": 19.3225,
+      "score": 0.0015907288761809468,
+      "token_indices": [
+        35
+      ],
+      "audio_indices": [
+        384,
+        385,
+        386
+      ],
+      "vision_indices": [
+        288,
+        289
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "agreement,",
+      "char_start": 202,
+      "char_end": 212,
+      "normalized": "AGREEMENT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 19.4025,
+      "end": 19.8225,
+      "score": 0.044792212545871735,
+      "token_indices": [
+        36,
+        37
+      ],
+      "audio_indices": [
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396
+      ],
+      "vision_indices": [
+        292,
+        293,
+        294,
+        295,
+        296,
+        297
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 213,
+      "char_end": 215,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 20.2625,
+      "end": 20.4025,
+      "score": 0.014037048444151878,
+      "token_indices": [
+        38
+      ],
+      "audio_indices": [
+        406,
+        407,
+        408
+      ],
+      "vision_indices": [
+        304,
+        305,
+        306
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "continuing",
+      "char_start": 216,
+      "char_end": 226,
+      "normalized": "CONTINUING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 20.5625,
+      "end": 21.8225,
+      "score": 0.002908797701820731,
+      "token_indices": [
+        39
+      ],
+      "audio_indices": [
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436
+      ],
+      "vision_indices": [
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 21.8425,
+      "end": 21.9025,
+      "score": 0.015143734402954578,
+      "token_indices": [
+        40
+      ],
+      "audio_indices": [
+        437,
+        438
+      ],
+      "vision_indices": [
+        328
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "aid",
+      "char_start": 230,
+      "char_end": 233,
+      "normalized": "AID",
+      "unsupported": "",
+      "aligned": true,
+      "start": 22.0225,
+      "end": 22.0825,
+      "score": 0.009700686670839787,
+      "token_indices": [
+        41
+      ],
+      "audio_indices": [
+        441
+      ],
+      "vision_indices": [
+        331
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorism,",
+      "char_start": 234,
+      "char_end": 244,
+      "normalized": "TERRORISM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 22.1225,
+      "end": 22.8425,
+      "score": 0.008871234953403473,
+      "token_indices": [
+        42,
+        43
+      ],
+      "audio_indices": [
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456
+      ],
+      "vision_indices": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "including",
+      "char_start": 245,
+      "char_end": 254,
+      "normalized": "INCLUDING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 23.0625,
+      "end": 24.0025,
+      "score": 0.001802406390197575,
+      "token_indices": [
+        44
+      ],
+      "audio_indices": [
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480
+      ],
+      "vision_indices": [
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Palestinian",
+      "char_start": 255,
+      "char_end": 266,
+      "normalized": "PALESTINIAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 24.1025,
+      "end": 24.8825,
+      "score": 0.2511897385120392,
+      "token_indices": [
+        45
+      ],
+      "audio_indices": [
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497
+      ],
+      "vision_indices": [
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorism,",
+      "char_start": 267,
+      "char_end": 277,
+      "normalized": "TERRORISM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 24.9825,
+      "end": 25.4625,
+      "score": 0.07807167619466782,
+      "token_indices": [
+        46,
+        47
+      ],
+      "audio_indices": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509
+      ],
+      "vision_indices": [
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Hezbollah",
+      "char_start": 278,
+      "char_end": 287,
+      "normalized": "HEZBOLLAH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 25.5225,
+      "end": 26.0625,
+      "score": 0.11054862290620804,
+      "token_indices": [
+        48
+      ],
+      "audio_indices": [
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521
+      ],
+      "vision_indices": [
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorism",
+      "char_start": 288,
+      "char_end": 297,
+      "normalized": "TERRORISM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 26.8425,
+      "end": 27.3025,
+      "score": 0.005634911358356476,
+      "token_indices": [
+        49
+      ],
+      "audio_indices": [
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546
+      ],
+      "vision_indices": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 298,
+      "char_end": 301,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 27.3825,
+      "end": 27.4825,
+      "score": 0.06938689947128296,
+      "token_indices": [
+        50
+      ],
+      "audio_indices": [
+        548,
+        549
+      ],
+      "vision_indices": [
+        411,
+        412
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "its",
+      "char_start": 302,
+      "char_end": 305,
+      "normalized": "ITS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 27.6025,
+      "end": 27.7025,
+      "score": 0.010945855639874935,
+      "token_indices": [
+        51
+      ],
+      "audio_indices": [
+        553,
+        554
+      ],
+      "vision_indices": [
+        415
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "assistance",
+      "char_start": 306,
+      "char_end": 316,
+      "normalized": "ASSISTANCE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 27.7825,
+      "end": 28.1425,
+      "score": 0.0016599661903455853,
+      "token_indices": [
+        52
+      ],
+      "audio_indices": [
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562
+      ],
+      "vision_indices": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 317,
+      "char_end": 319,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 28.2025,
+      "end": 28.2825,
+      "score": 0.0017860883381217718,
+      "token_indices": [
+        53
+      ],
+      "audio_indices": [
+        565
+      ],
+      "vision_indices": [
+        424
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Hamas.",
+      "char_start": 320,
+      "char_end": 326,
+      "normalized": "HAMAS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 28.3425,
+      "end": 28.6825,
+      "score": 0.957723081111908,
+      "token_indices": [
+        54,
+        55
+      ],
+      "audio_indices": [
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573
+      ],
+      "vision_indices": [
+        426,
+        427,
+        428,
+        429,
+        430
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 29.288021,
+    "video_start_s": 0.0,
+    "video_end_s": 29.26666666666667,
+    "video_frame_count": 875,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 29.10975,
+    "audio_samples": 465756,
+    "audio_gap_samples": 0
+  }
+}

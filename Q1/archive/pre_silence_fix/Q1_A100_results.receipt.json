@@ -1,0 +1,16 @@
+{
+  "filename": "Q1_A100_results.zip",
+  "bytes": 12247333,
+  "sha256": "66306bb9abfe6e5cef9dd1f2a05cc5c4a7c5d6d17c860bae17d7c4a8e50fe725",
+  "file_count": 395,
+  "status": "Automatically verified Q1 candidate; human word-boundary validation pending",
+  "runtime": {
+    "device": "cuda",
+    "machine": "aarch64",
+    "cuda": "12.1",
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "deterministic": true,
+    "tf32": false
+  },
+  "source_output_directory": "/Users/demo/第二十三届中国研究生数学建模竞赛/BaseLine/work/Q1/outputs/server_a100"
+}

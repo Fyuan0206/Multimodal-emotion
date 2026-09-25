@@ -1,0 +1,219 @@
+{
+  "sample_id": "-mJ2ud6oKI8__1",
+  "text": "There are a dozen or more hands on techniques that we can do",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "There",
+      "char_start": 0,
+      "char_end": 5,
+      "normalized": "THERE",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        1
+      ]
+    },
+    {
+      "text": "are",
+      "char_start": 6,
+      "char_end": 9,
+      "normalized": "ARE",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        2
+      ]
+    },
+    {
+      "text": "a",
+      "char_start": 10,
+      "char_end": 11,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        3
+      ]
+    },
+    {
+      "text": "dozen",
+      "char_start": 12,
+      "char_end": 17,
+      "normalized": "DOZEN",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        4
+      ]
+    },
+    {
+      "text": "or",
+      "char_start": 18,
+      "char_end": 20,
+      "normalized": "OR",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        5
+      ]
+    },
+    {
+      "text": "more",
+      "char_start": 21,
+      "char_end": 25,
+      "normalized": "MORE",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        6
+      ]
+    },
+    {
+      "text": "hands",
+      "char_start": 26,
+      "char_end": 31,
+      "normalized": "HANDS",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        7
+      ]
+    },
+    {
+      "text": "on",
+      "char_start": 32,
+      "char_end": 34,
+      "normalized": "ON",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        8
+      ]
+    },
+    {
+      "text": "techniques",
+      "char_start": 35,
+      "char_end": 45,
+      "normalized": "TECHNIQUES",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        9
+      ]
+    },
+    {
+      "text": "that",
+      "char_start": 46,
+      "char_end": 50,
+      "normalized": "THAT",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        10
+      ]
+    },
+    {
+      "text": "we",
+      "char_start": 51,
+      "char_end": 53,
+      "normalized": "WE",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        11
+      ]
+    },
+    {
+      "text": "can",
+      "char_start": 54,
+      "char_end": 57,
+      "normalized": "CAN",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        12
+      ]
+    },
+    {
+      "text": "do",
+      "char_start": 58,
+      "char_end": 60,
+      "normalized": "DO",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        13
+      ]
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 6.103,
+    "video_start_s": 0.0,
+    "video_end_s": 6.072733333333334,
+    "video_frame_count": 182,
+    "video_average_fps": 29.97002997002997,
+    "audio_start_s": 0.0,
+    "audio_end_s": 6.0545,
+    "audio_samples": 96872,
+    "audio_gap_samples": 0,
+    "audio_all_zero": true,
+    "audio_nonzero_samples": 0,
+    "audio_peak": 0.0,
+    "audio_rms": 0.0
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sample_id": "-iRBcNs9oI8__6",
+  "text": "What is a power pose",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "What",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "WHAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.3425,
+      "end": 0.7625,
+      "score": 0.007616919465363026,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "vision_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 5,
+      "char_end": 7,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.1625,
+      "end": 1.2225,
+      "score": 0.997581422328949,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        24
+      ],
+      "vision_indices": [
+        18
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 8,
+      "char_end": 9,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.6225,
+      "end": 1.6425,
+      "score": 2.295912418048829e-05,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        33
+      ],
+      "vision_indices": [
+        24
+      ],
+      "audio_fallback": true,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.01750000000000007,
+      "vision_fallback_distance_s": 0.03090000000000015
+    },
+    {
+      "text": "power",
+      "char_start": 10,
+      "char_end": 15,
+      "normalized": "POWER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.0625,
+      "end": 2.3025,
+      "score": 0.00038448674604296684,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "vision_indices": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "pose",
+      "char_start": 16,
+      "char_end": 20,
+      "normalized": "POSE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.5425,
+      "end": 2.6225,
+      "score": 6.137679883977398e-05,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        51,
+        52
+      ],
+      "vision_indices": [
+        39
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 2.903,
+    "video_start_s": 0.0,
+    "video_end_s": 2.8695333333333335,
+    "video_frame_count": 85,
+    "video_average_fps": 29.97002997002997,
+    "audio_start_s": 0.0,
+    "audio_end_s": 2.8204375,
+    "audio_samples": 45127,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 45127,
+    "audio_peak": 0.7747135162353516,
+    "audio_rms": 0.09738378020803946
+  }
+}

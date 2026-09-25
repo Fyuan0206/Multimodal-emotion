@@ -1,0 +1,25 @@
+finished fold 0
+finished fold 1
+finished fold 2
+finished fold 3
+finished fold 4
+          model  dimensions      mae        r2  spearman
+median_baseline           0 0.603333 -0.029180 -0.173980
+  mean_baseline           0 0.607667 -0.055541 -0.287921
+        quality           3 0.613467 -0.089514 -0.289080
+        framing          13 0.611699 -0.080442 -0.199035
+          shape          23 0.601947 -0.047164 -0.147281
+       vision15          33 0.598157 -0.035546 -0.094023
+           text         768 0.595952  0.041958  0.288419
+    text_vision         801 0.601324  0.037369  0.320223
+
+
+
+============ Job 1529194 Performance Details ============
+JobID: 1529194
+User: scx6706
+Nodes、GPU: N/A
+Time Range: 2026-09-25 10:07:04 - 2026-09-25 10:07:26
+Running time: 0d0H0M22S
+Get GPU mapping information failed，can not perform performance query。
+=========================================================

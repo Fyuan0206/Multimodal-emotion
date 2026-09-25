@@ -1,0 +1,13 @@
+# Preserve generated figures and evidence bytes used by SHA256 manifests.
+*.svg -text -whitespace
+*.eps -text -whitespace
+*.csv -text -whitespace
+*.json -text -whitespace
+*.npz binary
+*.pdf binary
+*.png binary
+*.xlsx binary
+Q1/archive/** -text -whitespace
+Q1/视觉增强专项/vendor/** -text -whitespace
+
+Q1/outputs/server_a100/nvidia-smi.txt -text -whitespace

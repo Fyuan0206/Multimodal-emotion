@@ -1,0 +1,15 @@
+cuda-12.1 loaded successful
+gcc-11.3.0 loaded successful
+{'passed': True, 'samples': 100, 'silent_samples': 2, 'silent_words': 24, 'aligned_words': 1895, 'non_silent_all_arrays_unchanged': True, 'all_native_vision_and_text_unchanged': True}
+{"clips": 10, "words": 198, "all_wav_nonzero": true}
+
+
+
+============ Job 1529289 Performance Details ============
+JobID: 1529289
+User: scx6706
+Nodes、GPU: N/A
+Time Range: 2026-09-25 10:45:14 - 2026-09-25 10:46:06
+Running time: 0d0H0M52S
+Get GPU mapping information failed，can not perform performance query。
+=========================================================

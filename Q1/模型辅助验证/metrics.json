@@ -1,0 +1,47 @@
+{
+  "human_reference": false,
+  "status": "machine_evidence_only",
+  "source_a": "Kimi K3 assisted records per user; backend runs not supplied",
+  "source_b": "GPT-6 Pro supplied faster-whisper-base CPU int8 ASR artifacts; not GPT audio inference",
+  "records": 198,
+  "clips": 10,
+  "kimi_status_counts": {
+    "confirmed": 131,
+    "transcript_mismatch": 38,
+    "uncertain": 19,
+    "not_heard": 10
+  },
+  "time_issues": 15,
+  "high_priority_clips": [
+    "-mJ2ud6oKI8__6",
+    "-iRBcNs9oI8__3",
+    "-hnBHBN8p5A__6",
+    "-yRb-Jum7EQ__5",
+    "-yRb-Jum7EQ__1"
+  ],
+  "source_sha256": {
+    "模型辅助验证_KimiK3/Q1_有声10条回听记录.json": "97bcc396066943b46ab78745f31885c37a5f230de111f40fbe942fe4728398a6",
+    "模型辅助验证_GPT6Pro/机器辅助核查/asr_check.json": "5d4fbec7f180fa2e8878daf86f8122e6bc5bbc08667e99522b4ee27b1763610a"
+  },
+  "independence": "not established; possible shared Whisper base backend and exposure to CTC predictions",
+  "boundary_differences": {
+    "ctc_kimi_max_difference_ms": {
+      "pairs": 150,
+      "median_ms": 154.9999999999995,
+      "p90_ms": 1342.5000000000011,
+      "meaning": "conditional model disagreement, not boundary error or accuracy"
+    },
+    "ctc_asr_max_difference_ms": {
+      "pairs": 93,
+      "median_ms": 122.50000000000006,
+      "p90_ms": 966.4999999999998,
+      "meaning": "conditional model disagreement, not boundary error or accuracy"
+    },
+    "kimi_asr_max_difference_ms": {
+      "pairs": 88,
+      "median_ms": 89.99999999999986,
+      "p90_ms": 399.0,
+      "meaning": "conditional model disagreement, not boundary error or accuracy"
+    }
+  }
+}

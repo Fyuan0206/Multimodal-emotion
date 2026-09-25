@@ -1,0 +1,16 @@
+{
+  "status": "pending",
+  "total_records": 6,
+  "confirmed_records": 0,
+  "matched_words": 0,
+  "sampled_clips": 2,
+  "scope": "targeted discrepancy subset; not a representative all-word accuracy estimate",
+  "status_counts": {
+    "pending": 6
+  },
+  "reference_sha256": "d27795733252ca25745de74823ba5b7b31814d619a0a6d39e983c7c3a891617b",
+  "alignment_sha256": {
+    "-mJ2ud6oKI8__1": "b7a51bd3e5c3eed1c0612ebce95989d51028e6f44c53c33813b9d9c9c00ff009",
+    "-mJ2ud6oKI8__2": "89f96807bddd4d71b7773763e4c68af7da8a961a488ab53a06cf55af3db963ac"
+  }
+}

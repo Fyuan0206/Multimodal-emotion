@@ -1,0 +1,15 @@
+{
+  "filename": "Q1_candidate_results.zip",
+  "bytes": 12083645,
+  "sha256": "b9d36c5cabbe8e44e22e53498217bbf1485b0631800815793c24d61b0efd76d8",
+  "file_count": 343,
+  "status": "Q1 candidate only; human boundary validation pending",
+  "excluded": [
+    "original videos",
+    "pretrained weights",
+    "virtual environment",
+    "Claude logs",
+    "repeat cache",
+    "TeX"
+  ]
+}

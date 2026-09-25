@@ -1,0 +1,31 @@
+{
+  "repeat_samples": 5,
+  "all_arrays_identical": true,
+  "samples": [
+    {
+      "sample_id": "-3g5yACwYnA__13",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3g5yACwYnA__2",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3g5yACwYnA__3",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3g5yACwYnA__9",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3nNcZdcdvU__5",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    }
+  ]
+}

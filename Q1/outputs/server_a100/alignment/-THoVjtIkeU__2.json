@@ -1,0 +1,321 @@
+{
+  "sample_id": "-THoVjtIkeU__2",
+  "text": "I think social justice is extremely important for young people.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "normalized": "I",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.0425,
+      "end": 0.0625,
+      "score": 0.7837974429130554,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        1
+      ],
+      "vision_indices": [
+        1
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.01416666666666666
+    },
+    {
+      "text": "think",
+      "char_start": 2,
+      "char_end": 7,
+      "normalized": "THINK",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.1625,
+      "end": 0.3825,
+      "score": 0.9996035695075989,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "vision_indices": [
+        3,
+        4,
+        5
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "social",
+      "char_start": 8,
+      "char_end": 14,
+      "normalized": "SOCIAL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.2025,
+      "end": 1.4425,
+      "score": 0.9746279120445251,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "vision_indices": [
+        19,
+        20,
+        21
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "justice",
+      "char_start": 15,
+      "char_end": 22,
+      "normalized": "JUSTICE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.5025,
+      "end": 1.7825,
+      "score": 0.9770267605781555,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "vision_indices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 23,
+      "char_end": 25,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.8625,
+      "end": 1.9025,
+      "score": 0.99947190284729,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        38
+      ],
+      "vision_indices": [
+        28
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "extremely",
+      "char_start": 26,
+      "char_end": 35,
+      "normalized": "EXTREMELY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9825,
+      "end": 2.3625,
+      "score": 0.9830456972122192,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "vision_indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "important",
+      "char_start": 36,
+      "char_end": 45,
+      "normalized": "IMPORTANT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.4225,
+      "end": 2.7825,
+      "score": 0.9999432563781738,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "vision_indices": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "for",
+      "char_start": 46,
+      "char_end": 49,
+      "normalized": "FOR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.8625,
+      "end": 2.9825,
+      "score": 0.9992615580558777,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        58,
+        59
+      ],
+      "vision_indices": [
+        43,
+        44
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "young",
+      "char_start": 50,
+      "char_end": 55,
+      "normalized": "YOUNG",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.0825,
+      "end": 3.2425,
+      "score": 0.9993511438369751,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        62,
+        63,
+        64
+      ],
+      "vision_indices": [
+        47,
+        48
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "people.",
+      "char_start": 56,
+      "char_end": 63,
+      "normalized": "PEOPLE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.3225,
+      "end": 3.7025,
+      "score": 0.0651032030582428,
+      "token_indices": [
+        10,
+        11
+      ],
+      "audio_indices": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "vision_indices": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 4.291992,
+    "video_start_s": 0.0,
+    "video_end_s": 4.266666666666667,
+    "video_frame_count": 128,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 4.230875,
+    "audio_samples": 67694,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 67694,
+    "audio_peak": 0.4699326157569885,
+    "audio_rms": 0.08156112629866452
+  }
+}

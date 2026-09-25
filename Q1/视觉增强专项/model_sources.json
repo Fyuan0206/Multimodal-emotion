@@ -1,0 +1,25 @@
+{
+  "revision": "47534e27c9851bb1128ccc0102f1145e27f23f98",
+  "files": {
+    "vendor/facial_fer_model.py": {
+      "sha256": "81e7664748753329930117ad83fbf245ac31bacc5fa3eb5bd25efd6528fa4104",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_zoo/47534e27c9851bb1128ccc0102f1145e27f23f98/models/facial_expression_recognition/facial_fer_model.py",
+      "bytes": 6132
+    },
+    "vendor/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_zoo/47534e27c9851bb1128ccc0102f1145e27f23f98/LICENSE",
+      "bytes": 11357
+    },
+    "vendor/README.md": {
+      "sha256": "1636682ec2724075d72451d76f6106f6716c7486628fbbe8adead26bb3b2bac3",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_zoo/47534e27c9851bb1128ccc0102f1145e27f23f98/models/facial_expression_recognition/README.md",
+      "bytes": 2417
+    },
+    "models/facial_expression_recognition_mobilefacenet_2022july.onnx": {
+      "sha256": "4f61307602fc089ce20488a31d4e4614e3c9753a7d6c41578c854858b183e1a9",
+      "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/47534e27c9851bb1128ccc0102f1145e27f23f98/models/facial_expression_recognition/facial_expression_recognition_mobilefacenet_2022july.onnx",
+      "bytes": 4791892
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "feature_hashes_checked": 100,
+  "clips": 100,
+  "source_groups": 37,
+  "outer_group_leakage": false,
+  "all_clips_tested_exactly_once": true,
+  "baseline_and_metrics_recomputed": true
+}

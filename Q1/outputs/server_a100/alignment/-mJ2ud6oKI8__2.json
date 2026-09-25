@@ -1,0 +1,195 @@
+{
+  "sample_id": "-mJ2ud6oKI8__2",
+  "text": "So physical therapists and chiropractors will do joint manipulations and mobilizations",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "SO",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        1
+      ]
+    },
+    {
+      "text": "physical",
+      "char_start": 3,
+      "char_end": 11,
+      "normalized": "PHYSICAL",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        2
+      ]
+    },
+    {
+      "text": "therapists",
+      "char_start": 12,
+      "char_end": 22,
+      "normalized": "THERAPISTS",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        3,
+        4
+      ]
+    },
+    {
+      "text": "and",
+      "char_start": 23,
+      "char_end": 26,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        5
+      ]
+    },
+    {
+      "text": "chiropractors",
+      "char_start": 27,
+      "char_end": 40,
+      "normalized": "CHIROPRACTORS",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "text": "will",
+      "char_start": 41,
+      "char_end": 45,
+      "normalized": "WILL",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        10
+      ]
+    },
+    {
+      "text": "do",
+      "char_start": 46,
+      "char_end": 48,
+      "normalized": "DO",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        11
+      ]
+    },
+    {
+      "text": "joint",
+      "char_start": 49,
+      "char_end": 54,
+      "normalized": "JOINT",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        12
+      ]
+    },
+    {
+      "text": "manipulations",
+      "char_start": 55,
+      "char_end": 68,
+      "normalized": "MANIPULATIONS",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        13,
+        14
+      ]
+    },
+    {
+      "text": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        15
+      ]
+    },
+    {
+      "text": "mobilizations",
+      "char_start": 73,
+      "char_end": 86,
+      "normalized": "MOBILIZATIONS",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "audio_all_zero",
+      "token_indices": [
+        16,
+        17
+      ]
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 5.731,
+    "video_start_s": 0.0,
+    "video_end_s": 5.7057,
+    "video_frame_count": 171,
+    "video_average_fps": 29.97002997002997,
+    "audio_start_s": 0.0,
+    "audio_end_s": 5.7016875,
+    "audio_samples": 91227,
+    "audio_gap_samples": 0,
+    "audio_all_zero": true,
+    "audio_nonzero_samples": 0,
+    "audio_peak": 0.0,
+    "audio_rms": 0.0
+  }
+}

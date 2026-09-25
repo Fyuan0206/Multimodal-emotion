@@ -1,0 +1,33 @@
+{
+  "sample_id": "-HwX2H8Z4hY__5",
+  "source_fingerprint": "d6a660400d597fcc6c176bcb65c83243bc01b9f1e8d1e7547dee7ddea512bdcd",
+  "status": "extracted_unreviewed",
+  "seconds": 1.9306507958099246,
+  "word_count": 10,
+  "aligned_words": 9,
+  "word_coverage": 0.9,
+  "low_score_words": 1,
+  "audio_fallback_words": 1,
+  "vision_fallback_words": 0,
+  "face_detection_rate": 1.0,
+  "uniform_length": 84,
+  "token_count": 12,
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 5.652995,
+    "video_start_s": 0.0,
+    "video_end_s": 5.633333333333333,
+    "video_frame_count": 168,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 5.5440625,
+    "audio_samples": 88705,
+    "audio_gap_samples": 0
+  },
+  "npz_bytes": 57941,
+  "human_boundary_validation": "pending",
+  "artifact_sha256": {
+    "features": "478869eaf473e1d6eff34db3d2877a3c1a4f34ac7390aebc62abedad3a06646c",
+    "alignment": "f3d302496d651f4931e953e7434c3f20775885ca72ec04b4f9355177aeb6fa09"
+  }
+}

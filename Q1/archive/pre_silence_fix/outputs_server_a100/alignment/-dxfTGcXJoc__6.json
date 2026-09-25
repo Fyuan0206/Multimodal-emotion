@@ -1,0 +1,899 @@
+{
+  "sample_id": "-dxfTGcXJoc__6",
+  "text": "Kentucky’s participation at the annual BIO International Convention is the primary means by which our high-tech companies and institutions can reach out to the global scientific community.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "Kentucky’s",
+      "char_start": 0,
+      "char_end": 10,
+      "normalized": "KENTUCKYS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.4225,
+      "end": 0.9225,
+      "score": 0.9937608242034912,
+      "token_indices": [
+        1,
+        2,
+        3
+      ],
+      "audio_indices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "vision_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "participation",
+      "char_start": 11,
+      "char_end": 24,
+      "normalized": "PARTICIPATION",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.9825,
+      "end": 1.7825,
+      "score": 0.9939560890197754,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "vision_indices": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "at",
+      "char_start": 25,
+      "char_end": 27,
+      "normalized": "AT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9025,
+      "end": 1.9425,
+      "score": 0.9988827109336853,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        38
+      ],
+      "vision_indices": [
+        29
+      ],
+      "audio_fallback": true,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.022499999999999742,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 28,
+      "char_end": 31,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.0025,
+      "end": 2.1225,
+      "score": 0.9119382500648499,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        41,
+        42
+      ],
+      "vision_indices": [
+        31
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "annual",
+      "char_start": 32,
+      "char_end": 38,
+      "normalized": "ANNUAL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.3425,
+      "end": 2.6425,
+      "score": 0.9331923723220825,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "vision_indices": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "BIO",
+      "char_start": 39,
+      "char_end": 42,
+      "normalized": "BIO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.7425,
+      "end": 2.9625,
+      "score": 0.09420043975114822,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "vision_indices": [
+        42,
+        43,
+        44
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "International",
+      "char_start": 43,
+      "char_end": 56,
+      "normalized": "INTERNATIONAL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.1625,
+      "end": 3.7225,
+      "score": 0.9628115892410278,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "vision_indices": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Convention",
+      "char_start": 57,
+      "char_end": 67,
+      "normalized": "CONVENTION",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.7825,
+      "end": 4.2625,
+      "score": 0.9536354541778564,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "vision_indices": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 68,
+      "char_end": 70,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.8625,
+      "end": 4.9225,
+      "score": 0.9975564479827881,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        98
+      ],
+      "vision_indices": [
+        73
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 71,
+      "char_end": 74,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.0425,
+      "end": 5.1225,
+      "score": 0.9997302889823914,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        101,
+        102
+      ],
+      "vision_indices": [
+        76
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "primary",
+      "char_start": 75,
+      "char_end": 82,
+      "normalized": "PRIMARY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.2025,
+      "end": 5.7025,
+      "score": 0.9718238115310669,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "vision_indices": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "means",
+      "char_start": 83,
+      "char_end": 88,
+      "normalized": "MEANS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.8025,
+      "end": 6.1625,
+      "score": 0.9410320520401001,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123
+      ],
+      "vision_indices": [
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "by",
+      "char_start": 89,
+      "char_end": 91,
+      "normalized": "BY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.2625,
+      "end": 6.3825,
+      "score": 0.9999783039093018,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        126,
+        127
+      ],
+      "vision_indices": [
+        94,
+        95
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "which",
+      "char_start": 92,
+      "char_end": 97,
+      "normalized": "WHICH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.4825,
+      "end": 6.7025,
+      "score": 0.9947736859321594,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "vision_indices": [
+        98,
+        99,
+        100
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "our",
+      "char_start": 98,
+      "char_end": 101,
+      "normalized": "OUR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.0025,
+      "end": 7.1225,
+      "score": 0.936598539352417,
+      "token_indices": [
+        17
+      ],
+      "audio_indices": [
+        141,
+        142
+      ],
+      "vision_indices": [
+        106
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "high-tech",
+      "char_start": 102,
+      "char_end": 111,
+      "normalized": "HIGHTECH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.2225,
+      "end": 7.6825,
+      "score": 0.5555399060249329,
+      "token_indices": [
+        18,
+        19,
+        20
+      ],
+      "audio_indices": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153
+      ],
+      "vision_indices": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "companies",
+      "char_start": 112,
+      "char_end": 121,
+      "normalized": "COMPANIES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.7625,
+      "end": 8.2025,
+      "score": 0.9849788546562195,
+      "token_indices": [
+        21
+      ],
+      "audio_indices": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "vision_indices": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 122,
+      "char_end": 125,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.2825,
+      "end": 8.3625,
+      "score": 0.9989373087882996,
+      "token_indices": [
+        22
+      ],
+      "audio_indices": [
+        166,
+        167
+      ],
+      "vision_indices": [
+        125
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "institutions",
+      "char_start": 126,
+      "char_end": 138,
+      "normalized": "INSTITUTIONS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.4225,
+      "end": 9.1425,
+      "score": 0.9745616912841797,
+      "token_indices": [
+        23
+      ],
+      "audio_indices": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "vision_indices": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "can",
+      "char_start": 139,
+      "char_end": 142,
+      "normalized": "CAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.3625,
+      "end": 9.5025,
+      "score": 0.9806336164474487,
+      "token_indices": [
+        24
+      ],
+      "audio_indices": [
+        188,
+        189,
+        190
+      ],
+      "vision_indices": [
+        141,
+        142
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "reach",
+      "char_start": 143,
+      "char_end": 148,
+      "normalized": "REACH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.6225,
+      "end": 9.8425,
+      "score": 0.9891608357429504,
+      "token_indices": [
+        25
+      ],
+      "audio_indices": [
+        193,
+        194,
+        195,
+        196
+      ],
+      "vision_indices": [
+        145,
+        146,
+        147
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "out",
+      "char_start": 149,
+      "char_end": 152,
+      "normalized": "OUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.0025,
+      "end": 10.1225,
+      "score": 0.9659780859947205,
+      "token_indices": [
+        26
+      ],
+      "audio_indices": [
+        201,
+        202
+      ],
+      "vision_indices": [
+        151
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 153,
+      "char_end": 155,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.2625,
+      "end": 10.3425,
+      "score": 0.9993124008178711,
+      "token_indices": [
+        27
+      ],
+      "audio_indices": [
+        206
+      ],
+      "vision_indices": [
+        154,
+        155
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 156,
+      "char_end": 159,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.4225,
+      "end": 10.4825,
+      "score": 0.9992901682853699,
+      "token_indices": [
+        28
+      ],
+      "audio_indices": [
+        209
+      ],
+      "vision_indices": [
+        157
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "global",
+      "char_start": 160,
+      "char_end": 166,
+      "normalized": "GLOBAL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.5425,
+      "end": 10.9025,
+      "score": 0.9932146072387695,
+      "token_indices": [
+        29
+      ],
+      "audio_indices": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "vision_indices": [
+        159,
+        160,
+        161,
+        162,
+        163
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "scientific",
+      "char_start": 167,
+      "char_end": 177,
+      "normalized": "SCIENTIFIC",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.9825,
+      "end": 11.5225,
+      "score": 0.9323890209197998,
+      "token_indices": [
+        30
+      ],
+      "audio_indices": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "vision_indices": [
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "community.",
+      "char_start": 178,
+      "char_end": 188,
+      "normalized": "COMMUNITY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 11.6025,
+      "end": 12.0625,
+      "score": 0.9812199473381042,
+      "token_indices": [
+        31,
+        32
+      ],
+      "audio_indices": [
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241
+      ],
+      "vision_indices": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 12.735026,
+    "video_start_s": 0.0,
+    "video_end_s": 12.733333333333333,
+    "video_frame_count": 381,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 12.6284375,
+    "audio_samples": 202055,
+    "audio_gap_samples": 0
+  }
+}

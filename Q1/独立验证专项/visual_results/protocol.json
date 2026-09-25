@@ -1,0 +1,19 @@
+{
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "alphas": [
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "selection": "negative MAE; inner GroupKFold",
+  "group": "video_id",
+  "bootstrap_seed": 20260925,
+  "bootstrap_repetitions": 2000,
+  "target": "provided continuous sentiment label, not facial emotion ground truth",
+  "missing": "zero summary plus detection fraction; keep all clips",
+  "primary": "vision15 versus training-median baseline",
+  "uncertainty": "descriptive source-video cluster bootstrap of fixed OOF predictions; not full retraining CI"
+}

@@ -1,0 +1,256 @@
+{
+  "sample_id": "-iRBcNs9oI8__3",
+  "text": "Well, it is the secret of power pose",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "Well,",
+      "char_start": 0,
+      "char_end": 5,
+      "normalized": "WELL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.9025,
+      "end": 1.0425,
+      "score": 0.003478812985122204,
+      "token_indices": [
+        1,
+        2
+      ],
+      "audio_indices": [
+        19,
+        20
+      ],
+      "vision_indices": [
+        14,
+        15
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "it",
+      "char_start": 6,
+      "char_end": 8,
+      "normalized": "IT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.2225,
+      "end": 1.2625,
+      "score": 2.775845496216789e-05,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        25
+      ],
+      "vision_indices": [
+        19
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.02543333333333342
+    },
+    {
+      "text": "is",
+      "char_start": 9,
+      "char_end": 11,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9825,
+      "end": 2.0225,
+      "score": 8.75235054991208e-05,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        40
+      ],
+      "vision_indices": [
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 12,
+      "char_end": 15,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.2825,
+      "end": 2.4225,
+      "score": 0.05116705968976021,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        46,
+        47,
+        48
+      ],
+      "vision_indices": [
+        35,
+        36
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "secret",
+      "char_start": 16,
+      "char_end": 22,
+      "normalized": "SECRET",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.3225,
+      "end": 3.6225,
+      "score": 0.0029166825115680695,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "vision_indices": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "of",
+      "char_start": 23,
+      "char_end": 25,
+      "normalized": "OF",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.8425,
+      "end": 3.9825,
+      "score": 0.964945912361145,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        77,
+        78,
+        79
+      ],
+      "vision_indices": [
+        58,
+        59
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "power",
+      "char_start": 26,
+      "char_end": 31,
+      "normalized": "POWER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.4025,
+      "end": 4.9425,
+      "score": 0.003394653555005789,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "vision_indices": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "pose",
+      "char_start": 32,
+      "char_end": 36,
+      "normalized": "POSE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.1025,
+      "end": 5.4425,
+      "score": 0.00010525160905672237,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "vision_indices": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 5.621,
+    "video_start_s": 0.0,
+    "video_end_s": 5.6056,
+    "video_frame_count": 167,
+    "video_average_fps": 29.97002997002997,
+    "audio_start_s": 0.0,
+    "audio_end_s": 5.53825,
+    "audio_samples": 88612,
+    "audio_gap_samples": 0
+  }
+}

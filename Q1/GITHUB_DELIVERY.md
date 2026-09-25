@@ -1,0 +1,9 @@
+# GitHub交付范围
+
+本目录为Q1静音修正版代码及可检查结果。正式EPS在figures/server_a100，04为Excel表。状态和证据限制以FINAL_STATUS.md为准。
+
+仓库不包含私钥、虚拟环境、预训练权重、原始音视频及重复压缩包。历史来源NPZ保留供补充实验哈希复核；历史目录不作为当前模型输出。选定运行日志仅作为运行证据。
+
+复现前需按README准备附件1数据和models/manifest.json所列权重，安装对应环境。视觉增强模型的下载地址与哈希在视觉增强专项/model_sources.json。回听页面依赖的音频未公开上传，需从原数据运行scripts/build_audible_review.py生成。服务器脚本中的用户路径需按自己的部署位置修改。
+
+模型辅助复核是机器证据，不是人工真值。论文正文没有包含在本次提交中。Q1_A100_results.receipt.json描述本机完整归档包，该ZIP未上传GitHub。

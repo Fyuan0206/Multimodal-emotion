@@ -1,0 +1,359 @@
+{
+  "sample_id": "-s9qJ7ATP7w__8",
+  "text": "\" And I said, \"Oh, make a profit, and all these other things",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "\"",
+      "char_start": 0,
+      "char_end": 1,
+      "normalized": "",
+      "unsupported": "",
+      "aligned": false,
+      "start": null,
+      "end": null,
+      "score": null,
+      "reason": "unsupported_characters_or_no_letters",
+      "token_indices": [
+        1
+      ]
+    },
+    {
+      "text": "And",
+      "char_start": 2,
+      "char_end": 5,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5225,
+      "end": 0.6025,
+      "score": 0.7834389209747314,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        11,
+        12
+      ],
+      "vision_indices": [
+        8,
+        9
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "I",
+      "char_start": 6,
+      "char_end": 7,
+      "normalized": "I",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.6625,
+      "end": 0.6825,
+      "score": 0.9817817211151123,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        13
+      ],
+      "vision_indices": [
+        10
+      ],
+      "audio_fallback": true,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.022499999999999964,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "said,",
+      "char_start": 8,
+      "char_end": 13,
+      "normalized": "SAID",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.7825,
+      "end": 0.9025,
+      "score": 0.2234683632850647,
+      "token_indices": [
+        4,
+        5
+      ],
+      "audio_indices": [
+        16,
+        17,
+        18
+      ],
+      "vision_indices": [
+        12,
+        13
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "\"Oh,",
+      "char_start": 14,
+      "char_end": 18,
+      "normalized": "OH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.9825,
+      "end": 1.0625,
+      "score": 0.4239680767059326,
+      "token_indices": [
+        6,
+        7,
+        8
+      ],
+      "audio_indices": [
+        20,
+        21
+      ],
+      "vision_indices": [
+        15
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "make",
+      "char_start": 19,
+      "char_end": 23,
+      "normalized": "MAKE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.1825,
+      "end": 1.2825,
+      "score": 0.9960461854934692,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        24,
+        25
+      ],
+      "vision_indices": [
+        18,
+        19
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 24,
+      "char_end": 25,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.3425,
+      "end": 1.3625,
+      "score": 0.974093496799469,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        27
+      ],
+      "vision_indices": [
+        20
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.019166666666666776
+    },
+    {
+      "text": "profit,",
+      "char_start": 26,
+      "char_end": 33,
+      "normalized": "PROFIT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4225,
+      "end": 1.8625,
+      "score": 0.9615271091461182,
+      "token_indices": [
+        11,
+        12
+      ],
+      "audio_indices": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "vision_indices": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 34,
+      "char_end": 37,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9025,
+      "end": 1.9625,
+      "score": 0.9779248833656311,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        39
+      ],
+      "vision_indices": [
+        29
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "all",
+      "char_start": 38,
+      "char_end": 41,
+      "normalized": "ALL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9825,
+      "end": 2.0625,
+      "score": 0.767600417137146,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        40,
+        41
+      ],
+      "vision_indices": [
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "these",
+      "char_start": 42,
+      "char_end": 47,
+      "normalized": "THESE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.0825,
+      "end": 2.1825,
+      "score": 0.9947291016578674,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        42,
+        43
+      ],
+      "vision_indices": [
+        32
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "other",
+      "char_start": 48,
+      "char_end": 53,
+      "normalized": "OTHER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.2425,
+      "end": 2.4025,
+      "score": 0.9530272483825684,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "vision_indices": [
+        34,
+        35,
+        36
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "things",
+      "char_start": 54,
+      "char_end": 60,
+      "normalized": "THINGS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.4625,
+      "end": 2.6425,
+      "score": 0.9453011155128479,
+      "token_indices": [
+        17
+      ],
+      "audio_indices": [
+        50,
+        51,
+        52
+      ],
+      "vision_indices": [
+        37,
+        38,
+        39
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 3.294987,
+    "video_start_s": 0.0,
+    "video_end_s": 3.2666666666666666,
+    "video_frame_count": 97,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 3.18425,
+    "audio_samples": 50948,
+    "audio_gap_samples": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "total": 100,
+  "all_zero_count": 2,
+  "all_zero_sample_ids": [
+    "-mJ2ud6oKI8__1",
+    "-mJ2ud6oKI8__2"
+  ],
+  "meaning": "Decoded digital silence; forced alignment times are unsupported by audible speech",
+  "video1_copy_matches_original": true,
+  "video2_copy_matches_original": true
+}

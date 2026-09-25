@@ -1,0 +1,6 @@
+# Optional local figure audits; separate from extraction runtime.
+# Installed Nature Figure and ModelViz skills are also required.
+pymupdf==1.28.2
+langchain-core==1.6.4
+pydantic==2.13.5
+PyYAML==6.0.3

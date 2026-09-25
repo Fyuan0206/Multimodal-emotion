@@ -1,0 +1,16 @@
+source,sample_id,index,reason,start,end
+ASR,-s9qJ7ATP7w__7,28,invalid_or_zero_duration,6.8,6.8
+ASR,-yRb-Jum7EQ__5,1,invalid_or_zero_duration,0.24,0.24
+ASR,-yRb-Jum7EQ__5,7,invalid_or_zero_duration,3.54,3.54
+ASR,-yRb-Jum7EQ__5,31,invalid_or_zero_duration,10.22,10.22
+ASR,-yRb-Jum7EQ__5,33,invalid_or_zero_duration,10.66,10.66
+ASR,-yRb-Jum7EQ__1,1,invalid_or_zero_duration,5.2,5.2
+ASR,-yRb-Jum7EQ__1,2,invalid_or_zero_duration,5.2,5.2
+ASR,-yRb-Jum7EQ__1,3,invalid_or_zero_duration,5.2,5.2
+ASR,-yRb-Jum7EQ__1,4,invalid_or_zero_duration,5.2,5.2
+ASR,-yRb-Jum7EQ__1,10,invalid_or_zero_duration,9.88,9.88
+ASR,-yRb-Jum7EQ__1,11,invalid_or_zero_duration,9.88,9.88
+ASR,-yRb-Jum7EQ__1,12,invalid_or_zero_duration,9.88,9.88
+ASR,-yRb-Jum7EQ__1,18,invalid_or_zero_duration,13.68,13.68
+ASR,-yRb-Jum7EQ__1,19,invalid_or_zero_duration,13.68,13.68
+ASR,-yRb-Jum7EQ__1,36,invalid_or_zero_duration,24.44,24.44

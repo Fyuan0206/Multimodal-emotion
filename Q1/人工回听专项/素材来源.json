@@ -1,0 +1,20 @@
+[
+  {
+    "sample_id": "-mJ2ud6oKI8__1",
+    "file": "素材/视频1.mp4",
+    "text": "There are a dozen or more hands on techniques that we can do",
+    "duration": 6.103,
+    "audio_end": 6.0545,
+    "focus_window": "0.30–5.70",
+    "sha256": "c8e3acb4ca08679796c4c8cdfcd8c2b3cffc0465015efaffa1eccdb55ff4f45b"
+  },
+  {
+    "sample_id": "-mJ2ud6oKI8__2",
+    "file": "素材/视频2.mp4",
+    "text": "So physical therapists and chiropractors will do joint manipulations and mobilizations",
+    "duration": 5.731,
+    "audio_end": 5.7016875,
+    "focus_window": "0.20–5.10",
+    "sha256": "c41790f8b75f886bd1f5d6d72cbab1985306d0b715e5ae47203f3d0c8a3e7b28"
+  }
+]

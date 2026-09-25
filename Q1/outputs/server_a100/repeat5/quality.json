@@ -1,0 +1,10 @@
+{
+  "input_samples": 100,
+  "extracted_samples": 5,
+  "summary_rows": 15,
+  "failed_samples": [],
+  "uniform_length": 84,
+  "human_validation": "pending",
+  "total_npz_bytes": 563053,
+  "global_word_coverage": 1.0
+}

@@ -1,0 +1,279 @@
+{
+  "sample_id": "-UuX1xuaiiE__3",
+  "text": "My goal is to become a human rights lawyer",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "My",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "MY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5625,
+      "end": 0.6425,
+      "score": 0.9930943846702576,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        12
+      ],
+      "vision_indices": [
+        9
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "goal",
+      "char_start": 3,
+      "char_end": 7,
+      "normalized": "GOAL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.7025,
+      "end": 0.9825,
+      "score": 0.9479960203170776,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "vision_indices": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 8,
+      "char_end": 10,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.2425,
+      "end": 1.3025,
+      "score": 0.9940046072006226,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        25,
+        26
+      ],
+      "vision_indices": [
+        19
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 11,
+      "char_end": 13,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4625,
+      "end": 1.5825,
+      "score": 0.16568395495414734,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        30,
+        31
+      ],
+      "vision_indices": [
+        22,
+        23
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "become",
+      "char_start": 14,
+      "char_end": 20,
+      "normalized": "BECOME",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.7225,
+      "end": 2.0425,
+      "score": 0.9069912433624268,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "vision_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 21,
+      "char_end": 22,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.6225,
+      "end": 2.6425,
+      "score": 0.9628076553344727,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        53
+      ],
+      "vision_indices": [
+        39
+      ],
+      "audio_fallback": true,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.01750000000000007,
+      "vision_fallback_distance_s": 0.032500000000000195
+    },
+    {
+      "text": "human",
+      "char_start": 23,
+      "char_end": 28,
+      "normalized": "HUMAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.6825,
+      "end": 2.9025,
+      "score": 0.9312780499458313,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "vision_indices": [
+        41,
+        42,
+        43
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "rights",
+      "char_start": 29,
+      "char_end": 35,
+      "normalized": "RIGHTS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.9425,
+      "end": 3.1625,
+      "score": 0.9194384813308716,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "vision_indices": [
+        45,
+        46,
+        47
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "lawyer",
+      "char_start": 36,
+      "char_end": 42,
+      "normalized": "LAWYER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.2425,
+      "end": 3.6425,
+      "score": 0.06546980142593384,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "vision_indices": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 4.130013,
+    "video_start_s": 0.0,
+    "video_end_s": 4.1,
+    "video_frame_count": 123,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 4.038375,
+    "audio_samples": 64614,
+    "audio_gap_samples": 0
+  }
+}

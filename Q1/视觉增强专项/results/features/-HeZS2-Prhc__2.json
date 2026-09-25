@@ -1,0 +1,14 @@
+{
+  "sample_id": "-HeZS2-Prhc__2",
+  "fingerprint": {
+    "source_sha256": "edb0fa22fdfbd990c8174764af78670bd2ecad799240d35d96a1124a3cd9dc0c",
+    "original_features_sha256": "112f0061f147a01f068b6d7440a1a8bf6770bba0252eafe51469f05903e2ec93",
+    "model_sha256": "4f61307602fc089ce20488a31d4e4614e3c9753a7d6c41578c854858b183e1a9",
+    "extractor_sha256": "e9e2c01b0155cf91e65d2c15dc510b3ce239a1bb09dfd48e60664fb8b24056d8",
+    "vendor_sha256": "81e7664748753329930117ad83fbf245ac31bacc5fa3eb5bd25efd6528fa4104"
+  },
+  "frames": 124,
+  "valid_frames": 124,
+  "output_sha256": "9aade320ad33dd587f549743e734a287ffe3226f8ae8626c82d04feec805963f",
+  "score_semantics": "raw seven-class pretrained-model scores; not human emotion labels"
+}

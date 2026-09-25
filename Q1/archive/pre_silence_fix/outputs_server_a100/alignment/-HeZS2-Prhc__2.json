@@ -1,0 +1,507 @@
+{
+  "sample_id": "-HeZS2-Prhc__2",
+  "text": "The August jobs report is out and it was seen overall as solid but not great.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "The",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.1425,
+      "end": 0.4025,
+      "score": 0.0013047545216977596,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "vision_indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "August",
+      "char_start": 4,
+      "char_end": 10,
+      "normalized": "AUGUST",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9425,
+      "end": 2.2025,
+      "score": 0.9249223470687866,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "vision_indices": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "jobs",
+      "char_start": 11,
+      "char_end": 15,
+      "normalized": "JOBS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.3225,
+      "end": 2.6225,
+      "score": 0.9663599133491516,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "vision_indices": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "report",
+      "char_start": 16,
+      "char_end": 22,
+      "normalized": "REPORT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.6825,
+      "end": 2.9825,
+      "score": 0.9772595167160034,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "vision_indices": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 23,
+      "char_end": 25,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.0625,
+      "end": 3.1425,
+      "score": 0.27760711312294006,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        62
+      ],
+      "vision_indices": [
+        46,
+        47
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "out",
+      "char_start": 26,
+      "char_end": 29,
+      "normalized": "OUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.3225,
+      "end": 3.4225,
+      "score": 0.9977927207946777,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        67,
+        68
+      ],
+      "vision_indices": [
+        50,
+        51
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 30,
+      "char_end": 33,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.8625,
+      "end": 3.9825,
+      "score": 0.9530022144317627,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        78,
+        79
+      ],
+      "vision_indices": [
+        58,
+        59
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "it",
+      "char_start": 34,
+      "char_end": 36,
+      "normalized": "IT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.2025,
+      "end": 4.2425,
+      "score": 0.9947605729103088,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        84
+      ],
+      "vision_indices": [
+        63
+      ],
+      "audio_fallback": true,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.022499999999999964,
+      "vision_fallback_distance_s": 0.022499999999999964
+    },
+    {
+      "text": "was",
+      "char_start": 37,
+      "char_end": 40,
+      "normalized": "WAS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.3025,
+      "end": 4.4025,
+      "score": 0.9956207871437073,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        87,
+        88
+      ],
+      "vision_indices": [
+        65,
+        66
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "seen",
+      "char_start": 41,
+      "char_end": 45,
+      "normalized": "SEEN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.5025,
+      "end": 4.7425,
+      "score": 0.9107440114021301,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "vision_indices": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "overall",
+      "char_start": 46,
+      "char_end": 53,
+      "normalized": "OVERALL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.2625,
+      "end": 5.7225,
+      "score": 0.8960411548614502,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "vision_indices": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "as",
+      "char_start": 54,
+      "char_end": 56,
+      "normalized": "AS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.2025,
+      "end": 6.2425,
+      "score": 0.6009418964385986,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        124
+      ],
+      "vision_indices": [
+        93
+      ],
+      "audio_fallback": true,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.022499999999999964,
+      "vision_fallback_distance_s": 0.022499999999999964
+    },
+    {
+      "text": "solid",
+      "char_start": 57,
+      "char_end": 62,
+      "normalized": "SOLID",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.3825,
+      "end": 6.7225,
+      "score": 0.9086375832557678,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "vision_indices": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "but",
+      "char_start": 63,
+      "char_end": 66,
+      "normalized": "BUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.8025,
+      "end": 6.9225,
+      "score": 0.9672653079032898,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        137,
+        138
+      ],
+      "vision_indices": [
+        103
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "not",
+      "char_start": 67,
+      "char_end": 70,
+      "normalized": "NOT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.0225,
+      "end": 7.2025,
+      "score": 0.9959402680397034,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        141,
+        142,
+        143,
+        144
+      ],
+      "vision_indices": [
+        106,
+        107,
+        108
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "great.",
+      "char_start": 71,
+      "char_end": 77,
+      "normalized": "GREAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.3425,
+      "end": 8.1225,
+      "score": 0.20172861218452454,
+      "token_indices": [
+        16,
+        17
+      ],
+      "audio_indices": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "vision_indices": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 8.261979,
+    "video_start_s": 0.0,
+    "video_end_s": 8.233333333333333,
+    "video_frame_count": 246,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 8.150875,
+    "audio_samples": 130414,
+    "audio_gap_samples": 0
+  }
+}

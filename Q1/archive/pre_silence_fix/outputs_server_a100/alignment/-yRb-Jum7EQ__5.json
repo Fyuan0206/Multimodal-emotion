@@ -1,0 +1,835 @@
+{
+  "sample_id": "-yRb-Jum7EQ__5",
+  "text": "Yesterday Eliav Gelman lost his life in another terrorist attack, not by the students of terrorism, but by those who teach terrorism, a Palestinian teacher.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "Yesterday",
+      "char_start": 0,
+      "char_end": 9,
+      "normalized": "YESTERDAY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.1225,
+      "end": 0.4825,
+      "score": 0.004672588314861059,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "vision_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Eliav",
+      "char_start": 10,
+      "char_end": 15,
+      "normalized": "ELIAV",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.6625,
+      "end": 0.9225,
+      "score": 0.7519181370735168,
+      "token_indices": [
+        2,
+        3
+      ],
+      "audio_indices": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "vision_indices": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Gelman",
+      "char_start": 16,
+      "char_end": 22,
+      "normalized": "GELMAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.0225,
+      "end": 1.3825,
+      "score": 0.0815136730670929,
+      "token_indices": [
+        4,
+        5
+      ],
+      "audio_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "vision_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "lost",
+      "char_start": 23,
+      "char_end": 27,
+      "normalized": "LOST",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4825,
+      "end": 1.7425,
+      "score": 0.01459567155689001,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "vision_indices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "his",
+      "char_start": 28,
+      "char_end": 31,
+      "normalized": "HIS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.7625,
+      "end": 3.0625,
+      "score": 0.0034237897489219904,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "vision_indices": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "life",
+      "char_start": 32,
+      "char_end": 36,
+      "normalized": "LIFE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.1625,
+      "end": 3.3825,
+      "score": 0.0870690867304802,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "vision_indices": [
+        48,
+        49,
+        50
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "in",
+      "char_start": 37,
+      "char_end": 39,
+      "normalized": "IN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.7225,
+      "end": 3.7625,
+      "score": 0.025245895609259605,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        75
+      ],
+      "vision_indices": [
+        56
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "another",
+      "char_start": 40,
+      "char_end": 47,
+      "normalized": "ANOTHER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.8425,
+      "end": 4.5025,
+      "score": 0.0214474406093359,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "vision_indices": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorist",
+      "char_start": 48,
+      "char_end": 57,
+      "normalized": "TERRORIST",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.8425,
+      "end": 5.3025,
+      "score": 0.003479338949546218,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "vision_indices": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "attack,",
+      "char_start": 58,
+      "char_end": 65,
+      "normalized": "ATTACK",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.4225,
+      "end": 6.0825,
+      "score": 0.01597033254802227,
+      "token_indices": [
+        12,
+        13
+      ],
+      "audio_indices": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "vision_indices": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "not",
+      "char_start": 66,
+      "char_end": 69,
+      "normalized": "NOT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.2825,
+      "end": 6.4825,
+      "score": 0.07922666519880295,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        126,
+        127,
+        128,
+        129
+      ],
+      "vision_indices": [
+        95,
+        96,
+        97
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "by",
+      "char_start": 70,
+      "char_end": 72,
+      "normalized": "BY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.6225,
+      "end": 6.7225,
+      "score": 0.0005407242570072412,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        133,
+        134
+      ],
+      "vision_indices": [
+        100
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 73,
+      "char_end": 76,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.4225,
+      "end": 7.5225,
+      "score": 0.05058883875608444,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        149,
+        150
+      ],
+      "vision_indices": [
+        112
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "students",
+      "char_start": 77,
+      "char_end": 85,
+      "normalized": "STUDENTS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.5825,
+      "end": 8.1425,
+      "score": 0.001042483956553042,
+      "token_indices": [
+        17
+      ],
+      "audio_indices": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "vision_indices": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "of",
+      "char_start": 86,
+      "char_end": 88,
+      "normalized": "OF",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.1825,
+      "end": 8.2825,
+      "score": 0.000833782774861902,
+      "token_indices": [
+        18
+      ],
+      "audio_indices": [
+        164,
+        165
+      ],
+      "vision_indices": [
+        123,
+        124
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorism,",
+      "char_start": 89,
+      "char_end": 99,
+      "normalized": "TERRORISM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.4025,
+      "end": 8.7625,
+      "score": 0.0028591996524482965,
+      "token_indices": [
+        19,
+        20
+      ],
+      "audio_indices": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "vision_indices": [
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "but",
+      "char_start": 100,
+      "char_end": 103,
+      "normalized": "BUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.7825,
+      "end": 9.0825,
+      "score": 0.026350704953074455,
+      "token_indices": [
+        21
+      ],
+      "audio_indices": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "vision_indices": [
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "by",
+      "char_start": 104,
+      "char_end": 106,
+      "normalized": "BY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.2025,
+      "end": 9.2825,
+      "score": 0.001190324779599905,
+      "token_indices": [
+        22
+      ],
+      "audio_indices": [
+        185
+      ],
+      "vision_indices": [
+        139
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "those",
+      "char_start": 107,
+      "char_end": 112,
+      "normalized": "THOSE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.4625,
+      "end": 9.7225,
+      "score": 0.04856603592634201,
+      "token_indices": [
+        23
+      ],
+      "audio_indices": [
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "vision_indices": [
+        142,
+        143,
+        144,
+        145
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "who",
+      "char_start": 113,
+      "char_end": 116,
+      "normalized": "WHO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.8225,
+      "end": 10.0425,
+      "score": 0.015216147527098656,
+      "token_indices": [
+        24
+      ],
+      "audio_indices": [
+        197,
+        198,
+        199,
+        200
+      ],
+      "vision_indices": [
+        148,
+        149,
+        150
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "teach",
+      "char_start": 117,
+      "char_end": 122,
+      "normalized": "TEACH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.1025,
+      "end": 10.2225,
+      "score": 0.03502655401825905,
+      "token_indices": [
+        25
+      ],
+      "audio_indices": [
+        203,
+        204
+      ],
+      "vision_indices": [
+        152,
+        153
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terrorism,",
+      "char_start": 123,
+      "char_end": 133,
+      "normalized": "TERRORISM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 10.4425,
+      "end": 10.9825,
+      "score": 0.07513166964054108,
+      "token_indices": [
+        26,
+        27
+      ],
+      "audio_indices": [
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219
+      ],
+      "vision_indices": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 134,
+      "char_end": 135,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 11.1225,
+      "end": 11.1425,
+      "score": 0.022694522514939308,
+      "token_indices": [
+        28
+      ],
+      "audio_indices": [
+        223
+      ],
+      "vision_indices": [
+        167
+      ],
+      "audio_fallback": true,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.01750000000000007,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Palestinian",
+      "char_start": 136,
+      "char_end": 147,
+      "normalized": "PALESTINIAN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 11.2225,
+      "end": 11.7225,
+      "score": 0.08059688657522202,
+      "token_indices": [
+        29
+      ],
+      "audio_indices": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "vision_indices": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "teacher.",
+      "char_start": 148,
+      "char_end": 156,
+      "normalized": "TEACHER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 12.4625,
+      "end": 12.8025,
+      "score": 0.12622319161891937,
+      "token_indices": [
+        30,
+        31
+      ],
+      "audio_indices": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "vision_indices": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 13.16901,
+    "video_start_s": 0.0,
+    "video_end_s": 13.166666666666666,
+    "video_frame_count": 394,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 13.0445625,
+    "audio_samples": 208713,
+    "audio_gap_samples": 0
+  }
+}

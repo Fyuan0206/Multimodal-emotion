@@ -1,0 +1,236 @@
+cuda-12.1 loaded successful
+gcc-11.3.0 loaded successful
+2.5.1+cu121 NVIDIA A100-PCIE-40GB
+262144.0
+.....................................                                    [100%]
+37 passed in 25.20s
+{"label_rows": 100, "unique_keys": 100, "video_files": 100, "video_id_count": 37, "missing": [], "extra": []}
+Container duration range: 2.257 29.288021 seconds; total: 787.4980179999997
+Audit: 100 unique samples; uniform token length=84
+Audit: 100 unique samples; uniform token length=84
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at models/ctc and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/3] -mJ2ud6oKI8__6: 4.3s, words 5/5, face 100.0%
+[2/3] -tANM6ETl_M__3: 2.0s, words 22/22, face 100.0%
+[3/3] -yRb-Jum7EQ__1: 8.0s, words 49/49, face 100.0%
+{"input_samples": 100, "extracted_samples": 3, "summary_rows": 9, "failed_samples": [], "uniform_length": 84, "human_validation": "pending", "total_npz_bytes": 411513, "global_word_coverage": 1.0}
+Audit: 100 unique samples; uniform token length=84
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at models/ctc and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/100] -3g5yACwYnA__13: 5.1s, words 15/15, face 100.0%
+[2/100] -3g5yACwYnA__3: 3.9s, words 29/29, face 100.0%
+[3/100] -3g5yACwYnA__2: 2.7s, words 14/14, face 100.0%
+[4/100] -3g5yACwYnA__9: 2.7s, words 21/21, face 100.0%
+[5/100] -3nNcZdcdvU__5: 1.0s, words 18/18, face 99.2%
+[6/100] -HwX2H8Z4hY__2: 1.2s, words 7/8, face 31.7%
+[7/100] -HwX2H8Z4hY__5: 1.9s, words 9/10, face 100.0%
+[8/100] -HwX2H8Z4hY__6: 1.2s, words 7/7, face 92.0%
+[9/100] -HwX2H8Z4hY__9: 2.1s, words 22/22, face 1.7%
+[10/100] -NFrJFQijFE__1: 1.5s, words 16/16, face 0.0%
+[11/100] -NFrJFQijFE__2: 1.9s, words 18/18, face 0.0%
+[12/100] -THoVjtIkeU__12: 2.3s, words 39/39, face 100.0%
+[13/100] -THoVjtIkeU__2: 0.7s, words 10/10, face 100.0%
+[14/100] -THoVjtIkeU__6: 1.3s, words 30/30, face 99.2%
+[15/100] -UuX1xuaiiE__1: 2.8s, words 27/27, face 100.0%
+[16/100] -UuX1xuaiiE__0: 1.0s, words 9/9, face 100.0%
+[17/100] -UuX1xuaiiE__3: 1.6s, words 9/9, face 100.0%
+[18/100] -UuX1xuaiiE__6: 2.5s, words 22/22, face 100.0%
+[19/100] -a55Q6RWvTA__3: 2.8s, words 65/65, face 100.0%
+[20/100] -aNfi7CP8vM__7: 1.3s, words 18/18, face 100.0%
+[21/100] -aqamKhZ1Ec__0: 3.2s, words 13/14, face 100.0%
+[22/100] -dxfTGcXJoc__1: 1.9s, words 35/36, face 100.0%
+[23/100] -dxfTGcXJoc__0: 2.4s, words 38/41, face 77.9%
+[24/100] -dxfTGcXJoc__2: 2.0s, words 32/34, face 100.0%
+[25/100] -dxfTGcXJoc__6: 1.5s, words 27/27, face 100.0%
+[26/100] -egA8-b7-3M__26: 1.0s, words 15/15, face 100.0%
+[27/100] -egA8-b7-3M__17: 1.2s, words 16/16, face 100.0%
+[28/100] -egA8-b7-3M__18: 1.4s, words 22/22, face 100.0%
+[29/100] -egA8-b7-3M__16: 0.9s, words 11/11, face 98.8%
+[30/100] -egA8-b7-3M__13: 0.8s, words 11/11, face 100.0%
+[31/100] -egA8-b7-3M__1: 1.5s, words 19/20, face 100.0%
+[32/100] -egA8-b7-3M__6: 1.0s, words 12/12, face 96.8%
+[33/100] -egA8-b7-3M__9: 0.9s, words 10/10, face 100.0%
+[34/100] -egA8-b7-3M__20: 1.1s, words 20/20, face 100.0%
+[35/100] -iRBcNs9oI8__3: 1.5s, words 8/8, face 100.0%
+[36/100] -iRBcNs9oI8__7: 1.2s, words 9/9, face 100.0%
+[37/100] -iRBcNs9oI8__6: 1.1s, words 5/5, face 100.0%
+[38/100] -iRBcNs9oI8__9: 1.2s, words 5/5, face 84.3%
+[39/100] -iRBcNs9oI8__8: 2.0s, words 21/21, face 100.0%
+[40/100] -lzEya4AM_4__5: 1.1s, words 19/19, face 100.0%
+[41/100] -lzEya4AM_4__6: 2.2s, words 43/43, face 100.0%
+[42/100] -mJ2ud6oKI8__1: 1.4s, words 0/13, face 0.0%
+[43/100] -mJ2ud6oKI8__2: 1.5s, words 0/11, face 51.2%
+[44/100] -mJ2ud6oKI8__6 resumed
+[45/100] -mJ2ud6oKI8__9: 2.1s, words 22/22, face 100.0%
+[46/100] -mJ2ud6oKI8__8: 1.6s, words 11/11, face 100.0%
+[47/100] -mqbVkbCndg__0: 1.6s, words 12/12, face 99.0%
+[48/100] -t217m2on-s__2: 0.8s, words 12/12, face 100.0%
+[49/100] -t217m2on-s__7: 2.2s, words 45/45, face 100.0%
+[50/100] -tANM6ETl_M__3 resumed
+[51/100] -tPCytz4rww__11: 0.8s, words 17/17, face 100.0%
+[52/100] -tPCytz4rww__10: 0.8s, words 12/12, face 100.0%
+[53/100] -tPCytz4rww__12: 1.6s, words 26/26, face 100.0%
+[54/100] -tPCytz4rww__16: 1.0s, words 16/16, face 100.0%
+[55/100] -tPCytz4rww__18: 1.0s, words 16/16, face 100.0%
+[56/100] -vxjVxOeScU__4: 1.3s, words 21/21, face 100.0%
+[57/100] -wMB_hJL-3o__7: 0.9s, words 22/22, face 96.7%
+[58/100] -wny0OAz3g8__1: 1.9s, words 22/23, face 100.0%
+[59/100] -wny0OAz3g8__0: 0.9s, words 9/9, face 100.0%
+[60/100] -wny0OAz3g8__3: 1.9s, words 20/20, face 100.0%
+[61/100] -wny0OAz3g8__2: 2.0s, words 23/23, face 100.0%
+[62/100] -wny0OAz3g8__5: 1.9s, words 20/20, face 100.0%
+[63/100] -wny0OAz3g8__7: 2.0s, words 29/29, face 100.0%
+[64/100] -wny0OAz3g8__9: 1.9s, words 20/20, face 100.0%
+[65/100] -571d8cVauQ__0: 0.8s, words 12/12, face 96.1%
+[66/100] -571d8cVauQ__5: 2.2s, words 43/43, face 100.0%
+[67/100] -I_e4mIh0yE__1: 1.2s, words 18/18, face 100.0%
+[68/100] -I_e4mIh0yE__3: 1.3s, words 22/22, face 100.0%
+[69/100] -UacrmKiTn4__10: 1.1s, words 18/18, face 100.0%
+[70/100] -UacrmKiTn4__4: 0.7s, words 14/14, face 100.0%
+[71/100] -hnBHBN8p5A__7: 1.8s, words 13/13, face 84.5%
+[72/100] -hnBHBN8p5A__6: 1.9s, words 13/13, face 52.1%
+[73/100] -qDkUB0GgYY__6: 0.8s, words 16/16, face 100.0%
+[74/100] -uywlfIYOS8__4: 0.9s, words 18/18, face 100.0%
+[75/100] -6rXp3zJ3kc__8: 1.7s, words 34/34, face 100.0%
+[76/100] -9y-fZ3swSY__0: 1.7s, words 22/22, face 100.0%
+[77/100] -9y-fZ3swSY__4: 1.2s, words 9/9, face 100.0%
+[78/100] -9y-fZ3swSY__8: 1.7s, words 12/12, face 100.0%
+[79/100] -AUZQgSxyPQ__2: 6.3s, words 41/41, face 100.0%
+[80/100] -HeZS2-Prhc__2: 1.4s, words 16/16, face 100.0%
+[81/100] -MeTTeMJBNc__0: 1.3s, words 21/21, face 99.3%
+[82/100] -MeTTeMJBNc__13: 0.9s, words 14/14, face 100.0%
+[83/100] -MeTTeMJBNc__7: 1.5s, words 31/31, face 100.0%
+[84/100] -RfYyzHpjk4__11: 2.0s, words 17/17, face 100.0%
+[85/100] -RfYyzHpjk4__8: 2.0s, words 17/17, face 100.0%
+[86/100] -RfYyzHpjk4__2: 1.6s, words 25/25, face 100.0%
+[87/100] -UUCSKoHeMA__0: 1.2s, words 18/18, face 99.2%
+[88/100] -ri04Z7vwnc__0: 0.7s, words 8/8, face 0.0%
+[89/100] -ri04Z7vwnc__2: 1.4s, words 16/16, face 35.6%
+[90/100] -ri04Z7vwnc__5: 1.0s, words 8/9, face 100.0%
+[91/100] -s9qJ7ATP7w__1: 1.7s, words 11/11, face 100.0%
+[92/100] -s9qJ7ATP7w__0: 1.8s, words 24/24, face 100.0%
+[93/100] -s9qJ7ATP7w__5: 2.4s, words 19/19, face 100.0%
+[94/100] -s9qJ7ATP7w__4: 1.2s, words 9/9, face 69.7%
+[95/100] -s9qJ7ATP7w__7: 2.2s, words 28/28, face 74.0%
+[96/100] -s9qJ7ATP7w__6: 1.0s, words 5/5, face 81.1%
+[97/100] -s9qJ7ATP7w__8: 1.1s, words 12/13, face 100.0%
+[98/100] -yRb-Jum7EQ__1 resumed
+[99/100] -yRb-Jum7EQ__5: 3.3s, words 25/25, face 100.0%
+[100/100] -yRb-Jum7EQ__6: 3.1s, words 19/19, face 100.0%
+{"input_samples": 100, "extracted_samples": 100, "summary_rows": 300, "failed_samples": [], "uniform_length": 84, "human_validation": "pending", "total_npz_bytes": 10284801, "global_word_coverage": 0.9808488612836439}
+{
+  "samples_checked": 100,
+  "modality_rows": 300,
+  "shape_finiteness_padding_and_time_checks": "passed",
+  "pooled_features_recomputed": "passed",
+  "total_words": 1932,
+  "aligned_words": 1895,
+  "automatic_word_coverage": 0.9808488612836439,
+  "unaligned_words": 37,
+  "low_ctc_score_words": 360,
+  "digital_silent_clips": 2,
+  "digital_silent_words": 24,
+  "human_boundary_accuracy": "see human_review_metrics.json; automatic checks do not measure boundary accuracy",
+  "human_review_sample_ids": [
+    "-mJ2ud6oKI8__6",
+    "-HwX2H8Z4hY__2",
+    "-s9qJ7ATP7w__1",
+    "-iRBcNs9oI8__3",
+    "-hnBHBN8p5A__6",
+    "-s9qJ7ATP7w__7",
+    "-wny0OAz3g8__7",
+    "-I_e4mIh0yE__3",
+    "-yRb-Jum7EQ__5",
+    "-yRb-Jum7EQ__1"
+  ],
+  "face_detection_rate_mean": 0.9119945083214108,
+  "zero_face_clips": 4,
+  "audio_gap_samples": 0,
+  "total_extraction_seconds": 176.2485114261508,
+  "max_audio_video_end_offset_s": 0.17435416666666725
+}
+Audit: 100 unique samples; uniform token length=84
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at models/ctc and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/5] -3g5yACwYnA__13: 5.2s, words 15/15, face 100.0%
+[2/5] -3g5yACwYnA__3: 3.9s, words 29/29, face 100.0%
+[3/5] -3g5yACwYnA__2: 2.7s, words 14/14, face 100.0%
+[4/5] -3g5yACwYnA__9: 2.7s, words 21/21, face 100.0%
+[5/5] -3nNcZdcdvU__5: 1.0s, words 18/18, face 99.2%
+{"input_samples": 100, "extracted_samples": 5, "summary_rows": 15, "failed_samples": [], "uniform_length": 84, "human_validation": "pending", "total_npz_bytes": 563053, "global_word_coverage": 1.0}
+{
+  "repeat_samples": 5,
+  "all_arrays_identical": true,
+  "samples": [
+    {
+      "sample_id": "-3g5yACwYnA__13",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3g5yACwYnA__2",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3g5yACwYnA__3",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3g5yACwYnA__9",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "sample_id": "-3nNcZdcdvU__5",
+      "exact_array_equality": true,
+      "max_absolute_difference": 0.0
+    }
+  ]
+}
+{
+  "reference_rows": 0,
+  "total_review_rows": 198,
+  "status": "pending"
+}
+Figures saved to figures/server_a100; native table saved to outputs/server_a100
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 310.20it/s]
+
+
+
+============ Job 1529268 Performance Details ============
+JobID: 1529268
+User: scx6706
+Nodes、GPU: paraai-n32-h-01-agent-147: 2
+Time Range: 2026-09-25 10:39:07 - 2026-09-25 10:44:33
+Running time: 0d0H5M26S
+GPU Util: 0.95 %
+GMem Util: 2.60 %
+GMemBW Util: 0.27 %
+Tensor Core Util: 0 %
+Tensor IMMA Util: N/A
+Tensor HMMA Util: N/A
+Tensor DFMA Util: N/A
+FP64 Util: 0 %
+FP32 Util: 0.28 %
+FP16 Util: 0 %
+GPCIE RX: 936.02 KB/s
+GPCIE TX: 280.71 KB/s
+GNVLINK: N/A
+GPU Power: 37.57 W
+GPU Temperature: 34.05 °C
+
+Additional Performance Data:
+--- flops performance(avg to single card) ---
+|- fp64: 0 TFlops
+|- fp32: 0 TFlops
+> |- GMEMBW/F: 143,938 B/MF
+> |- NVLINK/F: No Data
+> |- IB_TX/F: No Data
+> |- IB_RX/F: No Data
+> |- PCIE_TX/F: 9 B/MF
+> |- PCIE_RX/F: 30 B/MF
+|- fp16: 0 TFlops
+|- tensor: 0 TFlops
+=========================================================

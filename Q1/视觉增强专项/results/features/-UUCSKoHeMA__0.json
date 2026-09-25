@@ -1,0 +1,14 @@
+{
+  "sample_id": "-UUCSKoHeMA__0",
+  "fingerprint": {
+    "source_sha256": "3f9792888ec8e969f61cfb6cb4de7bdf7ef8944afe0a9d2a9d13586e1f13b898",
+    "original_features_sha256": "61db4c88b5b814c7b73aeb87f7fda68c0e89b6ac2ae620aed23e70d25fe885f1",
+    "model_sha256": "4f61307602fc089ce20488a31d4e4614e3c9753a7d6c41578c854858b183e1a9",
+    "extractor_sha256": "e9e2c01b0155cf91e65d2c15dc510b3ce239a1bb09dfd48e60664fb8b24056d8",
+    "vendor_sha256": "81e7664748753329930117ad83fbf245ac31bacc5fa3eb5bd25efd6528fa4104"
+  },
+  "frames": 118,
+  "valid_frames": 117,
+  "output_sha256": "5ea3f79545ecc15aec87f6e9685e7b1e95208d40ed840c082497bb5e10b10380",
+  "score_semantics": "raw seven-class pretrained-model scores; not human emotion labels"
+}

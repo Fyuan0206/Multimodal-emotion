@@ -1,0 +1,344 @@
+{
+  "sample_id": "-s9qJ7ATP7w__1",
+  "text": "But the hardest thing in life to learn, is to lose",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "But",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "BUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5425,
+      "end": 0.8425,
+      "score": 0.02141311578452587,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "vision_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 4,
+      "char_end": 7,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.3625,
+      "end": 1.4225,
+      "score": 0.9709285497665405,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        28
+      ],
+      "vision_indices": [
+        21
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "hardest",
+      "char_start": 8,
+      "char_end": 15,
+      "normalized": "HARDEST",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4825,
+      "end": 1.7425,
+      "score": 0.9454530477523804,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "vision_indices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "thing",
+      "char_start": 16,
+      "char_end": 21,
+      "normalized": "THING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.7625,
+      "end": 1.8825,
+      "score": 0.9994314908981323,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        36,
+        37
+      ],
+      "vision_indices": [
+        27,
+        28
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "in",
+      "char_start": 22,
+      "char_end": 24,
+      "normalized": "IN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.9425,
+      "end": 1.9825,
+      "score": 0.9909675121307373,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        39
+      ],
+      "vision_indices": [
+        29
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.029166666666666563
+    },
+    {
+      "text": "life",
+      "char_start": 25,
+      "char_end": 29,
+      "normalized": "LIFE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.0225,
+      "end": 2.1625,
+      "score": 0.9786604642868042,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        41,
+        42,
+        43
+      ],
+      "vision_indices": [
+        31,
+        32
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 30,
+      "char_end": 32,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.2025,
+      "end": 2.2625,
+      "score": 0.8223034143447876,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        45
+      ],
+      "vision_indices": [
+        33
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.03249999999999975
+    },
+    {
+      "text": "learn,",
+      "char_start": 33,
+      "char_end": 39,
+      "normalized": "LEARN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.3225,
+      "end": 2.5425,
+      "score": 0.9231669902801514,
+      "token_indices": [
+        8,
+        9
+      ],
+      "audio_indices": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "vision_indices": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 40,
+      "char_end": 42,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.1425,
+      "end": 3.2025,
+      "score": 0.7939704060554504,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        63,
+        64
+      ],
+      "vision_indices": [
+        48
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 43,
+      "char_end": 45,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.2625,
+      "end": 3.3425,
+      "score": 0.8368681073188782,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        66
+      ],
+      "vision_indices": [
+        49,
+        50
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "lose",
+      "char_start": 46,
+      "char_end": 50,
+      "normalized": "LOSE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.4025,
+      "end": 4.2625,
+      "score": 0.6045904159545898,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "vision_indices": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 4.791992,
+    "video_start_s": 0.0,
+    "video_end_s": 4.766666666666667,
+    "video_frame_count": 140,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 4.6438125,
+    "audio_samples": 74301,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 74301,
+    "audio_peak": 1.338340401649475,
+    "audio_rms": 0.11926624038524505
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "sample_id": "-t217m2on-s__2",
+  "text": "But a good thing to do is yawning, chewing gum is effective.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "But",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "BUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5225,
+      "end": 0.7025,
+      "score": 0.02880210615694523,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "vision_indices": [
+        8,
+        9,
+        10
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 4,
+      "char_end": 5,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.9225,
+      "end": 0.9425,
+      "score": 0.9656715393066406,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        19
+      ],
+      "vision_indices": [
+        14
+      ],
+      "audio_fallback": true,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.01750000000000007,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "good",
+      "char_start": 6,
+      "char_end": 10,
+      "normalized": "GOOD",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4425,
+      "end": 1.5825,
+      "score": 0.9193488359451294,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        29,
+        30,
+        31
+      ],
+      "vision_indices": [
+        22,
+        23
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "thing",
+      "char_start": 11,
+      "char_end": 16,
+      "normalized": "THING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.6225,
+      "end": 1.7425,
+      "score": 0.9840791821479797,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        33,
+        34
+      ],
+      "vision_indices": [
+        25,
+        26
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 17,
+      "char_end": 19,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.7625,
+      "end": 1.8225,
+      "score": 0.7341964244842529,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        36
+      ],
+      "vision_indices": [
+        27
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "do",
+      "char_start": 20,
+      "char_end": 22,
+      "normalized": "DO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.8625,
+      "end": 1.9225,
+      "score": 0.9547641277313232,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        38
+      ],
+      "vision_indices": [
+        28
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 23,
+      "char_end": 25,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.0025,
+      "end": 2.0625,
+      "score": 0.8415213227272034,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        41
+      ],
+      "vision_indices": [
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.03249999999999975
+    },
+    {
+      "text": "yawning,",
+      "char_start": 26,
+      "char_end": 34,
+      "normalized": "YAWNING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.1225,
+      "end": 2.5625,
+      "score": 0.9320837259292603,
+      "token_indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "audio_indices": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "vision_indices": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "chewing",
+      "char_start": 35,
+      "char_end": 42,
+      "normalized": "CHEWING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.5825,
+      "end": 3.9025,
+      "score": 0.9922595024108887,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "vision_indices": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "gum",
+      "char_start": 43,
+      "char_end": 46,
+      "normalized": "GUM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.0025,
+      "end": 4.1825,
+      "score": 0.9589529037475586,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        81,
+        82,
+        83
+      ],
+      "vision_indices": [
+        61,
+        62
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "is",
+      "char_start": 47,
+      "char_end": 49,
+      "normalized": "IS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.3225,
+      "end": 4.4025,
+      "score": 0.9714005589485168,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        87,
+        88
+      ],
+      "vision_indices": [
+        65,
+        66
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "effective.",
+      "char_start": 50,
+      "char_end": 60,
+      "normalized": "EFFECTIVE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.4825,
+      "end": 5.0625,
+      "score": 0.12437034398317337,
+      "token_indices": [
+        15,
+        16
+      ],
+      "audio_indices": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "vision_indices": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 5.686003,
+    "video_start_s": 0.0,
+    "video_end_s": 5.666666666666667,
+    "video_frame_count": 170,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 5.6301875,
+    "audio_samples": 90083,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 90083,
+    "audio_peak": 0.40912961959838867,
+    "audio_rms": 0.055200913058861385
+  }
+}

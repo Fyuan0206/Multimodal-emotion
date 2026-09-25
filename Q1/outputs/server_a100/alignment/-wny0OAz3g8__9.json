@@ -1,0 +1,618 @@
+{
+  "sample_id": "-wny0OAz3g8__9",
+  "text": "He explores why Black and White Americans tend to have such different outcomes in terms of income, education, and more",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "He",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "HE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.0825,
+      "end": 0.3825,
+      "score": 6.764873251086101e-05,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "vision_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "explores",
+      "char_start": 3,
+      "char_end": 11,
+      "normalized": "EXPLORES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.6625,
+      "end": 1.0025,
+      "score": 0.9715999960899353,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "vision_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "why",
+      "char_start": 12,
+      "char_end": 15,
+      "normalized": "WHY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.0425,
+      "end": 1.1025,
+      "score": 0.978641152381897,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        21,
+        22
+      ],
+      "vision_indices": [
+        16
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Black",
+      "char_start": 16,
+      "char_end": 21,
+      "normalized": "BLACK",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.1825,
+      "end": 1.3425,
+      "score": 0.38563454151153564,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        24,
+        25,
+        26
+      ],
+      "vision_indices": [
+        18,
+        19,
+        20
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 22,
+      "char_end": 25,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4025,
+      "end": 1.4625,
+      "score": 0.6743800640106201,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        29
+      ],
+      "vision_indices": [
+        21
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.032500000000000195
+    },
+    {
+      "text": "White",
+      "char_start": 26,
+      "char_end": 31,
+      "normalized": "WHITE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4825,
+      "end": 1.6225,
+      "score": 0.8953758478164673,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        30,
+        31,
+        32
+      ],
+      "vision_indices": [
+        23,
+        24
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Americans",
+      "char_start": 32,
+      "char_end": 41,
+      "normalized": "AMERICANS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.6425,
+      "end": 2.0425,
+      "score": 0.9316381812095642,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "vision_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "tend",
+      "char_start": 42,
+      "char_end": 46,
+      "normalized": "TEND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.1025,
+      "end": 2.2625,
+      "score": 0.935338020324707,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        43,
+        44,
+        45
+      ],
+      "vision_indices": [
+        32,
+        33
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 47,
+      "char_end": 49,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.3025,
+      "end": 2.3425,
+      "score": 0.9698419570922852,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        46
+      ],
+      "vision_indices": [
+        35
+      ],
+      "audio_fallback": true,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.02249999999999952,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "have",
+      "char_start": 50,
+      "char_end": 54,
+      "normalized": "HAVE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.4025,
+      "end": 2.5225,
+      "score": 0.9993739128112793,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        49,
+        50
+      ],
+      "vision_indices": [
+        37
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "such",
+      "char_start": 55,
+      "char_end": 59,
+      "normalized": "SUCH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.5825,
+      "end": 2.7225,
+      "score": 0.9989084601402283,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        52,
+        53,
+        54
+      ],
+      "vision_indices": [
+        39,
+        40
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "different",
+      "char_start": 60,
+      "char_end": 69,
+      "normalized": "DIFFERENT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.8425,
+      "end": 3.1225,
+      "score": 0.9282026886940002,
+      "token_indices": [
+        12
+      ],
+      "audio_indices": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "vision_indices": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "outcomes",
+      "char_start": 70,
+      "char_end": 78,
+      "normalized": "OUTCOMES",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.2225,
+      "end": 3.6425,
+      "score": 0.9896109700202942,
+      "token_indices": [
+        13
+      ],
+      "audio_indices": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "vision_indices": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "in",
+      "char_start": 79,
+      "char_end": 81,
+      "normalized": "IN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.7025,
+      "end": 3.7425,
+      "score": 0.9484221339225769,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        74
+      ],
+      "vision_indices": [
+        56
+      ],
+      "audio_fallback": true,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.022499999999999964,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "terms",
+      "char_start": 82,
+      "char_end": 87,
+      "normalized": "TERMS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.7825,
+      "end": 3.9625,
+      "score": 0.9944431781768799,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "vision_indices": [
+        57,
+        58,
+        59
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "of",
+      "char_start": 88,
+      "char_end": 90,
+      "normalized": "OF",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.0025,
+      "end": 4.0425,
+      "score": 0.9966280460357666,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        80
+      ],
+      "vision_indices": [
+        60
+      ],
+      "audio_fallback": true,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.022500000000000853,
+      "vision_fallback_distance_s": 0.022500000000000853
+    },
+    {
+      "text": "income,",
+      "char_start": 91,
+      "char_end": 98,
+      "normalized": "INCOME",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.1625,
+      "end": 4.4825,
+      "score": 0.9997643828392029,
+      "token_indices": [
+        17,
+        18
+      ],
+      "audio_indices": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "vision_indices": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "education,",
+      "char_start": 99,
+      "char_end": 109,
+      "normalized": "EDUCATION",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.6425,
+      "end": 5.1025,
+      "score": 0.9860197901725769,
+      "token_indices": [
+        19,
+        20
+      ],
+      "audio_indices": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "vision_indices": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "and",
+      "char_start": 110,
+      "char_end": 113,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.2025,
+      "end": 5.2625,
+      "score": 0.1745431125164032,
+      "token_indices": [
+        21
+      ],
+      "audio_indices": [
+        105
+      ],
+      "vision_indices": [
+        78
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.03249999999999975
+    },
+    {
+      "text": "more",
+      "char_start": 114,
+      "char_end": 118,
+      "normalized": "MORE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.3025,
+      "end": 5.8625,
+      "score": 0.8091856837272644,
+      "token_indices": [
+        22
+      ],
+      "audio_indices": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "vision_indices": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 6.213021,
+    "video_start_s": 0.0,
+    "video_end_s": 6.2,
+    "video_frame_count": 183,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 6.0435,
+    "audio_samples": 96696,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 96696,
+    "audio_peak": 0.8830974102020264,
+    "audio_rms": 0.15242745623973572
+  }
+}

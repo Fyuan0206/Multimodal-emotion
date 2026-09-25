@@ -1,0 +1,440 @@
+{
+  "sample_id": "-3g5yACwYnA__2",
+  "text": "Key Polymer brings a technical aspect to our operation that we don't have internally.",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "Key",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "KEY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.8625,
+      "end": 1.9825,
+      "score": 0.7491185665130615,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        38,
+        39
+      ],
+      "vision_indices": [
+        28,
+        29
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "Polymer",
+      "char_start": 4,
+      "char_end": 11,
+      "normalized": "POLYMER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.0225,
+      "end": 3.3625,
+      "score": 0.05296656861901283,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "vision_indices": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "brings",
+      "char_start": 12,
+      "char_end": 18,
+      "normalized": "BRINGS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.4025,
+      "end": 3.6025,
+      "score": 0.953558623790741,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "vision_indices": [
+        52,
+        53,
+        54
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 19,
+      "char_end": 20,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.6825,
+      "end": 3.7025,
+      "score": 0.6981068253517151,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        74
+      ],
+      "vision_indices": [
+        55
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.025833333333333375
+    },
+    {
+      "text": "technical",
+      "char_start": 21,
+      "char_end": 30,
+      "normalized": "TECHNICAL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 3.7625,
+      "end": 4.1425,
+      "score": 0.9922184348106384,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "vision_indices": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "aspect",
+      "char_start": 31,
+      "char_end": 37,
+      "normalized": "ASPECT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.3825,
+      "end": 4.6825,
+      "score": 0.9954807758331299,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "vision_indices": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 38,
+      "char_end": 40,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.7225,
+      "end": 4.8625,
+      "score": 0.996042013168335,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        95,
+        96,
+        97
+      ],
+      "vision_indices": [
+        71,
+        72
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "our",
+      "char_start": 41,
+      "char_end": 44,
+      "normalized": "OUR",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.8625,
+      "end": 5.9425,
+      "score": 0.9888803362846375,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        118
+      ],
+      "vision_indices": [
+        88,
+        89
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "operation",
+      "char_start": 45,
+      "char_end": 54,
+      "normalized": "OPERATION",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.0025,
+      "end": 6.4225,
+      "score": 0.9676869511604309,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "vision_indices": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "that",
+      "char_start": 55,
+      "char_end": 59,
+      "normalized": "THAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.5025,
+      "end": 6.6225,
+      "score": 0.988320529460907,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        131,
+        132
+      ],
+      "vision_indices": [
+        98,
+        99
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "we",
+      "char_start": 60,
+      "char_end": 62,
+      "normalized": "WE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.6825,
+      "end": 6.7425,
+      "score": 0.9997292160987854,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        134
+      ],
+      "vision_indices": [
+        101
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "don't",
+      "char_start": 63,
+      "char_end": 68,
+      "normalized": "DON'T",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.8225,
+      "end": 7.0025,
+      "score": 0.8628647327423096,
+      "token_indices": [
+        12,
+        13,
+        14
+      ],
+      "audio_indices": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "vision_indices": [
+        103,
+        104,
+        105
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "have",
+      "char_start": 69,
+      "char_end": 73,
+      "normalized": "HAVE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.0425,
+      "end": 7.2025,
+      "score": 0.9916864633560181,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        141,
+        142,
+        143,
+        144
+      ],
+      "vision_indices": [
+        106,
+        107,
+        108
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "internally.",
+      "char_start": 74,
+      "char_end": 85,
+      "normalized": "INTERNALLY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.2825,
+      "end": 7.6825,
+      "score": 0.9534921050071716,
+      "token_indices": [
+        16,
+        17
+      ],
+      "audio_indices": [
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153
+      ],
+      "vision_indices": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 9.39401,
+    "video_start_s": 0.0,
+    "video_end_s": 9.366666666666667,
+    "video_frame_count": 278,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 9.2313125,
+    "audio_samples": 147701,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 147701,
+    "audio_peak": 0.15548686683177948,
+    "audio_rms": 0.017621135880884743
+  }
+}

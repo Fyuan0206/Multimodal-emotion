@@ -1,0 +1,803 @@
+{
+  "sample_id": "-UuX1xuaiiE__1",
+  "text": "^And all of them are really being able to explore ^these different areas in depth ^in a way that really wasn't available ^before the center was here",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "^And",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "AND",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.4825,
+      "end": 0.5625,
+      "score": 0.9970076680183411,
+      "token_indices": [
+        1,
+        2
+      ],
+      "audio_indices": [
+        10,
+        11
+      ],
+      "vision_indices": [
+        8
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "all",
+      "char_start": 5,
+      "char_end": 8,
+      "normalized": "ALL",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.6625,
+      "end": 0.7825,
+      "score": 0.9891759753227234,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        14,
+        15
+      ],
+      "vision_indices": [
+        10,
+        11
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "of",
+      "char_start": 9,
+      "char_end": 11,
+      "normalized": "OF",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.8425,
+      "end": 0.8825,
+      "score": 0.9983169436454773,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        17
+      ],
+      "vision_indices": [
+        13
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "them",
+      "char_start": 12,
+      "char_end": 16,
+      "normalized": "THEM",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.9425,
+      "end": 1.0625,
+      "score": 0.8884273767471313,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        19,
+        20,
+        21
+      ],
+      "vision_indices": [
+        15
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "are",
+      "char_start": 17,
+      "char_end": 20,
+      "normalized": "ARE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.2025,
+      "end": 1.2825,
+      "score": 0.8679553866386414,
+      "token_indices": [
+        6
+      ],
+      "audio_indices": [
+        25
+      ],
+      "vision_indices": [
+        19
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "really",
+      "char_start": 21,
+      "char_end": 27,
+      "normalized": "REALLY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.3825,
+      "end": 1.6225,
+      "score": 0.9935672283172607,
+      "token_indices": [
+        7
+      ],
+      "audio_indices": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "vision_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "being",
+      "char_start": 28,
+      "char_end": 33,
+      "normalized": "BEING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.6825,
+      "end": 1.8625,
+      "score": 0.975540280342102,
+      "token_indices": [
+        8
+      ],
+      "audio_indices": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "vision_indices": [
+        26,
+        27
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "able",
+      "char_start": 34,
+      "char_end": 38,
+      "normalized": "ABLE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.5625,
+      "end": 2.7225,
+      "score": 0.9899348020553589,
+      "token_indices": [
+        9
+      ],
+      "audio_indices": [
+        52,
+        53,
+        54
+      ],
+      "vision_indices": [
+        39,
+        40
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "to",
+      "char_start": 39,
+      "char_end": 41,
+      "normalized": "TO",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.7825,
+      "end": 2.8625,
+      "score": 0.8983838558197021,
+      "token_indices": [
+        10
+      ],
+      "audio_indices": [
+        56,
+        57
+      ],
+      "vision_indices": [
+        42
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "explore",
+      "char_start": 42,
+      "char_end": 49,
+      "normalized": "EXPLORE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 2.9425,
+      "end": 3.5425,
+      "score": 0.960456371307373,
+      "token_indices": [
+        11
+      ],
+      "audio_indices": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "vision_indices": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "^these",
+      "char_start": 50,
+      "char_end": 56,
+      "normalized": "THESE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.0625,
+      "end": 4.2025,
+      "score": 0.9857196807861328,
+      "token_indices": [
+        12,
+        13
+      ],
+      "audio_indices": [
+        82,
+        83,
+        84
+      ],
+      "vision_indices": [
+        61,
+        62,
+        63
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "different",
+      "char_start": 57,
+      "char_end": 66,
+      "normalized": "DIFFERENT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.5225,
+      "end": 4.8025,
+      "score": 0.9896021485328674,
+      "token_indices": [
+        14
+      ],
+      "audio_indices": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "vision_indices": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "areas",
+      "char_start": 67,
+      "char_end": 72,
+      "normalized": "AREAS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 4.8825,
+      "end": 5.1825,
+      "score": 0.9079614281654358,
+      "token_indices": [
+        15
+      ],
+      "audio_indices": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "vision_indices": [
+        74,
+        75,
+        76,
+        77
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "in",
+      "char_start": 73,
+      "char_end": 75,
+      "normalized": "IN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 5.8425,
+      "end": 5.8825,
+      "score": 0.9954379200935364,
+      "token_indices": [
+        16
+      ],
+      "audio_indices": [
+        117
+      ],
+      "vision_indices": [
+        88
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "depth",
+      "char_start": 76,
+      "char_end": 81,
+      "normalized": "DEPTH",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.0425,
+      "end": 6.3425,
+      "score": 0.8353576064109802,
+      "token_indices": [
+        17
+      ],
+      "audio_indices": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "vision_indices": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "^in",
+      "char_start": 82,
+      "char_end": 85,
+      "normalized": "IN",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.5625,
+      "end": 6.6025,
+      "score": 0.9995133876800537,
+      "token_indices": [
+        18,
+        19
+      ],
+      "audio_indices": [
+        132
+      ],
+      "vision_indices": [
+        99
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "a",
+      "char_start": 86,
+      "char_end": 87,
+      "normalized": "A",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.6825,
+      "end": 6.7025,
+      "score": 0.9938765168190002,
+      "token_indices": [
+        20
+      ],
+      "audio_indices": [
+        134
+      ],
+      "vision_indices": [
+        100
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.02583333333333293
+    },
+    {
+      "text": "way",
+      "char_start": 88,
+      "char_end": 91,
+      "normalized": "WAY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 6.7625,
+      "end": 6.9025,
+      "score": 0.9998133778572083,
+      "token_indices": [
+        21
+      ],
+      "audio_indices": [
+        136,
+        137,
+        138
+      ],
+      "vision_indices": [
+        102,
+        103
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "that",
+      "char_start": 92,
+      "char_end": 96,
+      "normalized": "THAT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.0225,
+      "end": 7.1625,
+      "score": 0.9836330413818359,
+      "token_indices": [
+        22
+      ],
+      "audio_indices": [
+        141,
+        142,
+        143
+      ],
+      "vision_indices": [
+        106,
+        107
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "really",
+      "char_start": 97,
+      "char_end": 103,
+      "normalized": "REALLY",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.3225,
+      "end": 7.5225,
+      "score": 0.969170331954956,
+      "token_indices": [
+        23
+      ],
+      "audio_indices": [
+        147,
+        148,
+        149,
+        150
+      ],
+      "vision_indices": [
+        110,
+        111,
+        112
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "wasn't",
+      "char_start": 104,
+      "char_end": 110,
+      "normalized": "WASN'T",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.5625,
+      "end": 7.8025,
+      "score": 0.9883310794830322,
+      "token_indices": [
+        24,
+        25,
+        26
+      ],
+      "audio_indices": [
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "vision_indices": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "available",
+      "char_start": 111,
+      "char_end": 120,
+      "normalized": "AVAILABLE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 7.8425,
+      "end": 8.2825,
+      "score": 0.9340462684631348,
+      "token_indices": [
+        27
+      ],
+      "audio_indices": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "vision_indices": [
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "^before",
+      "char_start": 121,
+      "char_end": 128,
+      "normalized": "BEFORE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.3625,
+      "end": 8.6625,
+      "score": 0.9995251297950745,
+      "token_indices": [
+        28,
+        29
+      ],
+      "audio_indices": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "vision_indices": [
+        126,
+        127,
+        128,
+        129
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "the",
+      "char_start": 129,
+      "char_end": 132,
+      "normalized": "THE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.7425,
+      "end": 8.8025,
+      "score": 0.9954891800880432,
+      "token_indices": [
+        30
+      ],
+      "audio_indices": [
+        175,
+        176
+      ],
+      "vision_indices": [
+        132
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "center",
+      "char_start": 133,
+      "char_end": 139,
+      "normalized": "CENTER",
+      "unsupported": "",
+      "aligned": true,
+      "start": 8.8625,
+      "end": 9.1425,
+      "score": 0.8039456009864807,
+      "token_indices": [
+        31
+      ],
+      "audio_indices": [
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "vision_indices": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "was",
+      "char_start": 140,
+      "char_end": 143,
+      "normalized": "WAS",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.2425,
+      "end": 9.3225,
+      "score": 0.9997273087501526,
+      "token_indices": [
+        32
+      ],
+      "audio_indices": [
+        185,
+        186
+      ],
+      "vision_indices": [
+        139
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "here",
+      "char_start": 144,
+      "char_end": 148,
+      "normalized": "HERE",
+      "unsupported": "",
+      "aligned": true,
+      "start": 9.9225,
+      "end": 10.1425,
+      "score": 0.19782830774784088,
+      "token_indices": [
+        33
+      ],
+      "audio_indices": [
+        199,
+        200,
+        201,
+        202
+      ],
+      "vision_indices": [
+        149,
+        150,
+        151,
+        152
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 10.35,
+    "video_start_s": 0.0,
+    "video_end_s": 10.333333333333334,
+    "video_frame_count": 309,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 10.2675,
+    "audio_samples": 164280,
+    "audio_gap_samples": 0,
+    "audio_all_zero": false,
+    "audio_nonzero_samples": 164280,
+    "audio_peak": 0.912334144115448,
+    "audio_rms": 0.07531564984190113
+  }
+}

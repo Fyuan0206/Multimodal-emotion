@@ -1,0 +1,154 @@
+{
+  "sample_id": "-s9qJ7ATP7w__6",
+  "text": "But I just kept going",
+  "time_origin": "media_start_seconds",
+  "score_definition": "CTC emission geometric mean, not calibrated confidence",
+  "words": [
+    {
+      "text": "But",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "BUT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 0.5625,
+      "end": 0.7425,
+      "score": 0.9836089015007019,
+      "token_indices": [
+        1
+      ],
+      "audio_indices": [
+        12,
+        13,
+        14
+      ],
+      "vision_indices": [
+        9,
+        10,
+        11
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "I",
+      "char_start": 4,
+      "char_end": 5,
+      "normalized": "I",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.2425,
+      "end": 1.2625,
+      "score": 0.8019876480102539,
+      "token_indices": [
+        2
+      ],
+      "audio_indices": [
+        25
+      ],
+      "vision_indices": [
+        19
+      ],
+      "audio_fallback": false,
+      "vision_fallback": true,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.01416666666666666
+    },
+    {
+      "text": "just",
+      "char_start": 6,
+      "char_end": 10,
+      "normalized": "JUST",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.3425,
+      "end": 1.4625,
+      "score": 0.9609115123748779,
+      "token_indices": [
+        3
+      ],
+      "audio_indices": [
+        27,
+        28,
+        29
+      ],
+      "vision_indices": [
+        21
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "kept",
+      "char_start": 11,
+      "char_end": 15,
+      "normalized": "KEPT",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.4825,
+      "end": 1.6225,
+      "score": 0.9049893617630005,
+      "token_indices": [
+        4
+      ],
+      "audio_indices": [
+        30,
+        31,
+        32
+      ],
+      "vision_indices": [
+        23,
+        24
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    },
+    {
+      "text": "going",
+      "char_start": 16,
+      "char_end": 21,
+      "normalized": "GOING",
+      "unsupported": "",
+      "aligned": true,
+      "start": 1.6425,
+      "end": 1.8425,
+      "score": 0.8585053086280823,
+      "token_indices": [
+        5
+      ],
+      "audio_indices": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "vision_indices": [
+        25,
+        26,
+        27
+      ],
+      "audio_fallback": false,
+      "vision_fallback": false,
+      "audio_fallback_distance_s": 0.0,
+      "vision_fallback_distance_s": 0.0
+    }
+  ],
+  "media": {
+    "media_origin_s": 0.0,
+    "container_duration_s": 2.475,
+    "video_start_s": 0.0,
+    "video_end_s": 2.4666666666666663,
+    "video_frame_count": 71,
+    "video_average_fps": 30.0,
+    "audio_start_s": 0.0,
+    "audio_end_s": 2.3148125,
+    "audio_samples": 37037,
+    "audio_gap_samples": 0
+  }
+}
