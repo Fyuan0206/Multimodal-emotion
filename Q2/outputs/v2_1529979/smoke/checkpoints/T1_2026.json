@@ -1,0 +1,26 @@
+{
+  "variant": "T1",
+  "seed": 2026,
+  "selection_score": 3.6719346471493757,
+  "tau": 0.0,
+  "best_epoch": 2,
+  "epochs_run": 2,
+  "steps_per_epoch": 2,
+  "total_updates": 4,
+  "seconds": 0.033413102850317955,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 2.3465991020202637,
+      "score": 3.692121724643979,
+      "tau": 0.0
+    },
+    {
+      "epoch": 2,
+      "loss": 1.8390482664108276,
+      "score": 3.6719346471493757,
+      "tau": 0.0
+    }
+  ],
+  "smoke": true
+}

@@ -1,0 +1,231 @@
+{
+  "图件数": 10,
+  "正文推荐图": 6,
+  "首轮历史图": 4,
+  "文件": [
+    {
+      "文件": "01_验证与错误分析/二轮_验证集极性混淆矩阵与强度预测散点.png",
+      "来源": "outputs/v2_1529979/figures/validation_overview.png",
+      "SHA256": "ceb411d058c029a04cb263299513dca5291bdb323b48eba0ae4f7ed046b594ad",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "01_验证与错误分析/二轮_验证集绝对误差与遮挡误差变化分布.pdf",
+      "来源": "outputs/v2_1529979/figures/error_distributions.pdf",
+      "SHA256": "1d95511ed9e40081f4b7f046927c8df1df9792fffd0374c12313c8dce1d23ab0",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "01_验证与错误分析/二轮_验证集绝对误差与遮挡误差变化分布.png",
+      "来源": "outputs/v2_1529979/figures/error_distributions.png",
+      "SHA256": "ebb69e3bf2e46f82de0e053647eb524eefdb6b2f3d2d31d23e23cfd1b5fbdce7",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "01_验证与错误分析/二轮_验证集绝对误差与遮挡误差变化分布.svg",
+      "来源": "outputs/v2_1529979/figures/error_distributions.svg",
+      "SHA256": "7507d01c5b5add072fa949e012da80e01f6d44dfcee764680780ff2c64b1dbff",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_六组模型验证集性能对比.pdf",
+      "来源": "outputs/v2_1529979/figures/main_comparison.pdf",
+      "SHA256": "4d6c70af17b4958b82d2ac9fa390972b5018df23456a12b0a03227d25efde1ed",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_六组模型验证集性能对比.png",
+      "来源": "outputs/v2_1529979/figures/main_comparison.png",
+      "SHA256": "97a959bbf1391342a261596fe9ca57ae99ecbc4a3647e848e9139ea9d390319e",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_六组模型验证集性能对比.svg",
+      "来源": "outputs/v2_1529979/figures/main_comparison.svg",
+      "SHA256": "091cb69363eac86fd0d32d2707bd15bedb47097f6fe782451e117f238d21a6d3",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_连续缺失比例对MAE和MacroF1的影响.pdf",
+      "来源": "outputs/v2_1529979/figures/missing_length_effect.pdf",
+      "SHA256": "a77aa546e69b3f9177c6240947d47d3c3f372d07a34f92926d6e36751fdad85c",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_连续缺失比例对MAE和MacroF1的影响.png",
+      "来源": "outputs/v2_1529979/figures/missing_length_effect.png",
+      "SHA256": "99ede7ff0f057b752fcc255d9ea00d19717da0c589a1d027b715b985637efa19",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_连续缺失比例对MAE和MacroF1的影响.svg",
+      "来源": "outputs/v2_1529979/figures/missing_length_effect.svg",
+      "SHA256": "7ed50d172a3f402615cf68085446b49c02d35f8011b38b46c853cb65779050ed",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_模态位置与缺失比例性能热图.pdf",
+      "来源": "outputs/v2_1529979/figures/missing_grid_common.pdf",
+      "SHA256": "224a3acf3e10a5c108e7b1a121ce4df7b72f42750ccc14d7ca615c5051583bb2",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_模态位置与缺失比例性能热图.png",
+      "来源": "outputs/v2_1529979/figures/missing_grid_common.png",
+      "SHA256": "eda9843d0ebcc52926fb540e44c112a6c0789fdaa8c167459e62007dc73f4491",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "02_主实验与缺失规律/二轮_模态位置与缺失比例性能热图.svg",
+      "来源": "outputs/v2_1529979/figures/missing_grid_common.svg",
+      "SHA256": "d5b41abedcbe45d9e83a01b6c9b56bd6b56a0d6aa647780435d3143be638db61",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "03_附件3预测展示/二轮_附件3三十条无标签样本预测汇总.pdf",
+      "来源": "outputs/v2_1529979/figures/attachment3_overview.pdf",
+      "SHA256": "9ee952ad11eaade84712f12274276443b5faaa7dfa0d52178e1742068d081e0e",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "03_附件3预测展示/二轮_附件3三十条无标签样本预测汇总.png",
+      "来源": "outputs/v2_1529979/figures/attachment3_overview.png",
+      "SHA256": "342b3629c62e84dd72a9d6eeed5720d1bff0d339781f4571be91d07cd925b728",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "03_附件3预测展示/二轮_附件3三十条无标签样本预测汇总.svg",
+      "来源": "outputs/v2_1529979/figures/attachment3_overview.svg",
+      "SHA256": "177f72214f109f1f6150ffd566cfee88cef5e610b7f59b094e3da1f648b3021a",
+      "轮次": "v2",
+      "用途": "正文推荐"
+    },
+    {
+      "文件": "04_首轮历史对照图/首轮_单模态缺失比例对性能的影响.png",
+      "来源": "来自Q2-1的归档/Q2_1529871/missing_rate_effect.png",
+      "SHA256": "2f46458b6bdfb9ceec4c92a67e5744fdc20ac0d35594cc531a6be622e08b923e",
+      "轮次": "v1",
+      "用途": "仅供历史对照"
+    },
+    {
+      "文件": "04_首轮历史对照图/首轮_三十五百分比缺失区间位置影响.png",
+      "来源": "来自Q2-1的归档/Q2_1529871/missing_position_effect.png",
+      "SHA256": "dc12d7444db1ce3a4225e896febc50df75eccb7d707714cb6df91574ef006ab6",
+      "轮次": "v1",
+      "用途": "仅供历史对照"
+    },
+    {
+      "文件": "04_首轮历史对照图/首轮_验证集极性混淆矩阵与强度预测散点.png",
+      "来源": "来自Q2-1的归档/Q2_1529871/validation_overview.png",
+      "SHA256": "b3d0a5053aee042cbf1614e37b64612d5caadc1e6aff88602fe113183ac750d4",
+      "轮次": "v1",
+      "用途": "仅供历史对照"
+    },
+    {
+      "文件": "04_首轮历史对照图/首轮_附件3三十条无标签样本预测汇总.png",
+      "来源": "来自Q2-1的归档/Q2_1529871/attachment3_overview.png",
+      "SHA256": "57aa05f869c194993e5cb59a34a79a308b513bd28891d70a26bd1aa77678e84f",
+      "轮次": "v1",
+      "用途": "仅供历史对照"
+    },
+    {
+      "文件": "03_附件3预测展示/attachment3_predictions_v2.csv",
+      "来源": "outputs/v2_1529979/attachment3_predictions_v2.csv",
+      "SHA256": "2aaae3de47471d0158f8ade1681683a0a0590182e2a8ae3830b2ab7235ba5959",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "03_附件3预测展示/attachment3_coverage.csv",
+      "来源": "outputs/v2_1529979/attachment3_coverage.csv",
+      "SHA256": "86872f0858cf2db04d191ce8aa1a0cecb2edd4e7fbed8247417925b99fd49cbd",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "03_附件3预测展示/attachment3_summary.json",
+      "来源": "outputs/v2_1529979/attachment3_summary.json",
+      "SHA256": "e67569046d78987ee894149fac2a831aad59e9f41555ae11446970e760ccd231",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/ablation_results.csv",
+      "来源": "outputs/v2_1529979/ablation_results.csv",
+      "SHA256": "e9a6e1d07d761ff706f01af7963807753f66890a951925e10cf30c43e3e40170",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/decoding_comparison.csv",
+      "来源": "outputs/v2_1529979/decoding_comparison.csv",
+      "SHA256": "7a487ca2baf3a115fb9abed507647fd2017105f256ca12aa452cad6787a4898b",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/error_cases.csv",
+      "来源": "outputs/v2_1529979/error_cases.csv",
+      "SHA256": "aa66961429f4fb34970b8810e7c3da37f1acc4905287cffe4fea9a579ceaa09f",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/error_cases_token_audit.csv",
+      "来源": "outputs/v2_1529979/error_cases_token_audit.csv",
+      "SHA256": "2e52b72f3eaffdae269c3a2f8dffe68aa750688c074ddcb4fe6102af5bb03d04",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/main_results.csv",
+      "来源": "outputs/v2_1529979/main_results.csv",
+      "SHA256": "cfde09ad01635d508f3c47150768aaa877e7216f7dd70975ca480e20a846c54a",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/main_summary.csv",
+      "来源": "outputs/v2_1529979/main_summary.csv",
+      "SHA256": "c508a5323c21812d852b60408eb40cb14841c795beac981ddf644cc0074e7cba",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/missingness_common_samples.csv",
+      "来源": "outputs/v2_1529979/missingness_common_samples.csv",
+      "SHA256": "f73a4cb0f5fd0aff260143dd8b63829ddb9c5b5fec0b356d395abf0ef5b3eaf5",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/missingness_grid_v2.csv",
+      "来源": "outputs/v2_1529979/missingness_grid_v2.csv",
+      "SHA256": "ed9658dc1fdb185b3563d5c7da11ef0a01e5f28f1607def27abed95d24f5271d",
+      "轮次": "v2",
+      "用途": "结果数据"
+    },
+    {
+      "文件": "05_正文与实验数据/paired_comparisons.csv",
+      "来源": "outputs/v2_1529979/paired_comparisons.csv",
+      "SHA256": "e9a6e1d07d761ff706f01af7963807753f66890a951925e10cf30c43e3e40170",
+      "轮次": "v2",
+      "用途": "结果数据"
+    }
+  ]
+}

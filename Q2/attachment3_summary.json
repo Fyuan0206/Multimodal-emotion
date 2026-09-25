@@ -1,0 +1,12 @@
+{
+  "n": 30,
+  "predicted_polarity_counts": {
+    "Negative": 6,
+    "Neutral": 4,
+    "Positive": 20
+  },
+  "mean_predicted_intensity": 0.29457271099090576,
+  "min_predicted_intensity": -0.958559513092041,
+  "max_predicted_intensity": 1.6746397018432617,
+  "note": "Unlabeled inference; these are prediction summaries, not test accuracy."
+}

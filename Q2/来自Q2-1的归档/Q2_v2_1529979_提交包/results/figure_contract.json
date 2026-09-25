@@ -1,0 +1,15 @@
+{
+  "backend": "Python matplotlib",
+  "archetype": "quantitative grid",
+  "evidence": "Compare matched models and describe missing-span effects without assuming improvement",
+  "figures": {
+    "main_comparison": "main_summary.csv; 5 training seeds; bars show sample SD",
+    "missing_grid_common": "missingness_common_samples.csv; 5 training x 5 mask seeds; shared feasible samples",
+    "missing_length_effect": "same common subset; average positions; descriptive curves",
+    "validation_overview": "frozen model seed2026; 728 validation samples; clean",
+    "error_distributions": "frozen model seed2026; paired errors; repeated masks are not independent samples",
+    "attachment3_overview": "30 unlabeled predictions; no test accuracy"
+  },
+  "exports": "PNG 300dpi, editable SVG and PDF except legacy validation panel PNG",
+  "interpretation": "validation selection bias disclosed"
+}

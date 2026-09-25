@@ -1,0 +1,26 @@
+{
+  "variant": "M3",
+  "seed": 2026,
+  "selection_score": 3.130986912270168,
+  "tau": 0.2,
+  "best_epoch": 2,
+  "epochs_run": 2,
+  "steps_per_epoch": 2,
+  "total_updates": 4,
+  "seconds": 0.03517235815525055,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 2.1655185222625732,
+      "score": 4.1968661057935925,
+      "tau": 0.1
+    },
+    {
+      "epoch": 2,
+      "loss": 1.5592872500419617,
+      "score": 3.130986912270168,
+      "tau": 0.2
+    }
+  ],
+  "smoke": true
+}

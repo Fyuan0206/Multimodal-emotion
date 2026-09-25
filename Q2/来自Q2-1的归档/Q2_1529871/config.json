@@ -1,0 +1,16 @@
+{
+  "schema_version": "q2-local-missing-1",
+  "data_version": "aligned_50",
+  "seed": 2026,
+  "bert_model": "google-bert/bert-base-uncased",
+  "bert_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "max_epochs": 30,
+  "patience": 6,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "loss": "SmoothL1(beta=0.5) + 0.7*weighted_cross_entropy",
+  "train_augmentation_copies": 3,
+  "train_block_fraction_range": [0.1, 0.7],
+  "validation_grid_block_fractions": [0.15, 0.35, 0.55]
+}

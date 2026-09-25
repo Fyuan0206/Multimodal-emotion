@@ -1,0 +1,35 @@
+============ Job 1529979 Performance Details ============
+JobID: 1529979
+User: scx6706
+Nodes、GPU: paraai-n32-h-01-agent-15: 2
+Time Range: 2026-09-25 16:32:12 - 2026-09-25 16:47:38
+Running time: 0d0H15M26S
+GPU Util: 29.90 %
+GMem Util: 4.79 %
+GMemBW Util: 2.55 %
+Tensor Core Util: 0.10 %
+Tensor IMMA Util: N/A
+Tensor HMMA Util: N/A
+Tensor DFMA Util: N/A
+FP64 Util: 0 %
+FP32 Util: 14.48 %
+FP16 Util: 0 %
+GPCIE RX: 11.75 MB/s
+GPCIE TX: 50.92 MB/s
+GNVLINK: N/A
+GPU Power: 118.78 W
+GPU Temperature: 36.73 °C
+
+Additional Performance Data:
+--- flops performance(avg to single card) ---
+|- fp64: 0 TFlops
+|- fp32: 3 TFlops
+> |- GMEMBW/F: 14,802 B/MF
+> |- NVLINK/F: No Data
+> |- IB_TX/F: No Data
+> |- IB_RX/F: No Data
+> |- PCIE_TX/F: 18 B/MF
+> |- PCIE_RX/F: 4 B/MF
+|- fp16: 0 TFlops
+|- tensor: 0 TFlops
+=========================================================

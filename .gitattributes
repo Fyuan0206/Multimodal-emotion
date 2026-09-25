@@ -9,5 +9,7 @@
 *.xlsx binary
 Q1/archive/** -text -whitespace
 Q1/视觉增强专项/vendor/** -text -whitespace
-
 Q1/outputs/server_a100/nvidia-smi.txt -text -whitespace
+Q2/**/*.npz filter=lfs diff=lfs merge=lfs -text
+Q2/**/*.pt filter=lfs diff=lfs merge=lfs -text
+Q2/*.tar.gz filter=lfs diff=lfs merge=lfs -text

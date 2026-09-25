@@ -1,0 +1,5 @@
+Python 3.10.12
+Platform Linux-4.19.90-24.4.v2101.ky10.aarch64-aarch64-with-glibc2.28
+Torch 2.5.1+cu121
+CUDA 12.1
+GPU NVIDIA A100-PCIE-40GB

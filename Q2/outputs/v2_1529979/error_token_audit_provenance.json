@@ -1,0 +1,8 @@
+{
+  "vocab_model": "google-bert/bert-base-uncased",
+  "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "vocab_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "method": "Fixed error_cases.csv content-rank intervals mapped to original text_bert IDs; WordPiece continuation markers joined for display",
+  "attachment3_used": false,
+  "cases": 12
+}

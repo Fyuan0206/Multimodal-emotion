@@ -1,0 +1,12 @@
+{
+  "independent_cpu_inference": "PASS",
+  "rows": 30,
+  "polarity_matches": 30,
+  "max_intensity_difference": 3.814697265625e-06,
+  "training_source_hashes_match": true,
+  "protocol_tests_passed": 6,
+  "server_job": 1529979,
+  "server_exit_code": "0:0",
+  "server_elapsed": "00:15:26",
+  "gpu_released": true
+}

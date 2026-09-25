@@ -1,0 +1,10 @@
+{
+  "training_runs": 30,
+  "diagnostic_predictions": 150,
+  "grid_rows": 9450,
+  "common_feasible_n": 679,
+  "bootstrap_repeats": 2000,
+  "video_groups": 239,
+  "attachment3_rows": 30,
+  "report_code_sha256": "e1a6e1431a914d1856ea961f7270b0a5e8692bfcef667da4759e14ad0dacfefd"
+}

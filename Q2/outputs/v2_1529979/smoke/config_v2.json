@@ -1,0 +1,562 @@
+{
+  "schema": "q2-v2-paired-20260925-1",
+  "seeds": [
+    2026
+  ],
+  "epochs": 2,
+  "patience": 6,
+  "smoke": true,
+  "variants": {
+    "T0": [
+      false,
+      false,
+      true
+    ],
+    "T1": [
+      true,
+      false,
+      true
+    ],
+    "M0": [
+      false,
+      false,
+      false
+    ],
+    "M1": [
+      true,
+      false,
+      false
+    ],
+    "M2": [
+      false,
+      true,
+      false
+    ],
+    "M3": [
+      true,
+      true,
+      false
+    ]
+  },
+  "selection_mask_seed": 4101,
+  "diagnostic_mask_seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "thresholds": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "bert_model": "google-bert/bert-base-uncased",
+  "bert_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "augmentation_views": 3,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "code_sha256": "d65d237ef5ba264897a61a08fcbf85b84d0d598b1959bf2f6bfa345f7082d7fb",
+  "base_code_sha256": "9910f479e166545b5422853362e1807b8d9e094b07cf01a7fc3535572f67a9ae",
+  "train_block_fraction_range": [
+    0.1,
+    0.7
+  ],
+  "grid": [
+    {
+      "modes": [
+        0
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0
+      ],
+      "position": "late",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        1
+      ],
+      "position": "late",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        2
+      ],
+      "position": "late",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        1
+      ],
+      "position": "late",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        2
+      ],
+      "position": "late",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        1,
+        2
+      ],
+      "position": "late",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "early",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "early",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "early",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "middle",
+      "rate": 0.55
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "late",
+      "rate": 0.15
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "late",
+      "rate": 0.35
+    },
+    {
+      "modes": [
+        0,
+        1,
+        2
+      ],
+      "position": "late",
+      "rate": 0.55
+    }
+  ],
+  "mask_rule": "contiguous, positive observed removal in every selected modality, at least one original observation retained; infeasible is flagged, not shortened",
+  "loss": "SmoothL1(beta=.5)+.7*weighted_CE",
+  "decoding": "regression threshold; neutral intensity zero"
+}

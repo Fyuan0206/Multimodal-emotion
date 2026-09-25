@@ -1,0 +1,28 @@
+{
+  "by_class": {
+    "Negative": {
+      "n": 206,
+      "clean_mae": 0.7949594855308533,
+      "recall": 0.5679611650485437
+    },
+    "Neutral": {
+      "n": 184,
+      "clean_mae": 0.3300132751464844,
+      "recall": 0.45652173913043476
+    },
+    "Positive": {
+      "n": 338,
+      "clean_mae": 0.6740427613258362,
+      "recall": 0.6952662721893491
+    }
+  },
+  "mask_outcomes": {
+    "correct_to_wrong": 22416,
+    "wrong_to_correct": 12431,
+    "both_correct": 111269,
+    "both_wrong": 76759
+  },
+  "common_feasible_n": 679,
+  "selected_variant": "M2",
+  "outcome_unit": "sample-condition realizations, not independent samples"
+}

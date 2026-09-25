@@ -1,0 +1,935 @@
+cuda-12.1 loaded successful
+gcc-11.3.0 loaded successful
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.066s
+
+OK
+2026-09-25 16:32:47 audit {"train": {"n": 3395, "groups": 1528, "group_protocol": "video prefix before $_$", "unk_tokens": 0, "fully_missing_by_modality": [0, 0, 110], "class_counts": [967, 758, 1670], "content_length_min": 1, "content_length_max": 48}, "valid": {"n": 728, "groups": 239, "group_protocol": "video prefix before $_$", "unk_tokens": 0, "fully_missing_by_modality": [0, 0, 15], "class_counts": [206, 184, 338], "content_length_min": 1, "content_length_max": 48}}
+2026-09-25 16:32:50 cache train_clean: n=64, 0.2s
+2026-09-25 16:32:50 cache valid_clean: n=64, 0.1s
+2026-09-25 16:32:50 cache valid_4101_00: n=64, 0.2s
+2026-09-25 16:32:50 cache valid_4101_01: n=64, 0.1s
+2026-09-25 16:32:51 cache valid_4101_02: n=64, 0.1s
+2026-09-25 16:32:51 cache valid_4101_03: n=64, 0.1s
+2026-09-25 16:32:51 cache valid_4101_04: n=64, 0.1s
+2026-09-25 16:32:51 cache valid_4101_05: n=64, 0.2s
+2026-09-25 16:32:51 cache valid_4101_06: n=64, 0.1s
+2026-09-25 16:32:51 cache valid_4101_07: n=64, 0.1s
+2026-09-25 16:32:51 cache valid_4101_08: n=64, 0.1s
+2026-09-25 16:32:52 cache valid_4101_09: n=64, 0.2s
+2026-09-25 16:32:52 cache valid_4101_10: n=64, 0.1s
+2026-09-25 16:32:52 cache valid_4101_11: n=64, 0.1s
+2026-09-25 16:32:52 cache valid_4101_12: n=64, 0.1s
+2026-09-25 16:32:52 cache valid_4101_13: n=64, 0.1s
+2026-09-25 16:32:52 cache valid_4101_14: n=64, 0.1s
+2026-09-25 16:32:52 cache valid_4101_15: n=64, 0.1s
+2026-09-25 16:32:53 cache valid_4101_16: n=64, 0.1s
+2026-09-25 16:32:53 cache valid_4101_17: n=64, 0.1s
+2026-09-25 16:32:53 cache valid_4101_18: n=64, 0.1s
+2026-09-25 16:32:53 cache valid_4101_19: n=64, 0.2s
+2026-09-25 16:32:53 cache valid_4101_20: n=64, 0.1s
+2026-09-25 16:32:53 cache valid_4101_21: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_22: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_23: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_24: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_25: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_26: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_27: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_28: n=64, 0.1s
+2026-09-25 16:32:54 cache valid_4101_29: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_30: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_31: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_32: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_33: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_34: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_35: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_36: n=64, 0.1s
+2026-09-25 16:32:55 cache valid_4101_37: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_38: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_39: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_40: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_41: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_42: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_43: n=64, 0.1s
+2026-09-25 16:32:56 cache valid_4101_44: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_45: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_46: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_47: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_48: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_49: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_50: n=64, 0.1s
+2026-09-25 16:32:57 cache valid_4101_51: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_52: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_53: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_54: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_55: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_56: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_57: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_58: n=64, 0.1s
+2026-09-25 16:32:58 cache valid_4101_59: n=64, 0.1s
+2026-09-25 16:32:59 cache valid_4101_60: n=64, 0.1s
+2026-09-25 16:32:59 cache valid_4101_61: n=64, 0.1s
+2026-09-25 16:32:59 cache valid_4101_62: n=64, 0.1s
+2026-09-25 16:32:59 cache train_2026_0: n=64, 0.1s
+2026-09-25 16:32:59 cache train_2026_1: n=64, 0.1s
+2026-09-25 16:32:59 cache train_2026_2: n=64, 0.1s
+2026-09-25 16:33:00 train T0/2026 epoch=1 score=2.80477 tau=0.00
+2026-09-25 16:33:00 train T0/2026 epoch=2 score=3.27777 tau=0.00
+2026-09-25 16:33:00 train T1/2026 epoch=1 score=3.69212 tau=0.00
+2026-09-25 16:33:00 train T1/2026 epoch=2 score=3.67193 tau=0.00
+2026-09-25 16:33:00 train M0/2026 epoch=1 score=4.49519 tau=0.30
+2026-09-25 16:33:00 train M0/2026 epoch=2 score=3.28617 tau=0.30
+2026-09-25 16:33:00 train M1/2026 epoch=1 score=4.61863 tau=0.30
+2026-09-25 16:33:00 train M1/2026 epoch=2 score=3.19146 tau=0.10
+2026-09-25 16:33:00 train M2/2026 epoch=1 score=4.20192 tau=0.00
+2026-09-25 16:33:00 train M2/2026 epoch=2 score=3.21828 tau=0.15
+2026-09-25 16:33:00 train M3/2026 epoch=1 score=4.19687 tau=0.10
+2026-09-25 16:33:00 train M3/2026 epoch=2 score=3.13099 tau=0.20
+2026-09-25 16:33:00 SMOKE complete; no Attachment3 access
+2026-09-25 16:33:14 audit {"train": {"n": 3395, "groups": 1528, "group_protocol": "video prefix before $_$", "unk_tokens": 0, "fully_missing_by_modality": [0, 0, 110], "class_counts": [967, 758, 1670], "content_length_min": 1, "content_length_max": 48}, "valid": {"n": 728, "groups": 239, "group_protocol": "video prefix before $_$", "unk_tokens": 0, "fully_missing_by_modality": [0, 0, 15], "class_counts": [206, 184, 338], "content_length_min": 1, "content_length_max": 48}}
+2026-09-25 16:33:21 cache train_clean: n=3395, 5.3s
+2026-09-25 16:33:23 cache valid_clean: n=728, 1.2s
+2026-09-25 16:33:24 cache valid_4101_00: n=728, 1.2s
+2026-09-25 16:33:25 cache valid_4101_01: n=728, 1.1s
+2026-09-25 16:33:26 cache valid_4101_02: n=728, 1.1s
+2026-09-25 16:33:28 cache valid_4101_03: n=728, 1.1s
+2026-09-25 16:33:29 cache valid_4101_04: n=728, 1.2s
+2026-09-25 16:33:30 cache valid_4101_05: n=728, 1.1s
+2026-09-25 16:33:32 cache valid_4101_06: n=728, 1.2s
+2026-09-25 16:33:33 cache valid_4101_07: n=728, 1.1s
+2026-09-25 16:33:34 cache valid_4101_08: n=728, 1.1s
+2026-09-25 16:33:36 cache valid_4101_09: n=728, 1.2s
+2026-09-25 16:33:37 cache valid_4101_10: n=728, 1.1s
+2026-09-25 16:33:38 cache valid_4101_11: n=728, 1.1s
+2026-09-25 16:33:40 cache valid_4101_12: n=728, 1.1s
+2026-09-25 16:33:41 cache valid_4101_13: n=728, 1.1s
+2026-09-25 16:33:42 cache valid_4101_14: n=728, 1.1s
+2026-09-25 16:33:44 cache valid_4101_15: n=728, 1.1s
+2026-09-25 16:33:45 cache valid_4101_16: n=728, 1.1s
+2026-09-25 16:33:46 cache valid_4101_17: n=728, 1.1s
+2026-09-25 16:33:48 cache valid_4101_18: n=728, 1.2s
+2026-09-25 16:33:49 cache valid_4101_19: n=728, 1.2s
+2026-09-25 16:33:50 cache valid_4101_20: n=728, 1.1s
+2026-09-25 16:33:52 cache valid_4101_21: n=728, 1.2s
+2026-09-25 16:33:53 cache valid_4101_22: n=728, 1.2s
+2026-09-25 16:33:55 cache valid_4101_23: n=728, 1.1s
+2026-09-25 16:33:56 cache valid_4101_24: n=728, 1.1s
+2026-09-25 16:33:57 cache valid_4101_25: n=728, 1.1s
+2026-09-25 16:33:58 cache valid_4101_26: n=728, 1.1s
+2026-09-25 16:34:00 cache valid_4101_27: n=728, 1.2s
+2026-09-25 16:34:01 cache valid_4101_28: n=728, 1.1s
+2026-09-25 16:34:02 cache valid_4101_29: n=728, 1.1s
+2026-09-25 16:34:04 cache valid_4101_30: n=728, 1.1s
+2026-09-25 16:34:05 cache valid_4101_31: n=728, 1.1s
+2026-09-25 16:34:06 cache valid_4101_32: n=728, 1.0s
+2026-09-25 16:34:08 cache valid_4101_33: n=728, 1.1s
+2026-09-25 16:34:09 cache valid_4101_34: n=728, 1.1s
+2026-09-25 16:34:10 cache valid_4101_35: n=728, 1.1s
+2026-09-25 16:34:11 cache valid_4101_36: n=728, 1.2s
+2026-09-25 16:34:13 cache valid_4101_37: n=728, 1.1s
+2026-09-25 16:34:14 cache valid_4101_38: n=728, 1.1s
+2026-09-25 16:34:15 cache valid_4101_39: n=728, 1.2s
+2026-09-25 16:34:17 cache valid_4101_40: n=728, 1.1s
+2026-09-25 16:34:18 cache valid_4101_41: n=728, 1.0s
+2026-09-25 16:34:19 cache valid_4101_42: n=728, 1.1s
+2026-09-25 16:34:21 cache valid_4101_43: n=728, 1.1s
+2026-09-25 16:34:22 cache valid_4101_44: n=728, 1.1s
+2026-09-25 16:34:23 cache valid_4101_45: n=728, 1.2s
+2026-09-25 16:34:24 cache valid_4101_46: n=728, 1.2s
+2026-09-25 16:34:26 cache valid_4101_47: n=728, 1.1s
+2026-09-25 16:34:27 cache valid_4101_48: n=728, 1.2s
+2026-09-25 16:34:28 cache valid_4101_49: n=728, 1.1s
+2026-09-25 16:34:30 cache valid_4101_50: n=728, 1.1s
+2026-09-25 16:34:31 cache valid_4101_51: n=728, 1.1s
+2026-09-25 16:34:32 cache valid_4101_52: n=728, 1.1s
+2026-09-25 16:34:34 cache valid_4101_53: n=728, 1.1s
+2026-09-25 16:34:35 cache valid_4101_54: n=728, 1.1s
+2026-09-25 16:34:36 cache valid_4101_55: n=728, 1.1s
+2026-09-25 16:34:38 cache valid_4101_56: n=728, 1.1s
+2026-09-25 16:34:39 cache valid_4101_57: n=728, 1.1s
+2026-09-25 16:34:40 cache valid_4101_58: n=728, 1.1s
+2026-09-25 16:34:42 cache valid_4101_59: n=728, 1.0s
+2026-09-25 16:34:43 cache valid_4101_60: n=728, 1.1s
+2026-09-25 16:34:44 cache valid_4101_61: n=728, 1.1s
+2026-09-25 16:34:45 cache valid_4101_62: n=728, 1.1s
+2026-09-25 16:34:53 cache train_2026_0: n=3395, 5.2s
+2026-09-25 16:35:00 cache train_2026_1: n=3395, 5.2s
+2026-09-25 16:35:07 cache train_2026_2: n=3395, 5.2s
+2026-09-25 16:35:08 train T0/2026 epoch=1 score=1.79950 tau=0.25
+2026-09-25 16:35:08 train T0/2026 epoch=2 score=1.75032 tau=0.20
+2026-09-25 16:35:09 train T0/2026 epoch=3 score=1.92419 tau=0.30
+2026-09-25 16:35:09 train T0/2026 epoch=4 score=1.78221 tau=0.30
+2026-09-25 16:35:09 train T0/2026 epoch=5 score=1.84394 tau=0.15
+2026-09-25 16:35:10 train T0/2026 epoch=6 score=1.84988 tau=0.15
+2026-09-25 16:35:10 train T0/2026 epoch=7 score=1.84939 tau=0.25
+2026-09-25 16:35:11 train T0/2026 epoch=8 score=1.84010 tau=0.25
+2026-09-25 16:35:11 train T1/2026 epoch=1 score=1.86208 tau=0.30
+2026-09-25 16:35:12 train T1/2026 epoch=2 score=1.84307 tau=0.30
+2026-09-25 16:35:12 train T1/2026 epoch=3 score=1.89986 tau=0.30
+2026-09-25 16:35:13 train T1/2026 epoch=4 score=1.83293 tau=0.30
+2026-09-25 16:35:13 train T1/2026 epoch=5 score=1.76946 tau=0.20
+2026-09-25 16:35:14 train T1/2026 epoch=6 score=1.86329 tau=0.20
+2026-09-25 16:35:14 train T1/2026 epoch=7 score=1.84855 tau=0.25
+2026-09-25 16:35:15 train T1/2026 epoch=8 score=1.79951 tau=0.20
+2026-09-25 16:35:15 train T1/2026 epoch=9 score=1.84914 tau=0.25
+2026-09-25 16:35:16 train T1/2026 epoch=10 score=1.83423 tau=0.25
+2026-09-25 16:35:16 train T1/2026 epoch=11 score=1.88904 tau=0.30
+2026-09-25 16:35:17 train M0/2026 epoch=1 score=1.94755 tau=0.30
+2026-09-25 16:35:17 train M0/2026 epoch=2 score=1.82610 tau=0.25
+2026-09-25 16:35:17 train M0/2026 epoch=3 score=1.89793 tau=0.25
+2026-09-25 16:35:18 train M0/2026 epoch=4 score=1.86035 tau=0.30
+2026-09-25 16:35:18 train M0/2026 epoch=5 score=1.87223 tau=0.20
+2026-09-25 16:35:19 train M0/2026 epoch=6 score=1.90948 tau=0.30
+2026-09-25 16:35:19 train M0/2026 epoch=7 score=1.81529 tau=0.30
+2026-09-25 16:35:20 train M0/2026 epoch=8 score=1.84201 tau=0.25
+2026-09-25 16:35:20 train M0/2026 epoch=9 score=1.87833 tau=0.25
+2026-09-25 16:35:20 train M0/2026 epoch=10 score=1.86523 tau=0.30
+2026-09-25 16:35:21 train M0/2026 epoch=11 score=1.86066 tau=0.30
+2026-09-25 16:35:21 train M0/2026 epoch=12 score=1.87395 tau=0.30
+2026-09-25 16:35:22 train M0/2026 epoch=13 score=1.84671 tau=0.20
+2026-09-25 16:35:22 train M1/2026 epoch=1 score=1.98531 tau=0.25
+2026-09-25 16:35:23 train M1/2026 epoch=2 score=1.81684 tau=0.25
+2026-09-25 16:35:23 train M1/2026 epoch=3 score=1.93495 tau=0.30
+2026-09-25 16:35:24 train M1/2026 epoch=4 score=1.91994 tau=0.30
+2026-09-25 16:35:24 train M1/2026 epoch=5 score=1.93004 tau=0.30
+2026-09-25 16:35:25 train M1/2026 epoch=6 score=1.90671 tau=0.20
+2026-09-25 16:35:25 train M1/2026 epoch=7 score=1.89554 tau=0.30
+2026-09-25 16:35:26 train M1/2026 epoch=8 score=1.90484 tau=0.30
+2026-09-25 16:35:26 train M2/2026 epoch=1 score=2.31693 tau=0.30
+2026-09-25 16:35:27 train M2/2026 epoch=2 score=1.92407 tau=0.30
+2026-09-25 16:35:27 train M2/2026 epoch=3 score=1.97815 tau=0.30
+2026-09-25 16:35:28 train M2/2026 epoch=4 score=1.84158 tau=0.30
+2026-09-25 16:35:28 train M2/2026 epoch=5 score=1.88705 tau=0.30
+2026-09-25 16:35:29 train M2/2026 epoch=6 score=1.82794 tau=0.30
+2026-09-25 16:35:29 train M2/2026 epoch=7 score=1.84681 tau=0.20
+2026-09-25 16:35:30 train M2/2026 epoch=8 score=1.94709 tau=0.30
+2026-09-25 16:35:30 train M2/2026 epoch=9 score=1.85475 tau=0.30
+2026-09-25 16:35:31 train M2/2026 epoch=10 score=1.85647 tau=0.25
+2026-09-25 16:35:31 train M2/2026 epoch=11 score=1.87114 tau=0.25
+2026-09-25 16:35:32 train M2/2026 epoch=12 score=1.81516 tau=0.20
+2026-09-25 16:35:32 train M2/2026 epoch=13 score=1.84577 tau=0.15
+2026-09-25 16:35:33 train M2/2026 epoch=14 score=1.82123 tau=0.30
+2026-09-25 16:35:33 train M2/2026 epoch=15 score=1.82077 tau=0.30
+2026-09-25 16:35:34 train M2/2026 epoch=16 score=1.87176 tau=0.30
+2026-09-25 16:35:34 train M2/2026 epoch=17 score=1.83482 tau=0.20
+2026-09-25 16:35:35 train M2/2026 epoch=18 score=1.83595 tau=0.20
+2026-09-25 16:35:35 train M3/2026 epoch=1 score=2.20855 tau=0.15
+2026-09-25 16:35:36 train M3/2026 epoch=2 score=1.96168 tau=0.25
+2026-09-25 16:35:36 train M3/2026 epoch=3 score=1.95124 tau=0.30
+2026-09-25 16:35:37 train M3/2026 epoch=4 score=1.87685 tau=0.30
+2026-09-25 16:35:37 train M3/2026 epoch=5 score=2.04596 tau=0.30
+2026-09-25 16:35:38 train M3/2026 epoch=6 score=1.93451 tau=0.25
+2026-09-25 16:35:38 train M3/2026 epoch=7 score=1.86388 tau=0.30
+2026-09-25 16:35:39 train M3/2026 epoch=8 score=1.94028 tau=0.30
+2026-09-25 16:35:39 train M3/2026 epoch=9 score=1.91015 tau=0.20
+2026-09-25 16:35:40 train M3/2026 epoch=10 score=1.91107 tau=0.30
+2026-09-25 16:35:40 train M3/2026 epoch=11 score=1.85169 tau=0.20
+2026-09-25 16:35:41 train M3/2026 epoch=12 score=1.88089 tau=0.20
+2026-09-25 16:35:41 train M3/2026 epoch=13 score=1.85096 tau=0.20
+2026-09-25 16:35:42 train M3/2026 epoch=14 score=1.86858 tau=0.25
+2026-09-25 16:35:42 train M3/2026 epoch=15 score=1.84910 tau=0.20
+2026-09-25 16:35:43 train M3/2026 epoch=16 score=1.85468 tau=0.25
+2026-09-25 16:35:43 train M3/2026 epoch=17 score=1.84639 tau=0.25
+2026-09-25 16:35:44 train M3/2026 epoch=18 score=1.93667 tau=0.30
+2026-09-25 16:35:44 train M3/2026 epoch=19 score=1.86218 tau=0.30
+2026-09-25 16:35:45 train M3/2026 epoch=20 score=1.88724 tau=0.30
+2026-09-25 16:35:45 train M3/2026 epoch=21 score=1.84950 tau=0.25
+2026-09-25 16:35:46 train M3/2026 epoch=22 score=1.84835 tau=0.30
+2026-09-25 16:35:46 train M3/2026 epoch=23 score=1.86599 tau=0.30
+2026-09-25 16:35:53 cache train_2027_0: n=3395, 5.2s
+2026-09-25 16:36:00 cache train_2027_1: n=3395, 5.2s
+2026-09-25 16:36:08 cache train_2027_2: n=3395, 5.2s
+2026-09-25 16:36:08 train T0/2027 epoch=1 score=1.80242 tau=0.30
+2026-09-25 16:36:08 train T0/2027 epoch=2 score=1.78903 tau=0.30
+2026-09-25 16:36:09 train T0/2027 epoch=3 score=1.98468 tau=0.30
+2026-09-25 16:36:09 train T0/2027 epoch=4 score=1.80976 tau=0.30
+2026-09-25 16:36:10 train T0/2027 epoch=5 score=1.90451 tau=0.30
+2026-09-25 16:36:10 train T0/2027 epoch=6 score=1.85470 tau=0.20
+2026-09-25 16:36:11 train T0/2027 epoch=7 score=1.85168 tau=0.25
+2026-09-25 16:36:11 train T0/2027 epoch=8 score=1.94849 tau=0.30
+2026-09-25 16:36:12 train T1/2027 epoch=1 score=1.89400 tau=0.30
+2026-09-25 16:36:12 train T1/2027 epoch=2 score=1.73773 tau=0.25
+2026-09-25 16:36:13 train T1/2027 epoch=3 score=1.75917 tau=0.20
+2026-09-25 16:36:13 train T1/2027 epoch=4 score=1.79949 tau=0.20
+2026-09-25 16:36:14 train T1/2027 epoch=5 score=1.89868 tau=0.30
+2026-09-25 16:36:14 train T1/2027 epoch=6 score=1.81535 tau=0.30
+2026-09-25 16:36:14 train T1/2027 epoch=7 score=1.86983 tau=0.30
+2026-09-25 16:36:15 train T1/2027 epoch=8 score=1.86980 tau=0.30
+2026-09-25 16:36:16 train M0/2027 epoch=1 score=1.91163 tau=0.30
+2026-09-25 16:36:16 train M0/2027 epoch=2 score=1.87787 tau=0.20
+2026-09-25 16:36:16 train M0/2027 epoch=3 score=1.89582 tau=0.30
+2026-09-25 16:36:17 train M0/2027 epoch=4 score=1.89973 tau=0.25
+2026-09-25 16:36:17 train M0/2027 epoch=5 score=1.90332 tau=0.25
+2026-09-25 16:36:18 train M0/2027 epoch=6 score=1.86541 tau=0.30
+2026-09-25 16:36:18 train M0/2027 epoch=7 score=1.86065 tau=0.30
+2026-09-25 16:36:19 train M0/2027 epoch=8 score=1.88710 tau=0.30
+2026-09-25 16:36:19 train M0/2027 epoch=9 score=1.93061 tau=0.30
+2026-09-25 16:36:20 train M0/2027 epoch=10 score=1.81716 tau=0.25
+2026-09-25 16:36:20 train M0/2027 epoch=11 score=1.85216 tau=0.25
+2026-09-25 16:36:20 train M0/2027 epoch=12 score=1.88624 tau=0.30
+2026-09-25 16:36:21 train M0/2027 epoch=13 score=1.83809 tau=0.25
+2026-09-25 16:36:21 train M0/2027 epoch=14 score=1.80171 tau=0.30
+2026-09-25 16:36:22 train M0/2027 epoch=15 score=1.84694 tau=0.25
+2026-09-25 16:36:22 train M0/2027 epoch=16 score=1.82355 tau=0.25
+2026-09-25 16:36:23 train M0/2027 epoch=17 score=1.84071 tau=0.30
+2026-09-25 16:36:23 train M0/2027 epoch=18 score=1.88522 tau=0.30
+2026-09-25 16:36:23 train M0/2027 epoch=19 score=1.82750 tau=0.30
+2026-09-25 16:36:24 train M0/2027 epoch=20 score=1.84548 tau=0.30
+2026-09-25 16:36:25 train M1/2027 epoch=1 score=2.03007 tau=0.30
+2026-09-25 16:36:25 train M1/2027 epoch=2 score=1.88348 tau=0.30
+2026-09-25 16:36:25 train M1/2027 epoch=3 score=1.93450 tau=0.20
+2026-09-25 16:36:26 train M1/2027 epoch=4 score=1.91570 tau=0.30
+2026-09-25 16:36:26 train M1/2027 epoch=5 score=1.93917 tau=0.30
+2026-09-25 16:36:27 train M1/2027 epoch=6 score=1.90597 tau=0.30
+2026-09-25 16:36:27 train M1/2027 epoch=7 score=1.88725 tau=0.25
+2026-09-25 16:36:28 train M1/2027 epoch=8 score=1.85497 tau=0.30
+2026-09-25 16:36:28 train M1/2027 epoch=9 score=1.86426 tau=0.25
+2026-09-25 16:36:29 train M1/2027 epoch=10 score=1.92427 tau=0.30
+2026-09-25 16:36:29 train M1/2027 epoch=11 score=1.92363 tau=0.30
+2026-09-25 16:36:29 train M1/2027 epoch=12 score=1.93373 tau=0.30
+2026-09-25 16:36:30 train M1/2027 epoch=13 score=1.82837 tau=0.20
+2026-09-25 16:36:30 train M1/2027 epoch=14 score=1.85364 tau=0.30
+2026-09-25 16:36:31 train M1/2027 epoch=15 score=1.84975 tau=0.30
+2026-09-25 16:36:31 train M1/2027 epoch=16 score=1.83775 tau=0.25
+2026-09-25 16:36:32 train M1/2027 epoch=17 score=1.83618 tau=0.30
+2026-09-25 16:36:32 train M1/2027 epoch=18 score=1.87776 tau=0.30
+2026-09-25 16:36:32 train M1/2027 epoch=19 score=1.83726 tau=0.30
+2026-09-25 16:36:33 train M2/2027 epoch=1 score=1.87574 tau=0.30
+2026-09-25 16:36:34 train M2/2027 epoch=2 score=1.85483 tau=0.25
+2026-09-25 16:36:34 train M2/2027 epoch=3 score=1.82165 tau=0.25
+2026-09-25 16:36:35 train M2/2027 epoch=4 score=1.86731 tau=0.25
+2026-09-25 16:36:35 train M2/2027 epoch=5 score=1.93265 tau=0.30
+2026-09-25 16:36:36 train M2/2027 epoch=6 score=1.86612 tau=0.30
+2026-09-25 16:36:36 train M2/2027 epoch=7 score=1.86527 tau=0.15
+2026-09-25 16:36:37 train M2/2027 epoch=8 score=1.81413 tau=0.30
+2026-09-25 16:36:37 train M2/2027 epoch=9 score=1.83944 tau=0.30
+2026-09-25 16:36:38 train M2/2027 epoch=10 score=1.85226 tau=0.15
+2026-09-25 16:36:38 train M2/2027 epoch=11 score=1.82744 tau=0.30
+2026-09-25 16:36:39 train M2/2027 epoch=12 score=1.85254 tau=0.25
+2026-09-25 16:36:39 train M2/2027 epoch=13 score=1.87182 tau=0.30
+2026-09-25 16:36:40 train M2/2027 epoch=14 score=1.87336 tau=0.25
+2026-09-25 16:36:40 train M3/2027 epoch=1 score=2.05184 tau=0.25
+2026-09-25 16:36:41 train M3/2027 epoch=2 score=1.83747 tau=0.30
+2026-09-25 16:36:41 train M3/2027 epoch=3 score=1.85025 tau=0.30
+2026-09-25 16:36:42 train M3/2027 epoch=4 score=1.78894 tau=0.25
+2026-09-25 16:36:42 train M3/2027 epoch=5 score=1.99133 tau=0.30
+2026-09-25 16:36:43 train M3/2027 epoch=6 score=1.93616 tau=0.30
+2026-09-25 16:36:43 train M3/2027 epoch=7 score=1.85704 tau=0.30
+2026-09-25 16:36:44 train M3/2027 epoch=8 score=2.00623 tau=0.30
+2026-09-25 16:36:44 train M3/2027 epoch=9 score=1.88699 tau=0.30
+2026-09-25 16:36:45 train M3/2027 epoch=10 score=1.90088 tau=0.20
+2026-09-25 16:36:52 cache train_2028_0: n=3395, 5.2s
+2026-09-25 16:36:59 cache train_2028_1: n=3395, 5.1s
+2026-09-25 16:37:06 cache train_2028_2: n=3395, 5.3s
+2026-09-25 16:37:07 train T0/2028 epoch=1 score=1.79601 tau=0.30
+2026-09-25 16:37:07 train T0/2028 epoch=2 score=1.75516 tau=0.30
+2026-09-25 16:37:07 train T0/2028 epoch=3 score=1.84011 tau=0.30
+2026-09-25 16:37:08 train T0/2028 epoch=4 score=2.03154 tau=0.30
+2026-09-25 16:37:08 train T0/2028 epoch=5 score=2.00821 tau=0.30
+2026-09-25 16:37:09 train T0/2028 epoch=6 score=1.89135 tau=0.25
+2026-09-25 16:37:09 train T0/2028 epoch=7 score=1.84581 tau=0.25
+2026-09-25 16:37:10 train T0/2028 epoch=8 score=1.91970 tau=0.30
+2026-09-25 16:37:10 train T1/2028 epoch=1 score=1.89063 tau=0.30
+2026-09-25 16:37:11 train T1/2028 epoch=2 score=1.73252 tau=0.25
+2026-09-25 16:37:11 train T1/2028 epoch=3 score=1.71091 tau=0.25
+2026-09-25 16:37:12 train T1/2028 epoch=4 score=1.91700 tau=0.30
+2026-09-25 16:37:12 train T1/2028 epoch=5 score=1.83032 tau=0.25
+2026-09-25 16:37:13 train T1/2028 epoch=6 score=1.82316 tau=0.30
+2026-09-25 16:37:13 train T1/2028 epoch=7 score=1.86567 tau=0.25
+2026-09-25 16:37:13 train T1/2028 epoch=8 score=1.88054 tau=0.25
+2026-09-25 16:37:14 train T1/2028 epoch=9 score=1.82770 tau=0.25
+2026-09-25 16:37:14 train M0/2028 epoch=1 score=1.88300 tau=0.30
+2026-09-25 16:37:15 train M0/2028 epoch=2 score=1.82031 tau=0.25
+2026-09-25 16:37:15 train M0/2028 epoch=3 score=1.85408 tau=0.30
+2026-09-25 16:37:16 train M0/2028 epoch=4 score=1.98382 tau=0.30
+2026-09-25 16:37:16 train M0/2028 epoch=5 score=1.87736 tau=0.30
+2026-09-25 16:37:17 train M0/2028 epoch=6 score=1.88778 tau=0.25
+2026-09-25 16:37:17 train M0/2028 epoch=7 score=1.87254 tau=0.25
+2026-09-25 16:37:17 train M0/2028 epoch=8 score=1.84780 tau=0.25
+2026-09-25 16:37:18 train M1/2028 epoch=1 score=1.94953 tau=0.25
+2026-09-25 16:37:18 train M1/2028 epoch=2 score=1.83083 tau=0.25
+2026-09-25 16:37:19 train M1/2028 epoch=3 score=1.92551 tau=0.30
+2026-09-25 16:37:19 train M1/2028 epoch=4 score=2.00331 tau=0.30
+2026-09-25 16:37:20 train M1/2028 epoch=5 score=1.84058 tau=0.30
+2026-09-25 16:37:20 train M1/2028 epoch=6 score=1.83262 tau=0.25
+2026-09-25 16:37:21 train M1/2028 epoch=7 score=1.84560 tau=0.25
+2026-09-25 16:37:21 train M1/2028 epoch=8 score=1.83288 tau=0.30
+2026-09-25 16:37:22 train M2/2028 epoch=1 score=1.92976 tau=0.30
+2026-09-25 16:37:22 train M2/2028 epoch=2 score=1.85045 tau=0.30
+2026-09-25 16:37:23 train M2/2028 epoch=3 score=1.92986 tau=0.30
+2026-09-25 16:37:23 train M2/2028 epoch=4 score=1.97133 tau=0.30
+2026-09-25 16:37:24 train M2/2028 epoch=5 score=1.83734 tau=0.30
+2026-09-25 16:37:24 train M2/2028 epoch=6 score=1.88592 tau=0.25
+2026-09-25 16:37:25 train M2/2028 epoch=7 score=1.83142 tau=0.30
+2026-09-25 16:37:25 train M2/2028 epoch=8 score=1.85639 tau=0.25
+2026-09-25 16:37:26 train M2/2028 epoch=9 score=1.89931 tau=0.25
+2026-09-25 16:37:26 train M2/2028 epoch=10 score=1.82259 tau=0.25
+2026-09-25 16:37:27 train M2/2028 epoch=11 score=1.85216 tau=0.25
+2026-09-25 16:37:27 train M2/2028 epoch=12 score=1.83865 tau=0.30
+2026-09-25 16:37:28 train M2/2028 epoch=13 score=1.79913 tau=0.30
+2026-09-25 16:37:28 train M2/2028 epoch=14 score=1.81737 tau=0.20
+2026-09-25 16:37:29 train M2/2028 epoch=15 score=1.79865 tau=0.30
+2026-09-25 16:37:29 train M2/2028 epoch=16 score=1.82191 tau=0.25
+2026-09-25 16:37:30 train M2/2028 epoch=17 score=1.79799 tau=0.20
+2026-09-25 16:37:30 train M2/2028 epoch=18 score=1.80099 tau=0.15
+2026-09-25 16:37:31 train M2/2028 epoch=19 score=1.80754 tau=0.25
+2026-09-25 16:37:31 train M2/2028 epoch=20 score=1.81508 tau=0.25
+2026-09-25 16:37:32 train M2/2028 epoch=21 score=1.81511 tau=0.30
+2026-09-25 16:37:32 train M2/2028 epoch=22 score=1.81572 tau=0.20
+2026-09-25 16:37:33 train M2/2028 epoch=23 score=1.79612 tau=0.20
+2026-09-25 16:37:33 train M2/2028 epoch=24 score=1.79198 tau=0.25
+2026-09-25 16:37:34 train M2/2028 epoch=25 score=1.82576 tau=0.30
+2026-09-25 16:37:34 train M2/2028 epoch=26 score=1.82060 tau=0.30
+2026-09-25 16:37:35 train M2/2028 epoch=27 score=1.81836 tau=0.30
+2026-09-25 16:37:35 train M2/2028 epoch=28 score=1.80899 tau=0.30
+2026-09-25 16:37:36 train M2/2028 epoch=29 score=1.83843 tau=0.20
+2026-09-25 16:37:36 train M2/2028 epoch=30 score=1.79337 tau=0.30
+2026-09-25 16:37:37 train M3/2028 epoch=1 score=2.02213 tau=0.30
+2026-09-25 16:37:37 train M3/2028 epoch=2 score=1.85236 tau=0.25
+2026-09-25 16:37:38 train M3/2028 epoch=3 score=1.85975 tau=0.30
+2026-09-25 16:37:38 train M3/2028 epoch=4 score=1.90295 tau=0.25
+2026-09-25 16:37:39 train M3/2028 epoch=5 score=1.96983 tau=0.30
+2026-09-25 16:37:39 train M3/2028 epoch=6 score=1.81463 tau=0.25
+2026-09-25 16:37:40 train M3/2028 epoch=7 score=1.85528 tau=0.30
+2026-09-25 16:37:40 train M3/2028 epoch=8 score=1.81893 tau=0.30
+2026-09-25 16:37:41 train M3/2028 epoch=9 score=1.84015 tau=0.30
+2026-09-25 16:37:41 train M3/2028 epoch=10 score=1.84374 tau=0.30
+2026-09-25 16:37:42 train M3/2028 epoch=11 score=1.82664 tau=0.20
+2026-09-25 16:37:42 train M3/2028 epoch=12 score=1.83393 tau=0.30
+2026-09-25 16:37:49 cache train_2029_0: n=3395, 5.1s
+2026-09-25 16:37:56 cache train_2029_1: n=3395, 5.2s
+2026-09-25 16:38:04 cache train_2029_2: n=3395, 5.2s
+2026-09-25 16:38:04 train T0/2029 epoch=1 score=1.89023 tau=0.30
+2026-09-25 16:38:05 train T0/2029 epoch=2 score=1.75174 tau=0.30
+2026-09-25 16:38:05 train T0/2029 epoch=3 score=1.85106 tau=0.30
+2026-09-25 16:38:05 train T0/2029 epoch=4 score=1.82083 tau=0.30
+2026-09-25 16:38:06 train T0/2029 epoch=5 score=1.87710 tau=0.30
+2026-09-25 16:38:06 train T0/2029 epoch=6 score=1.92623 tau=0.25
+2026-09-25 16:38:07 train T0/2029 epoch=7 score=1.94862 tau=0.30
+2026-09-25 16:38:07 train T0/2029 epoch=8 score=1.85147 tau=0.20
+2026-09-25 16:38:08 train T1/2029 epoch=1 score=1.85819 tau=0.30
+2026-09-25 16:38:08 train T1/2029 epoch=2 score=1.94780 tau=0.30
+2026-09-25 16:38:09 train T1/2029 epoch=3 score=1.72698 tau=0.25
+2026-09-25 16:38:09 train T1/2029 epoch=4 score=1.85490 tau=0.30
+2026-09-25 16:38:10 train T1/2029 epoch=5 score=1.88920 tau=0.30
+2026-09-25 16:38:10 train T1/2029 epoch=6 score=1.80663 tau=0.20
+2026-09-25 16:38:10 train T1/2029 epoch=7 score=1.84121 tau=0.30
+2026-09-25 16:38:11 train T1/2029 epoch=8 score=1.81458 tau=0.30
+2026-09-25 16:38:11 train T1/2029 epoch=9 score=1.80279 tau=0.25
+2026-09-25 16:38:12 train M0/2029 epoch=1 score=1.96902 tau=0.25
+2026-09-25 16:38:12 train M0/2029 epoch=2 score=1.81612 tau=0.20
+2026-09-25 16:38:13 train M0/2029 epoch=3 score=1.96016 tau=0.30
+2026-09-25 16:38:13 train M0/2029 epoch=4 score=1.84991 tau=0.30
+2026-09-25 16:38:14 train M0/2029 epoch=5 score=1.89353 tau=0.30
+2026-09-25 16:38:14 train M0/2029 epoch=6 score=1.85998 tau=0.30
+2026-09-25 16:38:15 train M0/2029 epoch=7 score=1.91274 tau=0.30
+2026-09-25 16:38:15 train M0/2029 epoch=8 score=1.86641 tau=0.30
+2026-09-25 16:38:16 train M1/2029 epoch=1 score=1.93850 tau=0.30
+2026-09-25 16:38:16 train M1/2029 epoch=2 score=1.90414 tau=0.25
+2026-09-25 16:38:16 train M1/2029 epoch=3 score=1.89320 tau=0.20
+2026-09-25 16:38:17 train M1/2029 epoch=4 score=1.88220 tau=0.30
+2026-09-25 16:38:17 train M1/2029 epoch=5 score=1.88020 tau=0.30
+2026-09-25 16:38:18 train M1/2029 epoch=6 score=1.85801 tau=0.25
+2026-09-25 16:38:18 train M1/2029 epoch=7 score=1.84109 tau=0.25
+2026-09-25 16:38:19 train M1/2029 epoch=8 score=1.80866 tau=0.30
+2026-09-25 16:38:19 train M1/2029 epoch=9 score=1.81241 tau=0.25
+2026-09-25 16:38:19 train M1/2029 epoch=10 score=1.93558 tau=0.30
+2026-09-25 16:38:20 train M1/2029 epoch=11 score=1.88836 tau=0.30
+2026-09-25 16:38:20 train M1/2029 epoch=12 score=1.83356 tau=0.30
+2026-09-25 16:38:21 train M1/2029 epoch=13 score=1.83262 tau=0.25
+2026-09-25 16:38:21 train M1/2029 epoch=14 score=1.93963 tau=0.30
+2026-09-25 16:38:22 train M2/2029 epoch=1 score=2.12270 tau=0.20
+2026-09-25 16:38:22 train M2/2029 epoch=2 score=1.88392 tau=0.30
+2026-09-25 16:38:23 train M2/2029 epoch=3 score=1.88095 tau=0.25
+2026-09-25 16:38:23 train M2/2029 epoch=4 score=1.87981 tau=0.30
+2026-09-25 16:38:24 train M2/2029 epoch=5 score=1.85467 tau=0.30
+2026-09-25 16:38:24 train M2/2029 epoch=6 score=1.83484 tau=0.25
+2026-09-25 16:38:25 train M2/2029 epoch=7 score=1.82439 tau=0.25
+2026-09-25 16:38:25 train M2/2029 epoch=8 score=1.82101 tau=0.30
+2026-09-25 16:38:26 train M2/2029 epoch=9 score=1.84288 tau=0.25
+2026-09-25 16:38:26 train M2/2029 epoch=10 score=1.84353 tau=0.30
+2026-09-25 16:38:27 train M2/2029 epoch=11 score=1.82284 tau=0.30
+2026-09-25 16:38:27 train M2/2029 epoch=12 score=1.79759 tau=0.25
+2026-09-25 16:38:28 train M2/2029 epoch=13 score=1.85642 tau=0.30
+2026-09-25 16:38:28 train M2/2029 epoch=14 score=1.75578 tau=0.25
+2026-09-25 16:38:29 train M2/2029 epoch=15 score=1.78415 tau=0.25
+2026-09-25 16:38:29 train M2/2029 epoch=16 score=1.81141 tau=0.30
+2026-09-25 16:38:30 train M2/2029 epoch=17 score=1.78971 tau=0.25
+2026-09-25 16:38:30 train M2/2029 epoch=18 score=1.81499 tau=0.30
+2026-09-25 16:38:31 train M2/2029 epoch=19 score=1.83234 tau=0.30
+2026-09-25 16:38:31 train M2/2029 epoch=20 score=1.82171 tau=0.20
+2026-09-25 16:38:32 train M3/2029 epoch=1 score=2.08225 tau=0.10
+2026-09-25 16:38:32 train M3/2029 epoch=2 score=1.99682 tau=0.30
+2026-09-25 16:38:33 train M3/2029 epoch=3 score=1.83402 tau=0.25
+2026-09-25 16:38:33 train M3/2029 epoch=4 score=1.86272 tau=0.30
+2026-09-25 16:38:34 train M3/2029 epoch=5 score=1.83555 tau=0.30
+2026-09-25 16:38:34 train M3/2029 epoch=6 score=1.90903 tau=0.25
+2026-09-25 16:38:35 train M3/2029 epoch=7 score=1.86874 tau=0.30
+2026-09-25 16:38:35 train M3/2029 epoch=8 score=1.85325 tau=0.30
+2026-09-25 16:38:36 train M3/2029 epoch=9 score=1.86325 tau=0.30
+2026-09-25 16:38:43 cache train_2030_0: n=3395, 5.2s
+2026-09-25 16:38:50 cache train_2030_1: n=3395, 5.2s
+2026-09-25 16:38:57 cache train_2030_2: n=3395, 5.2s
+2026-09-25 16:38:58 train T0/2030 epoch=1 score=1.93809 tau=0.20
+2026-09-25 16:38:58 train T0/2030 epoch=2 score=1.72261 tau=0.20
+2026-09-25 16:38:59 train T0/2030 epoch=3 score=1.85653 tau=0.20
+2026-09-25 16:38:59 train T0/2030 epoch=4 score=1.83547 tau=0.25
+2026-09-25 16:39:00 train T0/2030 epoch=5 score=1.82896 tau=0.30
+2026-09-25 16:39:00 train T0/2030 epoch=6 score=1.93819 tau=0.30
+2026-09-25 16:39:01 train T0/2030 epoch=7 score=1.89634 tau=0.30
+2026-09-25 16:39:01 train T0/2030 epoch=8 score=1.98317 tau=0.25
+2026-09-25 16:39:02 train T1/2030 epoch=1 score=1.95943 tau=0.30
+2026-09-25 16:39:02 train T1/2030 epoch=2 score=1.80590 tau=0.25
+2026-09-25 16:39:03 train T1/2030 epoch=3 score=1.92523 tau=0.30
+2026-09-25 16:39:03 train T1/2030 epoch=4 score=1.74399 tau=0.25
+2026-09-25 16:39:03 train T1/2030 epoch=5 score=1.83790 tau=0.30
+2026-09-25 16:39:04 train T1/2030 epoch=6 score=1.90799 tau=0.30
+2026-09-25 16:39:04 train T1/2030 epoch=7 score=1.86908 tau=0.30
+2026-09-25 16:39:05 train T1/2030 epoch=8 score=1.86103 tau=0.25
+2026-09-25 16:39:05 train T1/2030 epoch=9 score=1.84145 tau=0.30
+2026-09-25 16:39:06 train T1/2030 epoch=10 score=1.81717 tau=0.30
+2026-09-25 16:39:06 train M0/2030 epoch=1 score=1.93195 tau=0.25
+2026-09-25 16:39:07 train M0/2030 epoch=2 score=1.89668 tau=0.30
+2026-09-25 16:39:07 train M0/2030 epoch=3 score=1.97762 tau=0.30
+2026-09-25 16:39:08 train M0/2030 epoch=4 score=1.90312 tau=0.30
+2026-09-25 16:39:08 train M0/2030 epoch=5 score=1.82657 tau=0.25
+2026-09-25 16:39:09 train M0/2030 epoch=6 score=1.83175 tau=0.30
+2026-09-25 16:39:09 train M0/2030 epoch=7 score=1.89175 tau=0.30
+2026-09-25 16:39:10 train M0/2030 epoch=8 score=1.89367 tau=0.30
+2026-09-25 16:39:10 train M0/2030 epoch=9 score=1.89929 tau=0.30
+2026-09-25 16:39:10 train M0/2030 epoch=10 score=1.84827 tau=0.30
+2026-09-25 16:39:11 train M0/2030 epoch=11 score=1.86535 tau=0.25
+2026-09-25 16:39:11 train M1/2030 epoch=1 score=1.95783 tau=0.30
+2026-09-25 16:39:12 train M1/2030 epoch=2 score=1.93996 tau=0.30
+2026-09-25 16:39:12 train M1/2030 epoch=3 score=2.04317 tau=0.30
+2026-09-25 16:39:13 train M1/2030 epoch=4 score=1.88928 tau=0.30
+2026-09-25 16:39:13 train M1/2030 epoch=5 score=1.89293 tau=0.30
+2026-09-25 16:39:14 train M1/2030 epoch=6 score=2.13671 tau=0.30
+2026-09-25 16:39:14 train M1/2030 epoch=7 score=1.99160 tau=0.30
+2026-09-25 16:39:14 train M1/2030 epoch=8 score=1.86136 tau=0.30
+2026-09-25 16:39:15 train M1/2030 epoch=9 score=1.91883 tau=0.30
+2026-09-25 16:39:15 train M1/2030 epoch=10 score=1.85423 tau=0.30
+2026-09-25 16:39:16 train M1/2030 epoch=11 score=1.89400 tau=0.30
+2026-09-25 16:39:16 train M1/2030 epoch=12 score=1.89756 tau=0.30
+2026-09-25 16:39:17 train M1/2030 epoch=13 score=1.90435 tau=0.25
+2026-09-25 16:39:17 train M1/2030 epoch=14 score=1.88862 tau=0.30
+2026-09-25 16:39:18 train M1/2030 epoch=15 score=1.89850 tau=0.30
+2026-09-25 16:39:18 train M1/2030 epoch=16 score=1.84660 tau=0.25
+2026-09-25 16:39:19 train M1/2030 epoch=17 score=1.89801 tau=0.30
+2026-09-25 16:39:19 train M1/2030 epoch=18 score=1.84573 tau=0.30
+2026-09-25 16:39:19 train M1/2030 epoch=19 score=1.94967 tau=0.30
+2026-09-25 16:39:20 train M1/2030 epoch=20 score=1.83568 tau=0.30
+2026-09-25 16:39:20 train M1/2030 epoch=21 score=1.83437 tau=0.30
+2026-09-25 16:39:21 train M1/2030 epoch=22 score=1.80172 tau=0.30
+2026-09-25 16:39:21 train M1/2030 epoch=23 score=1.79177 tau=0.25
+2026-09-25 16:39:22 train M1/2030 epoch=24 score=1.86084 tau=0.30
+2026-09-25 16:39:22 train M1/2030 epoch=25 score=1.84137 tau=0.25
+2026-09-25 16:39:23 train M1/2030 epoch=26 score=1.80441 tau=0.30
+2026-09-25 16:39:23 train M1/2030 epoch=27 score=1.81804 tau=0.20
+2026-09-25 16:39:23 train M1/2030 epoch=28 score=1.83186 tau=0.25
+2026-09-25 16:39:24 train M1/2030 epoch=29 score=1.83798 tau=0.25
+2026-09-25 16:39:24 train M2/2030 epoch=1 score=2.09022 tau=0.30
+2026-09-25 16:39:25 train M2/2030 epoch=2 score=1.90410 tau=0.30
+2026-09-25 16:39:25 train M2/2030 epoch=3 score=1.88270 tau=0.25
+2026-09-25 16:39:26 train M2/2030 epoch=4 score=1.99634 tau=0.30
+2026-09-25 16:39:26 train M2/2030 epoch=5 score=1.81141 tau=0.30
+2026-09-25 16:39:27 train M2/2030 epoch=6 score=1.83152 tau=0.30
+2026-09-25 16:39:27 train M2/2030 epoch=7 score=1.84323 tau=0.25
+2026-09-25 16:39:28 train M2/2030 epoch=8 score=1.80819 tau=0.30
+2026-09-25 16:39:28 train M2/2030 epoch=9 score=1.88843 tau=0.25
+2026-09-25 16:39:29 train M2/2030 epoch=10 score=1.85051 tau=0.30
+2026-09-25 16:39:29 train M2/2030 epoch=11 score=1.84824 tau=0.30
+2026-09-25 16:39:30 train M2/2030 epoch=12 score=1.81839 tau=0.25
+2026-09-25 16:39:30 train M2/2030 epoch=13 score=1.84613 tau=0.30
+2026-09-25 16:39:31 train M2/2030 epoch=14 score=1.79150 tau=0.20
+2026-09-25 16:39:31 train M2/2030 epoch=15 score=1.81894 tau=0.25
+2026-09-25 16:39:32 train M2/2030 epoch=16 score=1.82995 tau=0.30
+2026-09-25 16:39:32 train M2/2030 epoch=17 score=1.81945 tau=0.25
+2026-09-25 16:39:33 train M2/2030 epoch=18 score=1.80916 tau=0.20
+2026-09-25 16:39:33 train M2/2030 epoch=19 score=1.81921 tau=0.25
+2026-09-25 16:39:34 train M2/2030 epoch=20 score=1.80295 tau=0.20
+2026-09-25 16:39:35 train M3/2030 epoch=1 score=2.24037 tau=0.25
+2026-09-25 16:39:35 train M3/2030 epoch=2 score=2.06456 tau=0.30
+2026-09-25 16:39:36 train M3/2030 epoch=3 score=1.93549 tau=0.30
+2026-09-25 16:39:36 train M3/2030 epoch=4 score=1.93908 tau=0.30
+2026-09-25 16:39:37 train M3/2030 epoch=5 score=1.88586 tau=0.30
+2026-09-25 16:39:37 train M3/2030 epoch=6 score=1.96353 tau=0.25
+2026-09-25 16:39:38 train M3/2030 epoch=7 score=1.88876 tau=0.30
+2026-09-25 16:39:38 train M3/2030 epoch=8 score=1.90715 tau=0.30
+2026-09-25 16:39:38 train M3/2030 epoch=9 score=1.91279 tau=0.30
+2026-09-25 16:39:39 train M3/2030 epoch=10 score=1.89369 tau=0.30
+2026-09-25 16:39:39 train M3/2030 epoch=11 score=1.82344 tau=0.20
+2026-09-25 16:39:40 train M3/2030 epoch=12 score=1.86304 tau=0.25
+2026-09-25 16:39:40 train M3/2030 epoch=13 score=1.87051 tau=0.25
+2026-09-25 16:39:41 train M3/2030 epoch=14 score=1.83438 tau=0.25
+2026-09-25 16:39:41 train M3/2030 epoch=15 score=1.88560 tau=0.30
+2026-09-25 16:39:42 train M3/2030 epoch=16 score=1.85023 tau=0.30
+2026-09-25 16:39:42 train M3/2030 epoch=17 score=1.92641 tau=0.30
+2026-09-25 16:39:44 cache valid_5101_00: n=728, 1.2s
+2026-09-25 16:39:45 cache valid_5101_01: n=728, 1.1s
+2026-09-25 16:39:47 cache valid_5101_02: n=728, 1.1s
+2026-09-25 16:39:48 cache valid_5101_03: n=728, 1.1s
+2026-09-25 16:39:49 cache valid_5101_04: n=728, 1.1s
+2026-09-25 16:39:51 cache valid_5101_05: n=728, 1.1s
+2026-09-25 16:39:52 cache valid_5101_06: n=728, 1.1s
+2026-09-25 16:39:53 cache valid_5101_07: n=728, 1.1s
+2026-09-25 16:39:54 cache valid_5101_08: n=728, 1.1s
+2026-09-25 16:39:56 cache valid_5101_09: n=728, 1.1s
+2026-09-25 16:39:57 cache valid_5101_10: n=728, 1.1s
+2026-09-25 16:39:58 cache valid_5101_11: n=728, 1.1s
+2026-09-25 16:40:00 cache valid_5101_12: n=728, 1.1s
+2026-09-25 16:40:01 cache valid_5101_13: n=728, 1.1s
+2026-09-25 16:40:02 cache valid_5101_14: n=728, 1.1s
+2026-09-25 16:40:04 cache valid_5101_15: n=728, 1.2s
+2026-09-25 16:40:05 cache valid_5101_16: n=728, 1.1s
+2026-09-25 16:40:06 cache valid_5101_17: n=728, 1.1s
+2026-09-25 16:40:08 cache valid_5101_18: n=728, 1.1s
+2026-09-25 16:40:09 cache valid_5101_19: n=728, 1.1s
+2026-09-25 16:40:10 cache valid_5101_20: n=728, 1.1s
+2026-09-25 16:40:12 cache valid_5101_21: n=728, 1.1s
+2026-09-25 16:40:13 cache valid_5101_22: n=728, 1.1s
+2026-09-25 16:40:14 cache valid_5101_23: n=728, 1.1s
+2026-09-25 16:40:16 cache valid_5101_24: n=728, 1.2s
+2026-09-25 16:40:17 cache valid_5101_25: n=728, 1.1s
+2026-09-25 16:40:18 cache valid_5101_26: n=728, 1.1s
+2026-09-25 16:40:20 cache valid_5101_27: n=728, 1.2s
+2026-09-25 16:40:21 cache valid_5101_28: n=728, 1.1s
+2026-09-25 16:40:22 cache valid_5101_29: n=728, 1.1s
+2026-09-25 16:40:23 cache valid_5101_30: n=728, 1.2s
+2026-09-25 16:40:25 cache valid_5101_31: n=728, 1.1s
+2026-09-25 16:40:26 cache valid_5101_32: n=728, 1.0s
+2026-09-25 16:40:27 cache valid_5101_33: n=728, 1.1s
+2026-09-25 16:40:29 cache valid_5101_34: n=728, 1.1s
+2026-09-25 16:40:30 cache valid_5101_35: n=728, 1.1s
+2026-09-25 16:40:31 cache valid_5101_36: n=728, 1.1s
+2026-09-25 16:40:32 cache valid_5101_37: n=728, 1.1s
+2026-09-25 16:40:34 cache valid_5101_38: n=728, 1.1s
+2026-09-25 16:40:35 cache valid_5101_39: n=728, 1.1s
+2026-09-25 16:40:36 cache valid_5101_40: n=728, 1.1s
+2026-09-25 16:40:38 cache valid_5101_41: n=728, 1.1s
+2026-09-25 16:40:39 cache valid_5101_42: n=728, 1.1s
+2026-09-25 16:40:40 cache valid_5101_43: n=728, 1.1s
+2026-09-25 16:40:42 cache valid_5101_44: n=728, 1.1s
+2026-09-25 16:40:43 cache valid_5101_45: n=728, 1.2s
+2026-09-25 16:40:44 cache valid_5101_46: n=728, 1.1s
+2026-09-25 16:40:45 cache valid_5101_47: n=728, 1.1s
+2026-09-25 16:40:47 cache valid_5101_48: n=728, 1.2s
+2026-09-25 16:40:48 cache valid_5101_49: n=728, 1.1s
+2026-09-25 16:40:50 cache valid_5101_50: n=728, 1.1s
+2026-09-25 16:40:51 cache valid_5101_51: n=728, 1.2s
+2026-09-25 16:40:52 cache valid_5101_52: n=728, 1.1s
+2026-09-25 16:40:53 cache valid_5101_53: n=728, 1.1s
+2026-09-25 16:40:55 cache valid_5101_54: n=728, 1.1s
+2026-09-25 16:40:56 cache valid_5101_55: n=728, 1.1s
+2026-09-25 16:40:57 cache valid_5101_56: n=728, 1.1s
+2026-09-25 16:40:59 cache valid_5101_57: n=728, 1.1s
+2026-09-25 16:41:00 cache valid_5101_58: n=728, 1.1s
+2026-09-25 16:41:01 cache valid_5101_59: n=728, 1.0s
+2026-09-25 16:41:03 cache valid_5101_60: n=728, 1.2s
+2026-09-25 16:41:04 cache valid_5101_61: n=728, 1.1s
+2026-09-25 16:41:05 cache valid_5101_62: n=728, 1.1s
+2026-09-25 16:41:09 diagnostic mask seed 5101 complete
+2026-09-25 16:41:11 cache valid_5102_00: n=728, 1.2s
+2026-09-25 16:41:12 cache valid_5102_01: n=728, 1.1s
+2026-09-25 16:41:13 cache valid_5102_02: n=728, 1.1s
+2026-09-25 16:41:14 cache valid_5102_03: n=728, 1.2s
+2026-09-25 16:41:16 cache valid_5102_04: n=728, 1.1s
+2026-09-25 16:41:17 cache valid_5102_05: n=728, 1.1s
+2026-09-25 16:41:18 cache valid_5102_06: n=728, 1.1s
+2026-09-25 16:41:20 cache valid_5102_07: n=728, 1.1s
+2026-09-25 16:41:21 cache valid_5102_08: n=728, 1.1s
+2026-09-25 16:41:22 cache valid_5102_09: n=728, 1.1s
+2026-09-25 16:41:23 cache valid_5102_10: n=728, 1.1s
+2026-09-25 16:41:25 cache valid_5102_11: n=728, 1.2s
+2026-09-25 16:41:26 cache valid_5102_12: n=728, 1.1s
+2026-09-25 16:41:27 cache valid_5102_13: n=728, 1.1s
+2026-09-25 16:41:29 cache valid_5102_14: n=728, 1.1s
+2026-09-25 16:41:30 cache valid_5102_15: n=728, 1.1s
+2026-09-25 16:41:31 cache valid_5102_16: n=728, 1.1s
+2026-09-25 16:41:33 cache valid_5102_17: n=728, 1.1s
+2026-09-25 16:41:34 cache valid_5102_18: n=728, 1.1s
+2026-09-25 16:41:35 cache valid_5102_19: n=728, 1.1s
+2026-09-25 16:41:37 cache valid_5102_20: n=728, 1.1s
+2026-09-25 16:41:38 cache valid_5102_21: n=728, 1.1s
+2026-09-25 16:41:39 cache valid_5102_22: n=728, 1.2s
+2026-09-25 16:41:41 cache valid_5102_23: n=728, 1.1s
+2026-09-25 16:41:42 cache valid_5102_24: n=728, 1.1s
+2026-09-25 16:41:43 cache valid_5102_25: n=728, 1.1s
+2026-09-25 16:41:45 cache valid_5102_26: n=728, 1.1s
+2026-09-25 16:41:46 cache valid_5102_27: n=728, 1.1s
+2026-09-25 16:41:47 cache valid_5102_28: n=728, 1.1s
+2026-09-25 16:41:48 cache valid_5102_29: n=728, 1.1s
+2026-09-25 16:41:50 cache valid_5102_30: n=728, 1.1s
+2026-09-25 16:41:51 cache valid_5102_31: n=728, 1.1s
+2026-09-25 16:41:53 cache valid_5102_32: n=728, 1.0s
+2026-09-25 16:41:54 cache valid_5102_33: n=728, 1.2s
+2026-09-25 16:41:55 cache valid_5102_34: n=728, 1.1s
+2026-09-25 16:41:56 cache valid_5102_35: n=728, 1.1s
+2026-09-25 16:41:58 cache valid_5102_36: n=728, 1.2s
+2026-09-25 16:41:59 cache valid_5102_37: n=728, 1.1s
+2026-09-25 16:42:00 cache valid_5102_38: n=728, 1.1s
+2026-09-25 16:42:02 cache valid_5102_39: n=728, 1.1s
+2026-09-25 16:42:03 cache valid_5102_40: n=728, 1.1s
+2026-09-25 16:42:04 cache valid_5102_41: n=728, 1.0s
+2026-09-25 16:42:06 cache valid_5102_42: n=728, 1.1s
+2026-09-25 16:42:07 cache valid_5102_43: n=728, 1.1s
+2026-09-25 16:42:08 cache valid_5102_44: n=728, 1.1s
+2026-09-25 16:42:09 cache valid_5102_45: n=728, 1.1s
+2026-09-25 16:42:11 cache valid_5102_46: n=728, 1.1s
+2026-09-25 16:42:12 cache valid_5102_47: n=728, 1.1s
+2026-09-25 16:42:13 cache valid_5102_48: n=728, 1.1s
+2026-09-25 16:42:15 cache valid_5102_49: n=728, 1.1s
+2026-09-25 16:42:16 cache valid_5102_50: n=728, 1.1s
+2026-09-25 16:42:17 cache valid_5102_51: n=728, 1.1s
+2026-09-25 16:42:19 cache valid_5102_52: n=728, 1.1s
+2026-09-25 16:42:20 cache valid_5102_53: n=728, 1.1s
+2026-09-25 16:42:21 cache valid_5102_54: n=728, 1.2s
+2026-09-25 16:42:23 cache valid_5102_55: n=728, 1.1s
+2026-09-25 16:42:24 cache valid_5102_56: n=728, 1.1s
+2026-09-25 16:42:25 cache valid_5102_57: n=728, 1.1s
+2026-09-25 16:42:26 cache valid_5102_58: n=728, 1.1s
+2026-09-25 16:42:28 cache valid_5102_59: n=728, 1.0s
+2026-09-25 16:42:29 cache valid_5102_60: n=728, 1.1s
+2026-09-25 16:42:30 cache valid_5102_61: n=728, 1.1s
+2026-09-25 16:42:32 cache valid_5102_62: n=728, 1.1s
+2026-09-25 16:42:35 diagnostic mask seed 5102 complete
+2026-09-25 16:42:36 cache valid_5103_00: n=728, 1.2s
+2026-09-25 16:42:38 cache valid_5103_01: n=728, 1.1s
+2026-09-25 16:42:39 cache valid_5103_02: n=728, 1.1s
+2026-09-25 16:42:40 cache valid_5103_03: n=728, 1.1s
+2026-09-25 16:42:41 cache valid_5103_04: n=728, 1.1s
+2026-09-25 16:42:43 cache valid_5103_05: n=728, 1.1s
+2026-09-25 16:42:44 cache valid_5103_06: n=728, 1.1s
+2026-09-25 16:42:45 cache valid_5103_07: n=728, 1.1s
+2026-09-25 16:42:47 cache valid_5103_08: n=728, 1.1s
+2026-09-25 16:42:48 cache valid_5103_09: n=728, 1.2s
+2026-09-25 16:42:49 cache valid_5103_10: n=728, 1.1s
+2026-09-25 16:42:50 cache valid_5103_11: n=728, 1.1s
+2026-09-25 16:42:52 cache valid_5103_12: n=728, 1.2s
+2026-09-25 16:42:53 cache valid_5103_13: n=728, 1.1s
+2026-09-25 16:42:55 cache valid_5103_14: n=728, 1.1s
+2026-09-25 16:42:56 cache valid_5103_15: n=728, 1.1s
+2026-09-25 16:42:57 cache valid_5103_16: n=728, 1.1s
+2026-09-25 16:42:58 cache valid_5103_17: n=728, 1.1s
+2026-09-25 16:43:00 cache valid_5103_18: n=728, 1.1s
+2026-09-25 16:43:01 cache valid_5103_19: n=728, 1.1s
+2026-09-25 16:43:02 cache valid_5103_20: n=728, 1.2s
+2026-09-25 16:43:04 cache valid_5103_21: n=728, 1.1s
+2026-09-25 16:43:05 cache valid_5103_22: n=728, 1.1s
+2026-09-25 16:43:07 cache valid_5103_23: n=728, 1.1s
+2026-09-25 16:43:08 cache valid_5103_24: n=728, 1.1s
+2026-09-25 16:43:09 cache valid_5103_25: n=728, 1.1s
+2026-09-25 16:43:10 cache valid_5103_26: n=728, 1.1s
+2026-09-25 16:43:12 cache valid_5103_27: n=728, 1.1s
+2026-09-25 16:43:13 cache valid_5103_28: n=728, 1.1s
+2026-09-25 16:43:14 cache valid_5103_29: n=728, 1.1s
+2026-09-25 16:43:16 cache valid_5103_30: n=728, 1.2s
+2026-09-25 16:43:17 cache valid_5103_31: n=728, 1.1s
+2026-09-25 16:43:18 cache valid_5103_32: n=728, 1.1s
+2026-09-25 16:43:20 cache valid_5103_33: n=728, 1.2s
+2026-09-25 16:43:21 cache valid_5103_34: n=728, 1.1s
+2026-09-25 16:43:22 cache valid_5103_35: n=728, 1.1s
+2026-09-25 16:43:23 cache valid_5103_36: n=728, 1.1s
+2026-09-25 16:43:25 cache valid_5103_37: n=728, 1.1s
+2026-09-25 16:43:26 cache valid_5103_38: n=728, 1.1s
+2026-09-25 16:43:27 cache valid_5103_39: n=728, 1.1s
+2026-09-25 16:43:29 cache valid_5103_40: n=728, 1.1s
+2026-09-25 16:43:30 cache valid_5103_41: n=728, 1.1s
+2026-09-25 16:43:31 cache valid_5103_42: n=728, 1.1s
+2026-09-25 16:43:33 cache valid_5103_43: n=728, 1.1s
+2026-09-25 16:43:34 cache valid_5103_44: n=728, 1.1s
+2026-09-25 16:43:35 cache valid_5103_45: n=728, 1.2s
+2026-09-25 16:43:36 cache valid_5103_46: n=728, 1.1s
+2026-09-25 16:43:38 cache valid_5103_47: n=728, 1.1s
+2026-09-25 16:43:39 cache valid_5103_48: n=728, 1.1s
+2026-09-25 16:43:40 cache valid_5103_49: n=728, 1.2s
+2026-09-25 16:43:42 cache valid_5103_50: n=728, 1.1s
+2026-09-25 16:43:43 cache valid_5103_51: n=728, 1.1s
+2026-09-25 16:43:44 cache valid_5103_52: n=728, 1.2s
+2026-09-25 16:43:46 cache valid_5103_53: n=728, 1.1s
+2026-09-25 16:43:47 cache valid_5103_54: n=728, 1.1s
+2026-09-25 16:43:48 cache valid_5103_55: n=728, 1.1s
+2026-09-25 16:43:49 cache valid_5103_56: n=728, 1.1s
+2026-09-25 16:43:51 cache valid_5103_57: n=728, 1.2s
+2026-09-25 16:43:52 cache valid_5103_58: n=728, 1.1s
+2026-09-25 16:43:54 cache valid_5103_59: n=728, 1.0s
+2026-09-25 16:43:55 cache valid_5103_60: n=728, 1.1s
+2026-09-25 16:43:56 cache valid_5103_61: n=728, 1.1s
+2026-09-25 16:43:57 cache valid_5103_62: n=728, 1.1s
+2026-09-25 16:44:00 diagnostic mask seed 5103 complete
+2026-09-25 16:44:02 cache valid_5104_00: n=728, 1.2s
+2026-09-25 16:44:03 cache valid_5104_01: n=728, 1.1s
+2026-09-25 16:44:04 cache valid_5104_02: n=728, 1.1s
+2026-09-25 16:44:06 cache valid_5104_03: n=728, 1.2s
+2026-09-25 16:44:07 cache valid_5104_04: n=728, 1.1s
+2026-09-25 16:44:08 cache valid_5104_05: n=728, 1.1s
+2026-09-25 16:44:10 cache valid_5104_06: n=728, 1.1s
+2026-09-25 16:44:11 cache valid_5104_07: n=728, 1.1s
+2026-09-25 16:44:12 cache valid_5104_08: n=728, 1.1s
+2026-09-25 16:44:14 cache valid_5104_09: n=728, 1.2s
+2026-09-25 16:44:15 cache valid_5104_10: n=728, 1.1s
+2026-09-25 16:44:16 cache valid_5104_11: n=728, 1.1s
+2026-09-25 16:44:17 cache valid_5104_12: n=728, 1.1s
+2026-09-25 16:44:19 cache valid_5104_13: n=728, 1.1s
+2026-09-25 16:44:20 cache valid_5104_14: n=728, 1.1s
+2026-09-25 16:44:22 cache valid_5104_15: n=728, 1.1s
+2026-09-25 16:44:23 cache valid_5104_16: n=728, 1.1s
+2026-09-25 16:44:24 cache valid_5104_17: n=728, 1.1s
+2026-09-25 16:44:25 cache valid_5104_18: n=728, 1.1s
+2026-09-25 16:44:27 cache valid_5104_19: n=728, 1.2s
+2026-09-25 16:44:28 cache valid_5104_20: n=728, 1.1s
+2026-09-25 16:44:29 cache valid_5104_21: n=728, 1.1s
+2026-09-25 16:44:31 cache valid_5104_22: n=728, 1.2s
+2026-09-25 16:44:32 cache valid_5104_23: n=728, 1.1s
+2026-09-25 16:44:34 cache valid_5104_24: n=728, 1.2s
+2026-09-25 16:44:35 cache valid_5104_25: n=728, 1.1s
+2026-09-25 16:44:36 cache valid_5104_26: n=728, 1.2s
+2026-09-25 16:44:37 cache valid_5104_27: n=728, 1.1s
+2026-09-25 16:44:39 cache valid_5104_28: n=728, 1.1s
+2026-09-25 16:44:40 cache valid_5104_29: n=728, 1.1s
+2026-09-25 16:44:41 cache valid_5104_30: n=728, 1.1s
+2026-09-25 16:44:43 cache valid_5104_31: n=728, 1.1s
+2026-09-25 16:44:44 cache valid_5104_32: n=728, 1.0s
+2026-09-25 16:44:45 cache valid_5104_33: n=728, 1.1s
+2026-09-25 16:44:47 cache valid_5104_34: n=728, 1.1s
+2026-09-25 16:44:48 cache valid_5104_35: n=728, 1.1s
+2026-09-25 16:44:49 cache valid_5104_36: n=728, 1.1s
+2026-09-25 16:44:50 cache valid_5104_37: n=728, 1.1s
+2026-09-25 16:44:51 cache valid_5104_38: n=728, 1.1s
+2026-09-25 16:44:53 cache valid_5104_39: n=728, 1.2s
+2026-09-25 16:44:54 cache valid_5104_40: n=728, 1.1s
+2026-09-25 16:44:56 cache valid_5104_41: n=728, 1.1s
+2026-09-25 16:44:57 cache valid_5104_42: n=728, 1.1s
+2026-09-25 16:44:58 cache valid_5104_43: n=728, 1.1s
+2026-09-25 16:44:59 cache valid_5104_44: n=728, 1.1s
+2026-09-25 16:45:01 cache valid_5104_45: n=728, 1.2s
+2026-09-25 16:45:02 cache valid_5104_46: n=728, 1.1s
+2026-09-25 16:45:03 cache valid_5104_47: n=728, 1.1s
+2026-09-25 16:45:05 cache valid_5104_48: n=728, 1.2s
+2026-09-25 16:45:06 cache valid_5104_49: n=728, 1.2s
+2026-09-25 16:45:07 cache valid_5104_50: n=728, 1.1s
+2026-09-25 16:45:09 cache valid_5104_51: n=728, 1.1s
+2026-09-25 16:45:10 cache valid_5104_52: n=728, 1.1s
+2026-09-25 16:45:11 cache valid_5104_53: n=728, 1.1s
+2026-09-25 16:45:13 cache valid_5104_54: n=728, 1.2s
+2026-09-25 16:45:14 cache valid_5104_55: n=728, 1.1s
+2026-09-25 16:45:15 cache valid_5104_56: n=728, 1.1s
+2026-09-25 16:45:17 cache valid_5104_57: n=728, 1.1s
+2026-09-25 16:45:18 cache valid_5104_58: n=728, 1.1s
+2026-09-25 16:45:19 cache valid_5104_59: n=728, 1.0s
+2026-09-25 16:45:21 cache valid_5104_60: n=728, 1.4s
+2026-09-25 16:45:22 cache valid_5104_61: n=728, 1.1s
+2026-09-25 16:45:23 cache valid_5104_62: n=728, 1.1s
+2026-09-25 16:45:26 diagnostic mask seed 5104 complete
+2026-09-25 16:45:28 cache valid_5105_00: n=728, 1.2s
+2026-09-25 16:45:29 cache valid_5105_01: n=728, 1.1s
+2026-09-25 16:45:30 cache valid_5105_02: n=728, 1.1s
+2026-09-25 16:45:32 cache valid_5105_03: n=728, 1.1s
+2026-09-25 16:45:33 cache valid_5105_04: n=728, 1.1s
+2026-09-25 16:45:34 cache valid_5105_05: n=728, 1.1s
+2026-09-25 16:45:36 cache valid_5105_06: n=728, 1.1s
+2026-09-25 16:45:37 cache valid_5105_07: n=728, 1.1s
+2026-09-25 16:45:38 cache valid_5105_08: n=728, 1.1s
+2026-09-25 16:45:39 cache valid_5105_09: n=728, 1.1s
+2026-09-25 16:45:41 cache valid_5105_10: n=728, 1.1s
+2026-09-25 16:45:42 cache valid_5105_11: n=728, 1.1s
+2026-09-25 16:45:43 cache valid_5105_12: n=728, 1.1s
+2026-09-25 16:45:45 cache valid_5105_13: n=728, 1.1s
+2026-09-25 16:45:46 cache valid_5105_14: n=728, 1.1s
+2026-09-25 16:45:47 cache valid_5105_15: n=728, 1.1s
+2026-09-25 16:45:49 cache valid_5105_16: n=728, 1.1s
+2026-09-25 16:45:50 cache valid_5105_17: n=728, 1.1s
+2026-09-25 16:45:51 cache valid_5105_18: n=728, 1.1s
+2026-09-25 16:45:53 cache valid_5105_19: n=728, 1.1s
+2026-09-25 16:45:54 cache valid_5105_20: n=728, 1.1s
+2026-09-25 16:45:55 cache valid_5105_21: n=728, 1.1s
+2026-09-25 16:45:57 cache valid_5105_22: n=728, 1.1s
+2026-09-25 16:45:58 cache valid_5105_23: n=728, 1.2s
+2026-09-25 16:45:59 cache valid_5105_24: n=728, 1.1s
+2026-09-25 16:46:01 cache valid_5105_25: n=728, 1.1s
+2026-09-25 16:46:02 cache valid_5105_26: n=728, 1.2s
+2026-09-25 16:46:03 cache valid_5105_27: n=728, 1.1s
+2026-09-25 16:46:05 cache valid_5105_28: n=728, 1.1s
+2026-09-25 16:46:06 cache valid_5105_29: n=728, 1.1s
+2026-09-25 16:46:07 cache valid_5105_30: n=728, 1.1s
+2026-09-25 16:46:09 cache valid_5105_31: n=728, 1.4s
+2026-09-25 16:46:10 cache valid_5105_32: n=728, 1.0s
+2026-09-25 16:46:11 cache valid_5105_33: n=728, 1.1s
+2026-09-25 16:46:13 cache valid_5105_34: n=728, 1.1s
+2026-09-25 16:46:14 cache valid_5105_35: n=728, 1.1s
+2026-09-25 16:46:15 cache valid_5105_36: n=728, 1.1s
+2026-09-25 16:46:16 cache valid_5105_37: n=728, 1.1s
+2026-09-25 16:46:18 cache valid_5105_38: n=728, 1.1s
+2026-09-25 16:46:19 cache valid_5105_39: n=728, 1.1s
+2026-09-25 16:46:20 cache valid_5105_40: n=728, 1.1s
+2026-09-25 16:46:22 cache valid_5105_41: n=728, 1.1s
+2026-09-25 16:46:23 cache valid_5105_42: n=728, 1.1s
+2026-09-25 16:46:24 cache valid_5105_43: n=728, 1.1s
+2026-09-25 16:46:25 cache valid_5105_44: n=728, 1.1s
+2026-09-25 16:46:27 cache valid_5105_45: n=728, 1.1s
+2026-09-25 16:46:28 cache valid_5105_46: n=728, 1.1s
+2026-09-25 16:46:29 cache valid_5105_47: n=728, 1.1s
+2026-09-25 16:46:31 cache valid_5105_48: n=728, 1.1s
+2026-09-25 16:46:32 cache valid_5105_49: n=728, 1.1s
+2026-09-25 16:46:33 cache valid_5105_50: n=728, 1.1s
+2026-09-25 16:46:35 cache valid_5105_51: n=728, 1.1s
+2026-09-25 16:46:36 cache valid_5105_52: n=728, 1.1s
+2026-09-25 16:46:37 cache valid_5105_53: n=728, 1.1s
+2026-09-25 16:46:39 cache valid_5105_54: n=728, 1.1s
+2026-09-25 16:46:40 cache valid_5105_55: n=728, 1.1s
+2026-09-25 16:46:41 cache valid_5105_56: n=728, 1.1s
+2026-09-25 16:46:43 cache valid_5105_57: n=728, 1.1s
+2026-09-25 16:46:44 cache valid_5105_58: n=728, 1.1s
+2026-09-25 16:46:45 cache valid_5105_59: n=728, 1.0s
+2026-09-25 16:46:47 cache valid_5105_60: n=728, 1.2s
+2026-09-25 16:46:48 cache valid_5105_61: n=728, 1.1s
+2026-09-25 16:46:49 cache valid_5105_62: n=728, 1.1s
+2026-09-25 16:46:52 diagnostic mask seed 5105 complete
+2026-09-25 16:46:53 frozen M2, final inference 30/30 complete
+2026-09-25 16:47:20 bootstrap T0 complete
+2026-09-25 16:47:22 bootstrap T1 complete
+2026-09-25 16:47:23 bootstrap M0 complete
+2026-09-25 16:47:24 bootstrap M1 complete
+2026-09-25 16:47:25 bootstrap M2 complete
+2026-09-25 16:47:26 bootstrap M3 complete
+2026-09-25 16:47:34 report complete
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 308.40it/s]
+
+
+
+============ Job 1529979 Performance Details ============
+JobID: 1529979
+User: scx6706
+Nodes、GPU: paraai-n32-h-01-agent-15: 2
+Time Range: 2026-09-25 16:32:12 - 2026-09-25 16:47:38
+Running time: 0d0H15M26S
+GPU Util: 29.90 %
+GMem Util: 4.79 %
+GMemBW Util: 2.55 %
+Tensor Core Util: 0.10 %
+Tensor IMMA Util: N/A
+Tensor HMMA Util: N/A
+Tensor DFMA Util: N/A
+FP64 Util: 0 %
+FP32 Util: 14.48 %
+FP16 Util: 0 %
+GPCIE RX: 11.75 MB/s
+GPCIE TX: 50.92 MB/s
+GNVLINK: N/A
+GPU Power: 118.78 W
+GPU Temperature: 36.73 °C
+
+Additional Performance Data:
+--- flops performance(avg to single card) ---
+|- fp64: 0 TFlops
+|- fp32: 3 TFlops
+> |- GMEMBW/F: 14,802 B/MF
+> |- NVLINK/F: No Data
+> |- IB_TX/F: No Data
+> |- IB_RX/F: No Data
+> |- PCIE_TX/F: 18 B/MF
+> |- PCIE_RX/F: 4 B/MF
+|- fp16: 0 TFlops
+|- tensor: 0 TFlops
+=========================================================

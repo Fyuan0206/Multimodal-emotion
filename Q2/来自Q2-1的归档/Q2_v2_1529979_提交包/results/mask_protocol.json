@@ -1,0 +1,139 @@
+{
+  "common_feasible_n": 679,
+  "validation_total": 728,
+  "training_masks": [
+    {
+      "cache": "train_2026_0_mask",
+      "n": 3395,
+      "feasible": 3311,
+      "unchanged_due_to_infeasibility": 84,
+      "requested_mean": 0.4008517265319824,
+      "actual_mean_span_fraction": 0.4019468105657852
+    },
+    {
+      "cache": "train_2026_1_mask",
+      "n": 3395,
+      "feasible": 3308,
+      "unchanged_due_to_infeasibility": 87,
+      "requested_mean": 0.4015537202358246,
+      "actual_mean_span_fraction": 0.4021151340381066
+    },
+    {
+      "cache": "train_2026_2_mask",
+      "n": 3395,
+      "feasible": 3317,
+      "unchanged_due_to_infeasibility": 78,
+      "requested_mean": 0.3984493017196655,
+      "actual_mean_span_fraction": 0.3991385961238691
+    },
+    {
+      "cache": "train_2027_0_mask",
+      "n": 3395,
+      "feasible": 3310,
+      "unchanged_due_to_infeasibility": 85,
+      "requested_mean": 0.3974287211894989,
+      "actual_mean_span_fraction": 0.3976976616943075
+    },
+    {
+      "cache": "train_2027_1_mask",
+      "n": 3395,
+      "feasible": 3307,
+      "unchanged_due_to_infeasibility": 88,
+      "requested_mean": 0.40229836106300354,
+      "actual_mean_span_fraction": 0.4015998167792338
+    },
+    {
+      "cache": "train_2027_2_mask",
+      "n": 3395,
+      "feasible": 3310,
+      "unchanged_due_to_infeasibility": 85,
+      "requested_mean": 0.4004015624523163,
+      "actual_mean_span_fraction": 0.4003703249476295
+    },
+    {
+      "cache": "train_2028_0_mask",
+      "n": 3395,
+      "feasible": 3303,
+      "unchanged_due_to_infeasibility": 92,
+      "requested_mean": 0.3964575529098511,
+      "actual_mean_span_fraction": 0.3977879782449965
+    },
+    {
+      "cache": "train_2028_1_mask",
+      "n": 3395,
+      "feasible": 3309,
+      "unchanged_due_to_infeasibility": 86,
+      "requested_mean": 0.39949432015419006,
+      "actual_mean_span_fraction": 0.39988262660303947
+    },
+    {
+      "cache": "train_2028_2_mask",
+      "n": 3395,
+      "feasible": 3306,
+      "unchanged_due_to_infeasibility": 89,
+      "requested_mean": 0.39545726776123047,
+      "actual_mean_span_fraction": 0.3963840403328405
+    },
+    {
+      "cache": "train_2029_0_mask",
+      "n": 3395,
+      "feasible": 3310,
+      "unchanged_due_to_infeasibility": 85,
+      "requested_mean": 0.40655991435050964,
+      "actual_mean_span_fraction": 0.4067197041877224
+    },
+    {
+      "cache": "train_2029_1_mask",
+      "n": 3395,
+      "feasible": 3297,
+      "unchanged_due_to_infeasibility": 98,
+      "requested_mean": 0.3983614146709442,
+      "actual_mean_span_fraction": 0.3996482087114761
+    },
+    {
+      "cache": "train_2029_2_mask",
+      "n": 3395,
+      "feasible": 3292,
+      "unchanged_due_to_infeasibility": 103,
+      "requested_mean": 0.3990086019039154,
+      "actual_mean_span_fraction": 0.39999673112412415
+    },
+    {
+      "cache": "train_2030_0_mask",
+      "n": 3395,
+      "feasible": 3307,
+      "unchanged_due_to_infeasibility": 88,
+      "requested_mean": 0.4009415805339813,
+      "actual_mean_span_fraction": 0.40199015282902206
+    },
+    {
+      "cache": "train_2030_1_mask",
+      "n": 3395,
+      "feasible": 3304,
+      "unchanged_due_to_infeasibility": 91,
+      "requested_mean": 0.3941086530685425,
+      "actual_mean_span_fraction": 0.3945130764537392
+    },
+    {
+      "cache": "train_2030_2_mask",
+      "n": 3395,
+      "feasible": 3312,
+      "unchanged_due_to_infeasibility": 83,
+      "requested_mean": 0.40032094717025757,
+      "actual_mean_span_fraction": 0.4003391412295507
+    }
+  ],
+  "position_definition": "interval center thirds; original ordered content indices",
+  "originally_observed_retained": true,
+  "infeasible_policy": "flag; training view remains unchanged, diagnostic sample-condition excluded",
+  "selection_seed": 4101,
+  "diagnostic_seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "length_unit": "aligned content steps, not seconds",
+  "bootstrap_unit": "video prefix before $_$"
+}

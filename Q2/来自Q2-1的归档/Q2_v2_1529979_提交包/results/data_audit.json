@@ -1,0 +1,46 @@
+{
+  "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "splits": {
+    "train": {
+      "n": 3395,
+      "groups": 1528,
+      "group_protocol": "video prefix before $_$",
+      "unk_tokens": 0,
+      "fully_missing_by_modality": [
+        0,
+        0,
+        110
+      ],
+      "class_counts": [
+        967,
+        758,
+        1670
+      ],
+      "content_length_min": 1,
+      "content_length_max": 48
+    },
+    "valid": {
+      "n": 728,
+      "groups": 239,
+      "group_protocol": "video prefix before $_$",
+      "unk_tokens": 0,
+      "fully_missing_by_modality": [
+        0,
+        0,
+        15
+      ],
+      "class_counts": [
+        206,
+        184,
+        338
+      ],
+      "content_length_min": 1,
+      "content_length_max": 48
+    }
+  },
+  "unk_policy": "100 treated as unavailable; no original UNK in train/valid if counts are zero; attachment3 encoding remains an explicit assumption",
+  "time_unit": "aligned content positions, no seconds conversion",
+  "test_split_used": false,
+  "train_valid_shared_video_groups": 0,
+  "unk_sensitivity": "Treating original UNK as observed vs missing produces identical train/valid masks when original UNK count is zero; no attachment3-based policy tuning."
+}

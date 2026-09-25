@@ -1,6 +1,41 @@
 # Q2：局部模态缺失下的情感预测
 
-**状态：代码和输入接口已准备；按当前要求暂停正式训练。** 本目录不含正式验证指标、模型参数或附件3预测文件。需要运行下方命令后，才能把实测数字写入论文或提交 CSV。
+**状态：2026-09-25 已完成一次服务器训练与附件3推理。** 实测结果见下方运行记录；验证集指标不是独立测试集指标，附件3没有真实标签。
+
+第二轮实验设计见 [EXPERIMENT_PLAN.md](EXPERIMENT_PLAN.md)：修正缺失协议和对照条件，安排6组模型×5个种子的主实验、缺失网格及最终交付。实现与复现方法见下一节，第一轮记录保留在后续章节。
+
+## 第二轮实现与复现（2026-09-25）
+
+第二轮独立入口为 `run_q2_v2.py`，统计和中文结果稿入口为 `report_q2_v2.py`。第二轮使用同一Q1服务器环境，6组模型×5训练种子，每个检查点评估63条件×5诊断掩码，附件3仅在选择冻结后推理。
+
+本机先检查协议（无需BERT权重或GPU）：
+
+```powershell
+python -m unittest Q2/test_q2_v2.py
+python Q2/run_q2_v2.py --data-root ../E题数据 --output ../实验结果/Q2_v2_local_audit --audit-only
+```
+
+服务器从项目根目录提交（脚本自动先检查协议，再运行独立冒烟实验、正式训练及统计）：
+
+```bash
+cd ~/xbmu-CCQ
+sbatch Q2/job_q2_v2.sbatch
+```
+
+每次作业输出独立保存于 `Q2/outputs/v2_<JOB_ID>/`，日志为 `Q2/slurm-v2-<JOB_ID>.out`。`exit.status` 为进程退出码；`TRAINING_AND_INFERENCE_COMPLETE.json` 仅表示训练与最终推理完成，`REPORT_COMPLETE.json` 才表示统计报告也已完成。冒烟结果保存在独立 `smoke/` 目录，不混入正式指标。首次启动记录环境时发现Q1环境没有pip，已改为通过标准库 `importlib.metadata` 记录安装版本；不修改Q1环境。
+
+运行入口支持相同代码、相同配置、相同输出目录下复用已完成的缓存和检查点。中断后，在已获GPU资源且加载相同模块和libgomp设置的环境中执行：
+
+```bash
+Q1/.venv/bin/python Q2/run_q2_v2.py --data-root data --output Q2/outputs/v2_<JOB_ID> --device cuda
+Q1/.venv/bin/python Q2/report_q2_v2.py --output Q2/outputs/v2_<JOB_ID>
+```
+
+`<JOB_ID>`替换为待恢复目录的编号。未完成单模型训练会从头训练该单元，已完成单元不会重复。代码/配置哈希不一致时拒绝复用；需新建输出目录。统计脚本仅读取已保存预测，不再拟合模型，也不依据诊断网格调参。单独运行统计可以用CPU，不需要占用GPU，但仍应按服务器资源使用规范执行。
+
+主结果见 `main_summary.csv`，逐种子结果见 `main_results.csv`，配对统计见 `paired_comparisons.csv`。`missingness_grid_v2.csv` 使用各条件全部可行样本，`missingness_common_samples.csv` 使用跨所有条件的共同可行子集；两者不能混为同一评估人群。`decoding_comparison.csv` 比较原始双头、验证偏置校准双头、统一解码。`Q2论文结果与方法.md` 为中文方法与结果稿；正式附件3预测使用 `attachment3_predictions_v2.csv`。
+
+缓存文件位于 `cache/`，包括派生池化特征和掩码清单；不随提交包发布。全量内部归档保留30个检查点、逐样本预测、掩码和日志。轻量提交包只保留必要源代码、固定配置、最终检查点、表格、图和正文材料，并检查小于50MB；不打包原始数据、BERT大权重、密钥或账户信息。
 
 ## 数据边界
 
@@ -25,21 +60,41 @@
 
 ## 环境与命令
 
-本机核对环境为 Windows、Python 3.12、CPU版 PyTorch 2.8.0；依赖版本见 `requirements.txt`，固定实验设置见 `config.json`。配置中的方法参数与代码常量会相互校验；当前只有最大轮次允许通过 `--epochs` 覆盖。在本仓库根目录运行：
+本机核对环境为 Windows、Python 3.12、CPU版 PyTorch 2.8.0；依赖版本见 `requirements.txt`，固定实验设置见 `config.json`。配置中的方法参数与代码常量会相互校验；最大轮次可通过 `--epochs` 覆盖，`--device` 可选 `auto`、`cpu` 或 `cuda`。在本仓库根目录运行本机 CPU 版：
 
 ```powershell
 python -m pip install -r Q2/requirements.txt
 python -c "from huggingface_hub import hf_hub_download; hf_hub_download('google-bert/bert-base-uncased', 'config.json', revision='86b5e0934494bd15c9632b12f734a8a67f723594'); hf_hub_download('google-bert/bert-base-uncased', 'model.safetensors', revision='86b5e0934494bd15c9632b12f734a8a67f723594')"
 python -m unittest Q2/test_q2.py
-python Q2/run_q2.py --data-root ../E题数据 --output Q2 --epochs 30
+python Q2/run_q2.py --data-root ../E题数据 --output Q2 --epochs 30 --device cpu
 ```
+
+服务器已有 `~/xbmu-CCQ/Q1/.venv`，可复用它的 Python 3.10、PyTorch 2.5.1+cu121 和其余依赖；服务器环境版本与上面的 Windows 锁定版本不同，无需在 Q1 环境中运行 `pip install -r Q2/requirements.txt`。从登录节点提交独立的 GPU 训练作业，最长占用 10 小时，程序结束会自动释放资源：
+
+```bash
+cd ~/xbmu-CCQ
+sbatch Q2/job_q2.sbatch
+```
+
+服务器的 ARM 环境需要先加载 scikit-learn 自带的 `libgomp`，否则导入时可能报 `cannot allocate memory in static TLS block`；`run_server.sh` 会为训练自动设置该变量并加载 CUDA 模块。`launch_server.sh` 将训练输出写入唯一的 `Q2/train_<作业ID>_<时间>.log`，退出码写入同名 `.status` 文件，`0` 表示程序正常结束。Slurm 自身输出在 `Q2/slurm-<作业ID>.out`。`--device cuda` 在 GPU 不可用时会直接报错，避免占用 GPU 作业却在 CPU 上训练。附件3推理所需的固定 revision BERT 权重必须事先放入登录节点可见的 Hugging Face 缓存；计算节点通常无法联网。
 
 训练完成后，只用保存的模型参数重新执行附件3推理：
 
 ```powershell
-python Q2/run_q2.py --data-root ../E题数据 --output Q2 --checkpoint Q2/robust_fusion.pt
+python Q2/run_q2.py --data-root ../E题数据 --output Q2 --checkpoint Q2/robust_fusion.pt --device cpu
 ```
 
 检查程序应生成 `metrics.json`（配置、数据哈希和验证指标）、`robust_fusion.pt`（可学习参数、归一化参数、BERT权重标识）、`missingness_grid.csv`、`validation_top_errors.csv`、`validation_error_analysis.json`、三张PNG验证图，以及 `attachment3_predictions.csv`、`attachment3_coverage.csv`、`attachment3_summary.json` 和附件3预测展示图。正式提交附件3结果使用 `attachment3_predictions.csv`，列为 `sample_id,pred_polarity,pred_intensity`；覆盖率文件是诊断材料，不是标签或得分。模型参数文件仅加载自己训练生成的可信文件。
 
-论文正文需在实际运行后填入：验证集完整与缺失条件的四项指标、三类混淆矩阵和分组错误、63格缺失影响、三个消融对照、30条附件3预测汇总及样例。不能把附件3当作有标签评测集，也不能把当前暂停状态写成已完成实验。
+## 已完成的服务器运行：Slurm 作业 1529871
+
+从 `~/xbmu-CCQ` 执行 `sbatch Q2/job_q2.sbatch`，在 NVIDIA A100-PCIE-40GB 上运行，PyTorch `2.5.1+cu121`，`device=cuda`。Slurm 状态 `COMPLETED`、退出码 `0:0`、耗时 1 分 14 秒。训练集 3395 条、验证集 728 条；保存的模型从两个带遮蔽增强的三模态变体中选择 `robust_gate`，最佳轮次为 13。验证集实测如下：
+
+| 验证条件 | Accuracy | Macro-F1 | MAE | Pearson r |
+| --- | ---: | ---: | ---: | ---: |
+| 完整输入 | 0.5975 | 0.5839 | 0.6139 | 0.6143 |
+| 固定缺失压力 | 0.5975 | 0.5786 | 0.6448 | 0.5670 |
+
+服务器输出保存在 `~/xbmu-CCQ/Q2`，本机快照保存在仓库相邻的 `../实验结果/Q2_1529871`。已核对 `attachment3_predictions.csv` 有 30 条不重复预测，`missingness_grid.csv` 有 63 行实验结果，模型文件和图表均存在。详细指标、四个模型变体、数据与权重哈希以该快照的 `metrics.json` 和 `train_1529871_20260925_155602.log` 为准。
+
+论文正文可依据实测文件填写验证集完整与缺失条件的指标、混淆矩阵和分组错误、63格缺失影响、三个消融对照、30条附件3预测汇总及样例。附件3不能当作有标签评测集，验证集诊断也不能宣称独立测试泛化结论。
