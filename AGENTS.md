@@ -2,13 +2,15 @@
 
 ## Project Structure & Module Organization
 
-This repository is the code version for the multimodal emotion project: https://github.com/Fyuan0206/Multimodal-emotion. The current `main` branch contains only `README.md`; there are no source, tests, or asset directories yet. Keep modeling code and code documentation in this repository. The neighboring `E题数据/` folder in the parent workspace contains supplied datasets and should remain outside this checkout unless a specific, appropriately sized derived artifact is needed.
+This repository is the code version for the multimodal emotion project: https://github.com/Fyuan0206/Multimodal-emotion. The current tree has `Q1/`, `Q2/`, and `Q3/` work directories; `Q2/` contains the missing-modality training code, tests, configuration, and server job scripts. Keep modeling code and code documentation in this repository. The neighboring `E题数据/` folder in the parent workspace contains supplied datasets and should remain outside this checkout. Server run outputs are saved separately under `../实验结果/` on this machine.
 
 As the project grows, group implementation by responsibility (for example, `src/` for reusable code, `tests/` for automated checks, and `docs/` for methods and reproduction notes). Keep raw inputs separate from generated outputs and document any required external data paths.
 
 ## Build, Test, and Development Commands
 
-No build system, dependency manifest, or test framework is configured yet. There are no project-specific run or test commands. Before contributing, check the current branch and working tree with `git status --short --branch`. When adding code, include setup instructions and reproducible run/test commands in `README.md` and update this guide to match.
+There is no repository-wide build command. Before contributing, check the current branch and working tree with `git status --short --branch`. Q2 local checks run with `python -m unittest Q2/test_q2.py` from the repository root; dependencies are in `Q2/requirements.txt`. On the configured server, submit the Q2 GPU run from `~/xbmu-CCQ` with `sbatch Q2/job_q2.sbatch`; its setup and output files are documented in `Q2/README.md`. Keep run and test commands in the relevant README when adding code.
+
+Q2 second-round protocol checks run with `python -m unittest Q2/test_q2_v2.py`. Submit its full smoke/train/evaluate/report workflow with `sbatch Q2/job_q2_v2.sbatch`. The separate `Q2/run_q2_v2.py` and `Q2/report_q2_v2.py` entries, resume behavior, and output meanings are documented in the Q2 README; preserve first-round snapshots.
 
 ## Coding Style & Naming Conventions
 
