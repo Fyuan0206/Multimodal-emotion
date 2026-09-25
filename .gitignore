@@ -1,0 +1,25 @@
+# Local / generated artifacts. Keep code, configs, and paper notes in git.
+.DS_Store
+__pycache__/
+*.pyc
+*.pt
+*.tar.gz
+*.zip
+
+Q2/outputs/
+Q2/logs/*.out
+Q2/logs/*.out_perf
+Q2/来自Q2-1的归档/
+Q2/IMPACT_ANALYSIS.md
+Q2/TASK_SUMMARY.md
+
+Q3/outputs/
+Q3/logs/*.out
+Q3/logs/*.out_perf
+Q3/figures/**
+!Q3/figures/README.md
+Q3/IMPACT_ANALYSIS.md
+Q3/TASK_SUMMARY.md
+
+**/slurm-*.out
+**/slurm-*.out_perf

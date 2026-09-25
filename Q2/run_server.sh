@@ -19,6 +19,10 @@ export LD_PRELOAD="${libgomp[0]}${LD_PRELOAD:+:$LD_PRELOAD}"
 
 "$project_root/Q1/.venv/bin/python" -m unittest Q2/test_q2.py
 
+job_id="${SLURM_JOB_ID:-local}"
+output="$project_root/Q2/outputs/${job_id}"
+mkdir -p "$output"
+
 exec "$project_root/Q1/.venv/bin/python" "$project_root/Q2/run_q2.py" \
-    --data-root "$project_root/data" --output "$project_root/Q2" \
+    --data-root "$project_root/data" --output "$output" \
     --epochs 30 --device cuda

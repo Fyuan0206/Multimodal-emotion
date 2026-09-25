@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --nodes=1
 #SBATCH --time=10:00:00
-#SBATCH --output=Q2/slurm-%j.out
+#SBATCH --output=Q2/logs/slurm-%j.out
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"

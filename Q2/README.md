@@ -4,6 +4,20 @@
 
 第二轮实验设计见 [EXPERIMENT_PLAN.md](EXPERIMENT_PLAN.md)：修正缺失协议和对照条件，安排6组模型×5个种子的主实验、缺失网格及最终交付。实现与复现方法见下一节，第一轮记录保留在后续章节。
 
+## 目录结构
+
+| 路径 | 内容 |
+| --- | --- |
+| `Q2/*.py`、`*.sbatch`、`*.sh`、`config.json` | 当前可运行代码、作业脚本和配置 |
+| [`figures/`](figures/README.md) | 论文用图、表和正文材料 |
+| `outputs/1529871/` | 第一轮作业 1529871 的完整快照 |
+| `outputs/v2_1529979/` | 第二轮正式结果（当前正文口径） |
+| `outputs/v2_1529978/` | 第二轮未完成作业残留 |
+| `logs/` | 后续 Slurm / 训练日志写入处 |
+| `来自Q2-1的归档/` | Q2-1 传来的压缩包与解压副本，不改其中内容 |
+
+根目录不再混放 CSV、PNG、检查点或 Slurm 日志。第一轮检查点现为 `outputs/1529871/robust_fusion.pt`。
+
 ## 第二轮实现与复现（2026-09-25）
 
 第二轮独立入口为 `run_q2_v2.py`，统计和中文结果稿入口为 `report_q2_v2.py`。第二轮使用同一Q1服务器环境，6组模型×5训练种子，每个检查点评估63条件×5诊断掩码，附件3仅在选择冻结后推理。
@@ -22,7 +36,7 @@ cd ~/xbmu-CCQ
 sbatch Q2/job_q2_v2.sbatch
 ```
 
-每次作业输出独立保存于 `Q2/outputs/v2_<JOB_ID>/`，日志为 `Q2/slurm-v2-<JOB_ID>.out`。`exit.status` 为进程退出码；`TRAINING_AND_INFERENCE_COMPLETE.json` 仅表示训练与最终推理完成，`REPORT_COMPLETE.json` 才表示统计报告也已完成。冒烟结果保存在独立 `smoke/` 目录，不混入正式指标。首次启动记录环境时发现Q1环境没有pip，已改为通过标准库 `importlib.metadata` 记录安装版本；不修改Q1环境。
+每次作业输出独立保存于 `Q2/outputs/v2_<JOB_ID>/`，日志为 `Q2/logs/slurm-v2-<JOB_ID>.out`。已完成作业 1529979 的日志在 `Q2/outputs/v2_1529979/`。`exit.status` 为进程退出码；`TRAINING_AND_INFERENCE_COMPLETE.json` 仅表示训练与最终推理完成，`REPORT_COMPLETE.json` 才表示统计报告也已完成。冒烟结果保存在独立 `smoke/` 目录，不混入正式指标。首次启动记录环境时发现Q1环境没有pip，已改为通过标准库 `importlib.metadata` 记录安装版本；不修改Q1环境。
 
 运行入口支持相同代码、相同配置、相同输出目录下复用已完成的缓存和检查点。中断后，在已获GPU资源且加载相同模块和libgomp设置的环境中执行：
 
@@ -42,7 +56,7 @@ Q1/.venv/bin/python Q2/report_q2_v2.py --output Q2/outputs/v2_<JOB_ID>
 - Q2 使用附件2 `aligned_50.pkl` 的 `train`（3395条）学习参数，`valid`（728条）选择模型、早停轮次和中性类别偏置。附件2的 `test` 划分不参与本脚本训练与模型选择。
 - 附件3对齐版本的30个无标签PKL只在模型选择后推理。每个文件包含 `text_bert`（1×3×50）、`audio`（1×50×74）、`vision`（1×50×35），没有样本ID；CSV以原文件名去掉扩展名为 `sample_id`。
 - Q1针对附件1提取的100条特征采用另一套声学和视觉维度，不进入Q2模型。附件3未对齐版也不与此对齐版模型混用。
-- 原始附件2、附件3文件均只读；输出直接写到本 `Q2` 目录。
+- 原始附件2、附件3文件均只读；运行结果写入 `Q2/outputs/`，不覆盖源数据。
 
 ## 模型与训练方案
 
@@ -66,7 +80,7 @@ Q1/.venv/bin/python Q2/report_q2_v2.py --output Q2/outputs/v2_<JOB_ID>
 python -m pip install -r Q2/requirements.txt
 python -c "from huggingface_hub import hf_hub_download; hf_hub_download('google-bert/bert-base-uncased', 'config.json', revision='86b5e0934494bd15c9632b12f734a8a67f723594'); hf_hub_download('google-bert/bert-base-uncased', 'model.safetensors', revision='86b5e0934494bd15c9632b12f734a8a67f723594')"
 python -m unittest Q2/test_q2.py
-python Q2/run_q2.py --data-root ../E题数据 --output Q2 --epochs 30 --device cpu
+python Q2/run_q2.py --data-root ../E题数据 --output Q2/outputs/local --epochs 30 --device cpu
 ```
 
 服务器已有 `~/xbmu-CCQ/Q1/.venv`，可复用它的 Python 3.10、PyTorch 2.5.1+cu121 和其余依赖；服务器环境版本与上面的 Windows 锁定版本不同，无需在 Q1 环境中运行 `pip install -r Q2/requirements.txt`。从登录节点提交独立的 GPU 训练作业，最长占用 10 小时，程序结束会自动释放资源：
@@ -76,12 +90,12 @@ cd ~/xbmu-CCQ
 sbatch Q2/job_q2.sbatch
 ```
 
-服务器的 ARM 环境需要先加载 scikit-learn 自带的 `libgomp`，否则导入时可能报 `cannot allocate memory in static TLS block`；`run_server.sh` 会为训练自动设置该变量并加载 CUDA 模块。`launch_server.sh` 将训练输出写入唯一的 `Q2/train_<作业ID>_<时间>.log`，退出码写入同名 `.status` 文件，`0` 表示程序正常结束。Slurm 自身输出在 `Q2/slurm-<作业ID>.out`。`--device cuda` 在 GPU 不可用时会直接报错，避免占用 GPU 作业却在 CPU 上训练。附件3推理所需的固定 revision BERT 权重必须事先放入登录节点可见的 Hugging Face 缓存；计算节点通常无法联网。
+服务器的 ARM 环境需要先加载 scikit-learn 自带的 `libgomp`，否则导入时可能报 `cannot allocate memory in static TLS block`；`run_server.sh` 会为训练自动设置该变量并加载 CUDA 模块。`launch_server.sh` 将训练输出写入唯一的 `Q2/logs/train_<作业ID>_<时间>.log`，退出码写入同名 `.status` 文件，`0` 表示程序正常结束。Slurm 自身输出在 `Q2/logs/slurm-<作业ID>.out`。第一轮作业把结果写到 `Q2/outputs/<作业ID>/`，不再写入 `Q2` 根目录。`--device cuda` 在 GPU 不可用时会直接报错，避免占用 GPU 作业却在 CPU 上训练。附件3推理所需的固定 revision BERT 权重必须事先放入登录节点可见的 Hugging Face 缓存；计算节点通常无法联网。
 
 训练完成后，只用保存的模型参数重新执行附件3推理：
 
 ```powershell
-python Q2/run_q2.py --data-root ../E题数据 --output Q2 --checkpoint Q2/robust_fusion.pt --device cpu
+python Q2/run_q2.py --data-root ../E题数据 --output Q2/outputs/1529871 --checkpoint Q2/outputs/1529871/robust_fusion.pt --device cpu
 ```
 
 检查程序应生成 `metrics.json`（配置、数据哈希和验证指标）、`robust_fusion.pt`（可学习参数、归一化参数、BERT权重标识）、`missingness_grid.csv`、`validation_top_errors.csv`、`validation_error_analysis.json`、三张PNG验证图，以及 `attachment3_predictions.csv`、`attachment3_coverage.csv`、`attachment3_summary.json` 和附件3预测展示图。正式提交附件3结果使用 `attachment3_predictions.csv`，列为 `sample_id,pred_polarity,pred_intensity`；覆盖率文件是诊断材料，不是标签或得分。模型参数文件仅加载自己训练生成的可信文件。
@@ -95,6 +109,6 @@ python Q2/run_q2.py --data-root ../E题数据 --output Q2 --checkpoint Q2/robust
 | 完整输入 | 0.5975 | 0.5839 | 0.6139 | 0.6143 |
 | 固定缺失压力 | 0.5975 | 0.5786 | 0.6448 | 0.5670 |
 
-服务器输出保存在 `~/xbmu-CCQ/Q2`，本机快照保存在仓库相邻的 `../实验结果/Q2_1529871`。已核对 `attachment3_predictions.csv` 有 30 条不重复预测，`missingness_grid.csv` 有 63 行实验结果，模型文件和图表均存在。详细指标、四个模型变体、数据与权重哈希以该快照的 `metrics.json` 和 `train_1529871_20260925_155602.log` 为准。
+服务器输出当时写在 `~/xbmu-CCQ/Q2` 根目录；本机已归入 `Q2/outputs/1529871/`，相邻工作区另有 `../实验结果/Q2_1529871`。已核对 `attachment3_predictions.csv` 有 30 条不重复预测，`missingness_grid.csv` 有 63 行实验结果，模型文件和图表均存在。详细指标、四个模型变体、数据与权重哈希以 `Q2/outputs/1529871/metrics.json` 和同目录训练日志为准。
 
 论文正文可依据实测文件填写验证集完整与缺失条件的指标、混淆矩阵和分组错误、63格缺失影响、三个消融对照、30条附件3预测汇总及样例。附件3不能当作有标签评测集，验证集诊断也不能宣称独立测试泛化结论。

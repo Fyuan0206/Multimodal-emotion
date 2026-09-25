@@ -1,6 +1,6 @@
 """Train a local-missingness-robust sentiment model and predict Attachment 3.
 
-Example: python Q2/run_q2.py --data-root ../E题数据 --output Q2
+Example: python Q2/run_q2.py --data-root ../E题数据 --output Q2/outputs/local
 Only aligned_50.pkl train/valid labels are used. Attachment 3 is inference only.
 """
 
